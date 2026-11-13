@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Prototype Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: Prototype
+  m_TableCollectionNameGuidString: 2a86866b46e734848b039b830feb29a0
+  m_Entries:
+  - m_Id: 884871168
+    m_Key: evidence.ledger.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 947785728
+    m_Key: evidence.ledger.page.01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980032
+    m_Key: evidence.ledger.page.02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980033
+    m_Key: evidence.ledger.page.03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980034
+    m_Key: evidence.photo.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980035
+    m_Key: evidence.photo.page.01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980036
+    m_Key: evidence.photo.page.02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980037
+    m_Key: evidence.testimony.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980038
+    m_Key: evidence.testimony.page.01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980039
+    m_Key: evidence.testimony.page.02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980040
+    m_Key: evidence.testimony.page.03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980041
+    m_Key: evidence.testimony.page.04
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980042
+    m_Key: evidence.testimony.page.05
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980043
+    m_Key: witness.encounterTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980044
+    m_Key: witness.emptyJournalMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980045
+    m_Key: witness.exploreObjective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980046
+    m_Key: witness.figureObjective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980047
+    m_Key: witness.ledgerObjective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980048
+    m_Key: witness.returnObjective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980049
+    m_Key: witness.approachObjective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980050
+    m_Key: witness.completedObjective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980051
+    m_Key: hud.status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980052
+    m_Key: radio.on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980053
+    m_Key: radio.off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980054
+    m_Key: ui.journal.heading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980055
+    m_Key: ui.journal.emptyTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980056
+    m_Key: ui.journal.footer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980057
+    m_Key: ui.reading.footer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980058
+    m_Key: ui.objective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980059
+    m_Key: prompt.battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980060
+    m_Key: prompt.inspect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980061
+    m_Key: prompt.marker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980062
+    m_Key: prompt.ledger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980063
+    m_Key: prompt.photo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980064
+    m_Key: settings.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980065
+    m_Key: settings.options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980066
+    m_Key: settings.footer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980067
+    m_Key: language.en
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980068
+    m_Key: language.ru
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7900736826003423256
+  references:
+    version: 2
+    RefIds:
+    - rid: 7900736826003423256
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1794593268182

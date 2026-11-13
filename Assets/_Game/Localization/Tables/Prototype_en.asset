@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Prototype_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 2a86866b46e734848b039b830feb29a0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 884871168
+    m_Localized: "Motel guest ledger \u2014 provisional text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 947785728
+    m_Localized: 'The ledger lies open beside an empty key hook. Most entries list
+      an arrival, a room and a departure. One line has no departure at all.
+
+
+      Room
+      12: a guest whose name has been rubbed away. Beside the line, someone has drawn
+      a narrow figure in a long coat. Its outline resembles the shape at the far
+      end of this corridor.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980032
+    m_Localized: 'A note in another hand reads: ''Asked to see the radio host. Said
+      they had met before the last broadcast. Waited in the corridor after reception
+      closed.''
+
+
+      The host is now missing. This guest may have seen them before
+      they disappeared. The ledger does not tell you what happened, or why the guest''s
+      name is missing.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980033
+    m_Localized: 'Under the entry: ''Do not mistake waiting for following.''
+
+
+      If
+      the outline belongs to the figure, switching the receiver on may be silencing
+      a witness. You could return with a charged battery, turn the radio off yourself
+      and approach. You would still have the option of turning it back on.
+
+
+      The
+      entry remains available here and in your journal after you finish reading.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980034
+    m_Localized: "Faded corridor photograph \u2014 provisional text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980035
+    m_Localized: 'A faded photograph shows this same row of motel doors. In the margin,
+      someone has written ''before the disappearance''. There is no date you can
+      verify.
+
+
+      A narrow person in a dark coat stands beside room 12. Their
+      face is indistinct. On the back, the outline has been traced in pencil, as
+      if the shape mattered more than the face.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980036
+    m_Localized: 'Behind the person is a notice bearing the radio station''s emblem.
+      A corner has been folded over a second person; you cannot identify them.
+
+
+      This
+      is a lead, not proof. Compare the coat and the room with the guest ledger.
+      The photograph offers a way to recognize the waiting figure without deciding
+      who they are or what became of them.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980037
+    m_Localized: "The Unaccepted \u2014 fragmented testimony"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980038
+    m_Localized: '''You came back.''
+
+
+      The figure does not close the distance.
+      Its voice arrives in pieces, with silence between words.
+
+
+      ''I thought
+      ... you would keep it playing. Most do.''
+
+
+      It turns toward the empty
+      doors. There is no gesture of attack. The charged receiver is still in your
+      hand. You can switch it on and leave at any time.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980039
+    m_Localized: '''The host came here ... before the voice stopped. Asked about
+      a room. Not mine. I waited ... where the light ends.''
+
+
+      You ask whether
+      they saw the host leave.
+
+
+      ''I heard the car. Saw the coat. That is not
+      ... the same as seeing a person leave.''
+
+
+      The account is incomplete.
+      It does not establish a death, a culprit or a final chronology.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980040
+    m_Localized: '''The station. Start there. They kept ... a paper copy. For when
+      the tape ...''
+
+
+      The rest is lost in the fluorescent hum.
+
+
+      You
+      ask which paper. The figure repeats: ''The programme sheet. Last broadcast.
+      Look for ... the part that was changed.''
+
+
+      This points to something
+      you could check independently at the radio station.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980041
+    m_Localized: 'For a moment, the shape resembles the coat in the motel photograph.
+      Then its edges settle back into shadow.
+
+
+      ''Please. Do not write ...
+      that you know what happened. You heard me. That is all.''
+
+
+      You have
+      a witness account and an investigative lead, not a solved case. The ledger
+      and photograph can be revisited. Nothing requires you to surrender the receiver
+      or lose your notes.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980042
+    m_Localized: 'NEW LEAD: Visit the radio station and locate the programme sheet
+      for the host''s last broadcast. Compare it with the witness''s account before
+      drawing a conclusion.
+
+
+      Finish this page to add the fragmented testimony
+      to your evidence journal. The radio station itself is outside this prototype.
+
+
+      End
+      of The First Witness encounter. You may continue exploring and reopen all collected
+      evidence with Tab.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980043
+    m_Localized: THE FIRST WITNESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980044
+    m_Localized: No evidence collected yet. Inspect the motel ledger and photograph
+      with E. Finish reading to keep an entry here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980045
+    m_Localized: Explore the corridor. Try silence near the far doors; Left Shift
+      controls the receiver. E inspects objects.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980046
+    m_Localized: A figure waits in silence. Try turning the radio on. The motel ledger
+      may explain who waited here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980047
+    m_Localized: The signal hides the figure. Inspect the cream-colored guest ledger
+      near reception (left of the test marker).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980048
+    m_Localized: The guest may be a witness. Keep charge available, switch ON then
+      voluntarily OFF, and return to the far corridor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980049
+    m_Localized: You chose silence. Approach the figure at the far doors; Left Shift
+      remains your way out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980050
+    m_Localized: 'NEW LEAD: the radio station''s programme sheet. Testimony is in
+      your journal (Tab). Encounter complete; station level is not built yet.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980051
+    m_Localized: "89.4 \u2014 Motel prototype\nRADIO {0}  |  BATTERY {1}%\nA/D or
+      arrows: walk   Left Shift: radio   E: interact   F1: language"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980052
+    m_Localized: ON / STABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980053
+    m_Localized: OFF / DRIFT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980054
+    m_Localized: "Journal \u2014 {0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980055
+    m_Localized: Evidence journal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980056
+    m_Localized: '{0} entries   {1}/{2}   Arrows / Space: pages   Tab / Esc: close'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980057
+    m_Localized: '{0}/{1}   Space / Enter: next or finish   Left arrow: back   Esc:
+      leave'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980058
+    m_Localized: '{0}  |  Tab: journal
+
+      {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980059
+    m_Localized: "E \u2014 replace battery (unlimited prototype supply)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980060
+    m_Localized: "E \u2014 inspect"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980061
+    m_Localized: "E \u2014 inspect test marker"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980062
+    m_Localized: "E \u2014 inspect motel guest ledger"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980063
+    m_Localized: "E \u2014 inspect faded corridor photograph"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980064
+    m_Localized: Language settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980065
+    m_Localized: "[1] English\n[2] \u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980066
+    m_Localized: 'Selected: {0}
+
+      F1: close'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980067
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951980068
+    m_Localized: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

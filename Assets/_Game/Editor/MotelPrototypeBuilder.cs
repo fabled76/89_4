@@ -4,6 +4,7 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 namespace DeadAir.Editor
 {
@@ -161,16 +162,16 @@ namespace DeadAir.Editor
             }
         }
 
-        private static Text CreateText(string name, Transform parent, Vector2 position, Vector2 size)
+        private static TMP_Text CreateText(string name, Transform parent, Vector2 position, Vector2 size)
         {
-            var obj = new GameObject(name, typeof(RectTransform), typeof(CanvasRenderer), typeof(Text));
+            var obj = new GameObject(name, typeof(RectTransform), typeof(CanvasRenderer), typeof(TextMeshProUGUI));
             obj.transform.SetParent(parent, false);
             var rect = obj.GetComponent<RectTransform>();
             rect.anchorMin = rect.anchorMax = rect.pivot = new Vector2(0, 1);
             rect.anchoredPosition = position;
             rect.sizeDelta = size;
-            var text = obj.GetComponent<Text>();
-            text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            var text = obj.GetComponent<TextMeshProUGUI>();
+            text.font = AssetDatabase.LoadAssetAtPath<TMP_FontAsset>(LocalizationSceneInstaller.FontPath);
             text.fontSize = 24;
             text.color = Color.white;
             text.raycastTarget = false;

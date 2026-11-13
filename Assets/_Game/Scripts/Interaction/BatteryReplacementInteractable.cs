@@ -6,7 +6,7 @@ namespace DeadAir
     public sealed class BatteryReplacementInteractable : MonoBehaviour, IInteractable
     {
         [SerializeField] private BatteryComponent battery;
-        public string Prompt => "E — replace battery (unlimited prototype supply)";
+        public string Prompt => PrototypeText.Get("prompt.battery");
         public bool CanInteract(InteractionController interactor) => battery != null;
         public void Interact(InteractionController interactor)
         {

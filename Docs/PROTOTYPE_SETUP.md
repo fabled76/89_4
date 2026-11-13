@@ -1,5 +1,7 @@
 # Motel Corridor foundation — Unity guide
 
+Historical foundation guide. The scene has since been upgraded in place for **The First Witness**. Use `FIRST_WITNESS_SETUP.md` for current encounter setup, controls, narrative assets and 0.2/second scene drain tuning.
+
 This is a mechanics foundation for **89.4**, not the complete narrative vertical slice in the design pack. `Docs/00_README.md` through `12_TITLE_AND_SIGNAL_GEOGRAPHY.md` remain design context. No new town name, witness identity, diagnosis, frequency rules or plot solution is established. STABLE/DRIFT here describe **local corridor presentation**, not citywide history. There is no AI, harm, inventory, save/load or diegetic recording system.
 
 ## Open or recreate

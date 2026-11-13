@@ -1,6 +1,6 @@
 {
   "name": "DeadAir.EditModeTests",
-  "references": ["DeadAir.Runtime", "DeadAir.Editor"],
+  "references": ["DeadAir.Runtime", "DeadAir.Editor", "Unity.Localization", "Unity.Localization.Editor", "Unity.TextMeshPro"],
   "includePlatforms": ["Editor"],
   "optionalUnityReferences": ["TestAssemblies"]
 }

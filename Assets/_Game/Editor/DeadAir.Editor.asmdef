@@ -1,5 +1,5 @@
 {
   "name": "DeadAir.Editor",
-  "references": ["DeadAir.Runtime", "Unity.ugui"],
+  "references": ["DeadAir.Runtime", "Unity.ugui", "Unity.Localization", "Unity.Localization.Editor", "Unity.TextMeshPro"],
   "includePlatforms": ["Editor"]
 }

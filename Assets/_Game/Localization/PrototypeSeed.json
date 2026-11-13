@@ -1,0 +1,199 @@
+{
+  "entries": [
+    {
+      "key": "evidence.ledger.title",
+      "en": "Motel guest ledger — provisional text",
+      "ru": "Гостевая книга мотеля — черновой текст"
+    },
+    {
+      "key": "evidence.ledger.page.01",
+      "en": "The ledger lies open beside an empty key hook. Most entries list an arrival, a room and a departure. One line has no departure at all.\n\nRoom 12: a guest whose name has been rubbed away. Beside the line, someone has drawn a narrow figure in a long coat. Its outline resembles the shape at the far end of this corridor.",
+      "ru": "Гостевая книга раскрыта рядом с пустым крючком для ключа. Почти у каждой записи есть дата прибытия, номер комнаты и дата отъезда. У одной записи даты отъезда нет.\n\nКомната 12: имя гостя стёрто. На полях нарисована узкая фигура в длинном пальто. Очертания напоминают силуэт в дальнем конце коридора."
+    },
+    {
+      "key": "evidence.ledger.page.02",
+      "en": "A note in another hand reads: 'Asked to see the radio host. Said they had met before the last broadcast. Waited in the corridor after reception closed.'\n\nThe host is now missing. This guest may have seen them before they disappeared. The ledger does not tell you what happened, or why the guest's name is missing.",
+      "ru": "Другим почерком приписано: «Просил встречи с радиоведущим. Говорил, что они виделись перед последним эфиром. Ждал в коридоре после закрытия стойки регистрации».\n\nТеперь ведущий пропал. Возможно, этот гость видел его перед исчезновением. Книга не объясняет, что случилось и почему имя гостя стёрто."
+    },
+    {
+      "key": "evidence.ledger.page.03",
+      "en": "Under the entry: 'Do not mistake waiting for following.'\n\nIf the outline belongs to the figure, switching the receiver on may be silencing a witness. You could return with a charged battery, turn the radio off yourself and approach. You would still have the option of turning it back on.\n\nThe entry remains available here and in your journal after you finish reading.",
+      "ru": "Под записью: «Не путайте ожидание с преследованием».\n\nЕсли на рисунке та самая фигура, включённый приёмник, возможно, заставляет свидетеля замолчать. Можно вернуться с заряженной батареей, добровольно выключить радио и подойти. Включить его снова можно в любой момент.\n\nКогда вы закончите читать, запись останется здесь и в вашем журнале."
+    },
+    {
+      "key": "evidence.photo.title",
+      "en": "Faded corridor photograph — provisional text",
+      "ru": "Выцветшая фотография коридора — черновой текст"
+    },
+    {
+      "key": "evidence.photo.page.01",
+      "en": "A faded photograph shows this same row of motel doors. In the margin, someone has written 'before the disappearance'. There is no date you can verify.\n\nA narrow person in a dark coat stands beside room 12. Their face is indistinct. On the back, the outline has been traced in pencil, as if the shape mattered more than the face.",
+      "ru": "На выцветшей фотографии — тот же ряд дверей мотеля. На полях написано: «До исчезновения». Дату проверить невозможно.\n\nРядом с комнатой 12 стоит худощавый человек в тёмном пальто. Лица не разобрать. На обороте его силуэт обведён карандашом, словно очертания важнее лица."
+    },
+    {
+      "key": "evidence.photo.page.02",
+      "en": "Behind the person is a notice bearing the radio station's emblem. A corner has been folded over a second person; you cannot identify them.\n\nThis is a lead, not proof. Compare the coat and the room with the guest ledger. The photograph offers a way to recognize the waiting figure without deciding who they are or what became of them.",
+      "ru": "За человеком видно объявление с эмблемой радиостанции. Загнутый угол закрывает ещё одного человека; узнать его невозможно.\n\nЭто зацепка, а не доказательство. Сравните пальто и номер комнаты с гостевой книгой. Фотография помогает узнать ожидающую фигуру, но не объясняет, кто это и что с ней произошло."
+    },
+    {
+      "key": "evidence.testimony.title",
+      "en": "The Unaccepted — fragmented testimony",
+      "ru": "Непринятый — обрывки показаний"
+    },
+    {
+      "key": "evidence.testimony.page.01",
+      "en": "'You came back.'\n\nThe figure does not close the distance. Its voice arrives in pieces, with silence between words.\n\n'I thought ... you would keep it playing. Most do.'\n\nIt turns toward the empty doors. There is no gesture of attack. The charged receiver is still in your hand. You can switch it on and leave at any time.",
+      "ru": "«Вы вернулись».\n\nФигура не приближается. Голос доносится обрывками, между словами — тишина.\n\n«Я думал… вы оставите его включённым. Большинство так и делает».\n\nФигура поворачивается к пустым дверям. Ни одного угрожающего движения. Заряженный приёмник по-прежнему у вас в руке. Его можно включить и уйти в любой момент."
+    },
+    {
+      "key": "evidence.testimony.page.02",
+      "en": "'The host came here ... before the voice stopped. Asked about a room. Not mine. I waited ... where the light ends.'\n\nYou ask whether they saw the host leave.\n\n'I heard the car. Saw the coat. That is not ... the same as seeing a person leave.'\n\nThe account is incomplete. It does not establish a death, a culprit or a final chronology.",
+      "ru": "«Ведущий был здесь… до того, как голос умолк. Спрашивал о комнате. Не о моей. Я ждал… там, где кончается свет».\n\nВы спрашиваете, видел ли свидетель, как ведущий ушёл.\n\n«Я слышал машину. Видел пальто. Это не… то же самое, что видеть, как уходит человек».\n\nРассказ неполон. Он не доказывает ни смерть, ни чью-либо вину, ни точный порядок событий."
+    },
+    {
+      "key": "evidence.testimony.page.03",
+      "en": "'The station. Start there. They kept ... a paper copy. For when the tape ...'\n\nThe rest is lost in the fluorescent hum.\n\nYou ask which paper. The figure repeats: 'The programme sheet. Last broadcast. Look for ... the part that was changed.'\n\nThis points to something you could check independently at the radio station.",
+      "ru": "«Станция. Начните там. Они хранили… бумажную копию. На случай, если плёнка…»\n\nОстальное тонет в гуле ламп.\n\nВы спрашиваете, о какой бумаге речь. Фигура повторяет: «Программа эфира. Последняя передача. Ищите… то место, которое изменили».\n\nЭто можно независимо проверить на радиостанции."
+    },
+    {
+      "key": "evidence.testimony.page.04",
+      "en": "For a moment, the shape resembles the coat in the motel photograph. Then its edges settle back into shadow.\n\n'Please. Do not write ... that you know what happened. You heard me. That is all.'\n\nYou have a witness account and an investigative lead, not a solved case. The ledger and photograph can be revisited. Nothing requires you to surrender the receiver or lose your notes.",
+      "ru": "На миг очертания напоминают пальто с фотографии мотеля. Затем края фигуры снова растворяются в тени.\n\n«Пожалуйста. Не пишите… что знаете, что случилось. Вы меня услышали. Вот и всё».\n\nУ вас есть показания и новая зацепка, но дело не раскрыто. К книге и фотографии можно вернуться. Никто не требует отдать приёмник или отказаться от записей."
+    },
+    {
+      "key": "evidence.testimony.page.05",
+      "en": "NEW LEAD: Visit the radio station and locate the programme sheet for the host's last broadcast. Compare it with the witness's account before drawing a conclusion.\n\nFinish this page to add the fragmented testimony to your evidence journal. The radio station itself is outside this prototype.\n\nEnd of The First Witness encounter. You may continue exploring and reopen all collected evidence with Tab.",
+      "ru": "НОВАЯ ЗАЦЕПКА: посетить радиостанцию и найти программу последнего эфира пропавшего ведущего. Прежде чем делать выводы, сравните её с рассказом свидетеля.\n\nЗакончите эту страницу, чтобы добавить обрывки показаний в журнал. Самой радиостанции в этом прототипе ещё нет.\n\nЭпизод «Первый свидетель» завершён. Можно продолжить исследование и перечитать все собранные материалы, нажав Tab."
+    },
+    {
+      "key": "witness.encounterTitle",
+      "en": "THE FIRST WITNESS",
+      "ru": "ПЕРВЫЙ СВИДЕТЕЛЬ"
+    },
+    {
+      "key": "witness.emptyJournalMessage",
+      "en": "No evidence collected yet. Inspect the motel ledger and photograph with E. Finish reading to keep an entry here.",
+      "ru": "Пока нет собранных материалов. Осмотрите гостевую книгу и фотографию, нажав E. Закончите чтение, чтобы сохранить запись в журнале."
+    },
+    {
+      "key": "witness.exploreObjective",
+      "en": "Explore the corridor. Try silence near the far doors; Left Shift controls the receiver. E inspects objects.",
+      "ru": "Исследуйте коридор. Попробуйте выключить приёмник у дальних дверей: Left Shift — радио, E — осмотреть предмет."
+    },
+    {
+      "key": "witness.figureObjective",
+      "en": "A figure waits in silence. Try turning the radio on. The motel ledger may explain who waited here.",
+      "ru": "В тишине ждёт фигура. Попробуйте включить радио. Гостевая книга мотеля может объяснить, кто здесь ждал."
+    },
+    {
+      "key": "witness.ledgerObjective",
+      "en": "The signal hides the figure. Inspect the cream-colored guest ledger near reception (left of the test marker).",
+      "ru": "Сигнал скрывает фигуру. Осмотрите светлую гостевую книгу у стойки регистрации, слева от тестового указателя."
+    },
+    {
+      "key": "witness.returnObjective",
+      "en": "The guest may be a witness. Keep charge available, switch ON then voluntarily OFF, and return to the far corridor.",
+      "ru": "Гость может оказаться свидетелем. Сохраните заряд, включите радио, затем добровольно выключите его и вернитесь в дальний конец коридора."
+    },
+    {
+      "key": "witness.approachObjective",
+      "en": "You chose silence. Approach the figure at the far doors; Left Shift remains your way out.",
+      "ru": "Вы выбрали тишину. Подойдите к фигуре у дальних дверей; Left Shift по-прежнему позволяет отступить."
+    },
+    {
+      "key": "witness.completedObjective",
+      "en": "NEW LEAD: the radio station's programme sheet. Testimony is in your journal (Tab). Encounter complete; station level is not built yet.",
+      "ru": "НОВАЯ ЗАЦЕПКА: программа эфира радиостанции. Показания — в журнале (Tab). Эпизод завершён; уровень радиостанции пока не создан."
+    },
+    {
+      "key": "hud.status",
+      "en": "89.4 — Motel prototype\nRADIO {0}  |  BATTERY {1}%\nA/D or arrows: walk   Left Shift: radio   E: interact   F1: language",
+      "ru": "89.4 — Прототип мотеля\nРАДИО {0}  |  БАТАРЕЯ {1}%\nA/D или стрелки: идти   Left Shift: радио   E: действие   F1: язык"
+    },
+    {
+      "key": "radio.on",
+      "en": "ON / STABLE",
+      "ru": "ВКЛ / СТАБИЛЬНОСТЬ"
+    },
+    {
+      "key": "radio.off",
+      "en": "OFF / DRIFT",
+      "ru": "ВЫКЛ / ДРЕЙФ"
+    },
+    {
+      "key": "ui.journal.heading",
+      "en": "Journal — {0}",
+      "ru": "Журнал — {0}"
+    },
+    {
+      "key": "ui.journal.emptyTitle",
+      "en": "Evidence journal",
+      "ru": "Журнал улик"
+    },
+    {
+      "key": "ui.journal.footer",
+      "en": "{0} entries   {1}/{2}   Arrows / Space: pages   Tab / Esc: close",
+      "ru": "Записей: {0}   {1}/{2}   Стрелки / пробел: страницы   Tab / Esc: закрыть"
+    },
+    {
+      "key": "ui.reading.footer",
+      "en": "{0}/{1}   Space / Enter: next or finish   Left arrow: back   Esc: leave",
+      "ru": "{0}/{1}   Пробел / Enter: далее или закончить   ←: назад   Esc: выйти"
+    },
+    {
+      "key": "ui.objective",
+      "en": "{0}  |  Tab: journal\n{1}",
+      "ru": "{0}  |  Tab: журнал\n{1}"
+    },
+    {
+      "key": "prompt.battery",
+      "en": "E — replace battery (unlimited prototype supply)",
+      "ru": "E — заменить батарею (неограниченный тестовый запас)"
+    },
+    {
+      "key": "prompt.inspect",
+      "en": "E — inspect",
+      "ru": "E — осмотреть"
+    },
+    {
+      "key": "prompt.marker",
+      "en": "E — inspect test marker",
+      "ru": "E — осмотреть тестовый указатель"
+    },
+    {
+      "key": "prompt.ledger",
+      "en": "E — inspect motel guest ledger",
+      "ru": "E — осмотреть гостевую книгу мотеля"
+    },
+    {
+      "key": "prompt.photo",
+      "en": "E — inspect faded corridor photograph",
+      "ru": "E — осмотреть выцветшую фотографию коридора"
+    },
+    {
+      "key": "settings.title",
+      "en": "Language settings",
+      "ru": "Настройки языка"
+    },
+    {
+      "key": "settings.options",
+      "en": "[1] English\n[2] Русский",
+      "ru": "[1] English\n[2] Русский"
+    },
+    {
+      "key": "settings.footer",
+      "en": "Selected: {0}\nF1: close",
+      "ru": "Выбран: {0}\nF1: закрыть"
+    },
+    {
+      "key": "language.en",
+      "en": "English",
+      "ru": "English"
+    },
+    {
+      "key": "language.ru",
+      "en": "Русский",
+      "ru": "Русский"
+    }
+  ]
+}

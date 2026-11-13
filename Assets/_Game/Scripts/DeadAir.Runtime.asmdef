@@ -1,5 +1,5 @@
 {
   "name": "DeadAir.Runtime",
   "rootNamespace": "DeadAir",
-  "references": ["Unity.InputSystem", "Unity.ugui"]
+  "references": ["Unity.InputSystem", "Unity.ugui", "Unity.Localization", "Unity.ResourceManager", "Unity.TextMeshPro"]
 }

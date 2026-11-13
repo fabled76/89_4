@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.TestTools;
-using UnityEngine.UI;
+using TMPro;
+using UnityEngine.Localization.Settings;
 #if UNITY_EDITOR
 using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
@@ -15,12 +16,16 @@ namespace DeadAir.Tests
     public sealed class MotelCorridorTests
     {
         private Keyboard keyboard;
+        private bool hadLocalePreference;
+        private string localePreference;
         private InputSettings previousSettings;
         private InputSettings testSettings;
 
         [UnitySetUp]
         public IEnumerator LoadCorridor()
         {
+            hadLocalePreference = PlayerPrefs.HasKey(PrototypeText.LocalePreferenceKey);
+            localePreference = PlayerPrefs.GetString(PrototypeText.LocalePreferenceKey);
             previousSettings = InputSystem.settings;
             testSettings = Object.Instantiate(previousSettings);
             testSettings.backgroundBehavior = InputSettings.BackgroundBehavior.IgnoreFocus;
@@ -32,6 +37,9 @@ namespace DeadAir.Tests
 #else
             Assert.Ignore("These integration tests load the prototype directly from its editor asset path.");
 #endif
+            yield return LocalizationSettings.InitializationOperation;
+            LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.GetLocale("en");
+            yield return null;
             keyboard = InputSystem.AddDevice<Keyboard>();
             yield return null;
             yield return new WaitForFixedUpdate();
@@ -43,6 +51,9 @@ namespace DeadAir.Tests
             if (keyboard != null && keyboard.added) InputSystem.RemoveDevice(keyboard);
             InputSystem.settings = previousSettings;
             Object.Destroy(testSettings);
+            if (hadLocalePreference) PlayerPrefs.SetString(PrototypeText.LocalePreferenceKey, localePreference);
+            else PlayerPrefs.DeleteKey(PrototypeText.LocalePreferenceKey);
+            PlayerPrefs.Save();
             yield return null;
         }
 
@@ -62,7 +73,7 @@ namespace DeadAir.Tests
             var battery = Object.FindFirstObjectByType<BatteryComponent>();
             var drift = GameObject.Find("Environment").transform.Find("DRIFT_Visuals").gameObject;
             var stable = GameObject.Find("Environment").transform.Find("STABLE_Visuals").gameObject;
-            var text = GameObject.Find("RadioAndControls").GetComponent<Text>();
+            var text = GameObject.Find("RadioAndControls").GetComponent<TMP_Text>();
             Assert.That(radio.IsOn, Is.True);
             Assert.That(stable.activeSelf, Is.True);
             Assert.That(drift.activeSelf, Is.False);

@@ -1,5 +1,8 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
+using System.Collections;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 namespace DeadAir
 {
@@ -8,8 +11,8 @@ namespace DeadAir
         [SerializeField] private RadioController radio;
         [SerializeField] private BatteryComponent battery;
         [SerializeField] private InteractionController interactor;
-        [SerializeField] private Text statusText;
-        [SerializeField] private Text promptText;
+        [SerializeField] private TMP_Text statusText;
+        [SerializeField] private TMP_Text promptText;
 
         private void OnEnable()
         {
@@ -21,19 +24,29 @@ namespace DeadAir
             }
             radio.StateChanged += OnRadioChanged;
             battery.ChargeChanged += OnChargeChanged;
-            Refresh();
+            LocalizationSettings.SelectedLocaleChanged += OnLocaleChanged;
+            StartCoroutine(RefreshAfterLocaleChange());
         }
         private void OnDisable()
         {
             if (radio != null) radio.StateChanged -= OnRadioChanged;
             if (battery != null) battery.ChargeChanged -= OnChargeChanged;
+            LocalizationSettings.SelectedLocaleChanged -= OnLocaleChanged;
+            StopAllCoroutines();
         }
         private void LateUpdate() => promptText.text = interactor.CurrentPrompt;
         private void OnRadioChanged(bool _) => Refresh();
         private void OnChargeChanged(float _) => Refresh();
+        private void OnLocaleChanged(Locale _) => StartCoroutine(RefreshAfterLocaleChange());
+        private IEnumerator RefreshAfterLocaleChange()
+        {
+            yield return LocalizationSettings.InitializationOperation;
+            Refresh();
+        }
         private void Refresh()
         {
-            statusText.text = $"89.4 — Motel prototype\nRADIO {(radio.IsOn ? "ON / STABLE" : "OFF / DRIFT")}  |  BATTERY {battery.Fraction:P0}\nA/D or arrows: walk   Left Shift: radio   E: interact";
+            if (!PrototypeText.IsReady) return;
+            statusText.text = PrototypeText.Get("hud.status", PrototypeText.Get(radio.IsOn ? "radio.on" : "radio.off"), Mathf.RoundToInt(battery.Fraction * 100));
         }
     }
 }

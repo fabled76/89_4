@@ -1,5 +1,5 @@
 {
   "name": "DeadAir.PlayModeTests",
-  "references": ["DeadAir.Runtime", "Unity.InputSystem", "Unity.ugui"],
+  "references": ["DeadAir.Runtime", "Unity.InputSystem", "Unity.ugui", "Unity.TextMeshPro", "Unity.Localization", "Unity.ResourceManager"],
   "optionalUnityReferences": ["TestAssemblies"]
 }

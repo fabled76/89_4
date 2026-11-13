@@ -1,5 +1,7 @@
 # Foundation implementation and validation
 
+Historical foundation report. `FIRST_WITNESS_VALIDATION.md` covers the subsequent investigation encounter and current scene validation.
+
 Date: 2026-11-13. Engine actually used: Unity 6000.3.8f1. Design docs were found in `Docs/`, not `DEAD_AIR_docs/`; all 13 original Markdown files were read before implementation. The repository already had a Universal 2D project, installed Input System and new input backend.
 
 ## Implemented
