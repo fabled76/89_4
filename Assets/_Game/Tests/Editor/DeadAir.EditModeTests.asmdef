@@ -1,0 +1,6 @@
+{
+  "name": "DeadAir.EditModeTests",
+  "references": ["DeadAir.Runtime", "DeadAir.Editor"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

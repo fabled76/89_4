@@ -1,0 +1,5 @@
+{
+  "name": "DeadAir.Runtime",
+  "rootNamespace": "DeadAir",
+  "references": ["Unity.InputSystem", "Unity.ugui"]
+}

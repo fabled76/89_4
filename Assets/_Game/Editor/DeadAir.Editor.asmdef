@@ -1,0 +1,5 @@
+{
+  "name": "DeadAir.Editor",
+  "references": ["DeadAir.Runtime", "Unity.ugui"],
+  "includePlatforms": ["Editor"]
+}
