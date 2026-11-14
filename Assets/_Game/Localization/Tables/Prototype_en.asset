@@ -209,8 +209,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 951980051
-    m_Localized: "89.4 \u2014 Motel prototype\nRADIO {0}  |  BATTERY {1}%\nA/D or
-      arrows: walk   Left Shift: radio   E: interact   F1: language"
+    m_Localized: "89.4 \u2014 Motel prototype\nRADIO {0}  |  BATTERY {1}%\nA/D: walk  
+      Left Shift: radio   E: interact   F1: language"
     m_Metadata:
       m_Items: []
   - m_Id: 951980052
@@ -230,12 +230,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 951980056
-    m_Localized: '{0} entries   {1}/{2}   Arrows / Space: pages   Tab / Esc: close'
+    m_Localized: '{0} entries   {1}/{2}   A: back   D: next   Tab/Esc: close'
     m_Metadata:
       m_Items: []
   - m_Id: 951980057
-    m_Localized: '{0}/{1}   Space / Enter: next or finish   Left arrow: back   Esc:
-      leave'
+    m_Localized: '{0}/{1}   A: back   D: next/finish   Esc: close'
     m_Metadata:
       m_Items: []
   - m_Id: 951980058
@@ -284,6 +283,236 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 951980068
     m_Localized: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964095021056
+    m_Localized: Current registration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907136
+    m_Localized: 'CLERK: "The bureau booked one night?"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907137
+    m_Localized: 'JOURNALIST: "One for now."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907138
+    m_Localized: 'CLERK: "Sign here. If you need another, tell me before noon."
+
+
+      [You
+      sign the current registration line. A room key is provided.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907139
+    m_Localized: 'JOURNALIST: "Can I visit the radio station tonight?"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907140
+    m_Localized: 'CLERK: "Try in the morning. I wouldn''t count on anyone answering
+      the door now."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907141
+    m_Localized: "MOTEL \u2014 Reception"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907142
+    m_Localized: "MOTEL \u2014 Your guest room"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907143
+    m_Localized: "MOTEL \u2014 Guest corridor"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907144
+    m_Localized: "E \u2014 TEST: replace battery (does not turn radio ON)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907145
+    m_Localized: ON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907146
+    m_Localized: OFF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907147
+    m_Localized: '[Movement in the corridor.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907148
+    m_Localized: 'JOURNALIST: "Someone''s still up."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907149
+    m_Localized: A man in the corridor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907150
+    m_Localized: 'JOURNALIST: "Do you work here?"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907151
+    m_Localized: 'MAN: "Nights."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907152
+    m_Localized: 'JOURNALIST: "I''m here about the missing presenter from the local
+      station."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907153
+    m_Localized: 'MAN: "Their program''s on now."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907154
+    m_Localized: Your portable receiver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907155
+    m_Localized: Your receiver is OFF beside your belongings. E at the receiver takes
+      it; inspecting the bag does not. You can go into the corridor without it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101440
+    m_Localized: '[You take the receiver. It remains OFF.]
+
+      Left Shift controls
+      power once carried. E at your bag reviews its program while ON.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101441
+    m_Localized: 'JOURNALIST: "Let''s hear which program he means."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101442
+    m_Localized: Left Shift turns your carried receiver ON. Then use E at the bag
+      to review the program. The cyan test stand replaces an empty battery without
+      switching ON.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101443
+    m_Localized: 'ANNOUNCER: "Good evening. A reminder that tomorrow''s community
+      notices must reach the station before midday. We''ll be back after the music."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101444
+    m_Localized: 'JOURNALIST: "I''ll ask him what he meant."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101445
+    m_Localized: The corridor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101446
+    m_Localized: 'JOURNALIST: "Gone."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101447
+    m_Localized: 'JOURNALIST: "I''ll ask at the desk in the morning."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101448
+    m_Localized: 'PROTOTYPE: First-night trial complete. Morning inquiry is not included
+      yet.
+
+      This is a development notice, not dialogue. Esc closes; D finishes.
+      You may look around and return to the room.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101449
+    m_Localized: Current registration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101450
+    m_Localized: Finish the current check-in before using your room. This grants
+      no access to historical guest records.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101451
+    m_Localized: Check in at the counter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101452
+    m_Localized: Find your room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101453
+    m_Localized: See who's in the corridor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101454
+    m_Localized: Speak to the man, if someone is there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101455
+    m_Localized: Fetch your receiver from the room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101456
+    m_Localized: Check the station on your receiver.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101457
+    m_Localized: Ask the man about the program.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101458
+    m_Localized: First-night trial complete. You may return to the room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101459
+    m_Localized: left with belongings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101460
+    m_Localized: carried
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101461
+    m_Localized: 'A/D: walk   E: interact   Receiver: {0}, {1} ({2}%)
+
+      Left
+      Shift: power when carried   Reading: A/D, Esc close   F1: language'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101462
+    m_Localized: "WORKING v02 \u2014 text-only program/movement. No new art/audio
+      integration."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101463
+    m_Localized: "E \u2014 current registration / clerk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101464
+    m_Localized: "E \u2014 enter your room"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101465
+    m_Localized: "E \u2014 take the receiver"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101466
+    m_Localized: "E \u2014 inspect bag / review your receiver"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101467
+    m_Localized: "E \u2014 go into the corridor"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101468
+    m_Localized: "E \u2014 return to your room"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101469
+    m_Localized: "E \u2014 speak to the man"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101470
+    m_Localized: "E \u2014 look around the empty corridor"
     m_Metadata:
       m_Items: []
   references:

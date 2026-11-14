@@ -26,6 +26,8 @@ namespace DeadAir
         private Action onCompleted;
         private int pageIndex;
         private bool journalMode, restoreMovement, restoreInteraction;
+        private bool navigationReady, controlsLocked;
+        private Coroutine restoreRoutine;
         public bool IsOpen { get; private set; }
         public EvidenceDefinition ActiveEvidence => currentEvidence;
         public event Action<EvidenceDefinition, bool> DialogueClosed;
@@ -33,10 +35,8 @@ namespace DeadAir
         private void Awake()
         {
             journalKey = new InputAction("Journal", InputActionType.Button, "<Keyboard>/tab");
-            nextKey = new InputAction("NextPage", InputActionType.Button, "<Keyboard>/space");
-            nextKey.AddBinding("<Keyboard>/enter");
-            nextKey.AddBinding("<Keyboard>/rightArrow");
-            previousKey = new InputAction("PreviousPage", InputActionType.Button, "<Keyboard>/leftArrow");
+            nextKey = new InputAction("NextPage", InputActionType.Button, "<Keyboard>/d");
+            previousKey = new InputAction("PreviousPage", InputActionType.Button, "<Keyboard>/a");
             closeKey = new InputAction("ClosePanel", InputActionType.Button, "<Keyboard>/escape");
         }
         private void OnEnable()
@@ -55,7 +55,7 @@ namespace DeadAir
             investigation.Changed -= RefreshObjective;
             LocalizationSettings.SelectedLocaleChanged -= RefreshLocale;
             StopAllCoroutines();
-            Close(false);
+            restoreRoutine = null; Close(false); RestoreControls();
         }
         private void OnDestroy()
         {
@@ -80,6 +80,7 @@ namespace DeadAir
                 return;
             }
             if (!IsOpen) return;
+            if (!navigationReady) { navigationReady = ReadingNavigation.KeysReleased; return; }
             if (previousKey.WasPressedThisFrame()) { pageIndex = Mathf.Max(0, pageIndex - 1); RenderPage(); }
             if (nextKey.WasPressedThisFrame())
             {
@@ -116,8 +117,10 @@ namespace DeadAir
         {
             IsOpen = true;
             pageIndex = 0;
-            restoreMovement = movement.enabled;
-            restoreInteraction = interactor.enabled;
+            navigationReady = ReadingNavigation.KeysReleased;
+            if (restoreRoutine != null) { StopCoroutine(restoreRoutine); restoreRoutine = null; }
+            if (!controlsLocked) { restoreMovement = movement.enabled; restoreInteraction = interactor.enabled; }
+            controlsLocked = true;
             movement.enabled = false;
             interactor.enabled = false;
             panel.SetActive(true);
@@ -134,14 +137,27 @@ namespace DeadAir
             currentEvidence = null;
             onCompleted = null;
             if (panel != null) panel.SetActive(false);
-            if (movement != null) movement.enabled = restoreMovement;
-            if (interactor != null) interactor.enabled = restoreInteraction;
+            if (isActiveAndEnabled && !ReadingNavigation.KeysReleased) restoreRoutine = StartCoroutine(RestoreAfterRelease());
+            else RestoreControls();
             if (wasDialogue)
             {
                 // Notify before publishing evidence so trigger re-entry cannot race completion.
                 DialogueClosed?.Invoke(evidence, completed);
                 if (completed) callback?.Invoke();
             }
+        }
+        private IEnumerator RestoreAfterRelease()
+        {
+            yield return new WaitUntil(() => ReadingNavigation.KeysReleased);
+            restoreRoutine = null;
+            if (!IsOpen) RestoreControls();
+        }
+        private void RestoreControls()
+        {
+            if (!controlsLocked) return;
+            controlsLocked = false;
+            if (movement != null) movement.enabled = restoreMovement;
+            if (interactor != null) interactor.enabled = restoreInteraction;
         }
 
         private void RenderPage()

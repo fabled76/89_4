@@ -16,8 +16,6 @@ namespace DeadAir
             move = new InputAction("Walk", InputActionType.Value);
             move.AddCompositeBinding("1DAxis")
                 .With("Negative", "<Keyboard>/a").With("Positive", "<Keyboard>/d");
-            move.AddCompositeBinding("1DAxis")
-                .With("Negative", "<Keyboard>/leftArrow").With("Positive", "<Keyboard>/rightArrow");
         }
 
         private void OnEnable() => move.Enable();

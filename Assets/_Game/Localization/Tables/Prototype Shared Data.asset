@@ -171,6 +171,214 @@ MonoBehaviour:
     m_Key: language.ru
     m_Metadata:
       m_Items: []
+  - m_Id: 440964095021056
+    m_Key: first_night.checkin.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907136
+    m_Key: first_night.checkin.01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907137
+    m_Key: first_night.checkin.02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907138
+    m_Key: first_night.checkin.03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907139
+    m_Key: first_night.checkin.04
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907140
+    m_Key: first_night.checkin.05
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907141
+    m_Key: first_night.location.reception
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907142
+    m_Key: first_night.location.room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907143
+    m_Key: first_night.location.corridor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907144
+    m_Key: first_night.prompt.battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907145
+    m_Key: first_night.radio.on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907146
+    m_Key: first_night.radio.off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907147
+    m_Key: first_night.movement.caption
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907148
+    m_Key: first_night.room.person_awake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907149
+    m_Key: first_night.intro.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907150
+    m_Key: first_night.intro.01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907151
+    m_Key: first_night.intro.02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907152
+    m_Key: first_night.intro.03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907153
+    m_Key: first_night.intro.04
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907154
+    m_Key: first_night.radio.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964178907155
+    m_Key: first_night.radio.inspect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101440
+    m_Key: first_night.radio.take
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101441
+    m_Key: first_night.radio.reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101442
+    m_Key: first_night.radio.power_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101443
+    m_Key: first_night.program.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101444
+    m_Key: first_night.program.observation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101445
+    m_Key: first_night.empty.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101446
+    m_Key: first_night.empty.01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101447
+    m_Key: first_night.empty.02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101448
+    m_Key: first_night.end.notice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101449
+    m_Key: first_night.blocked.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101450
+    m_Key: first_night.blocked.checkin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101451
+    m_Key: first_night.objective.checkin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101452
+    m_Key: first_night.objective.room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101453
+    m_Key: first_night.objective.corridor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101454
+    m_Key: first_night.objective.contact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101455
+    m_Key: first_night.objective.retrieve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101456
+    m_Key: first_night.objective.check
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101457
+    m_Key: first_night.objective.return
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101458
+    m_Key: first_night.objective.end
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101459
+    m_Key: first_night.receiver.packed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101460
+    m_Key: first_night.receiver.carried
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101461
+    m_Key: first_night.controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101462
+    m_Key: first_night.production.caption
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101463
+    m_Key: first_night.prompt.checkin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101464
+    m_Key: first_night.prompt.guestdoor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101465
+    m_Key: first_night.prompt.retrieve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101466
+    m_Key: first_night.prompt.review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101467
+    m_Key: first_night.prompt.corridordoor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101468
+    m_Key: first_night.prompt.return
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101469
+    m_Key: first_night.prompt.man
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440964183101470
+    m_Key: first_night.prompt.look
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

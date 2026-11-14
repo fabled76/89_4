@@ -134,7 +134,7 @@ namespace DeadAir.Tests
 
             body.position = new Vector2(-13, 1);
             body.linearVelocity = Vector2.zero;
-            InputSystem.QueueStateEvent(keyboard, new KeyboardState(Key.LeftArrow));
+            InputSystem.QueueStateEvent(keyboard, new KeyboardState(Key.A));
             yield return new WaitForSeconds(1f);
             Assert.That(body.position.x, Is.LessThan(-13.5f));
             Assert.That(body.position.x, Is.GreaterThan(-14.7f));

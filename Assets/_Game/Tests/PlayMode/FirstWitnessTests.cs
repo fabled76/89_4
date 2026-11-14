@@ -89,7 +89,7 @@ namespace DeadAir.Tests
         {
             Assert.That(ui.ActiveEvidence, Is.Not.Null);
             int pages = ui.ActiveEvidence.PageCount;
-            for (int i = 0; i < pages; i++) yield return Press(Key.Space);
+            for (int i = 0; i < pages; i++) yield return Press(Key.D);
             Assert.That(ui.IsOpen, Is.False);
         }
         private IEnumerator ReadLedger()
@@ -155,7 +155,7 @@ namespace DeadAir.Tests
 
             yield return Press(Key.Tab);
             Assert.That(ui.IsOpen, Is.True);
-            yield return Press(Key.RightArrow);
+            yield return Press(Key.D);
             yield return Press(Key.Tab);
             Assert.That(ui.IsOpen, Is.False);
             yield return Press(Key.Tab);
@@ -186,7 +186,7 @@ namespace DeadAir.Tests
             yield return Press(Key.LeftShift);
             yield return new WaitForFixedUpdate();
             Assert.That(ui.IsOpen, Is.True, "Toggling off while already in range should also work.");
-            yield return Press(Key.Space);
+            yield return Press(Key.D);
             yield return Press(Key.LeftShift);
             Assert.That(ui.IsOpen, Is.False);
             Assert.That(investigation.TestimonyReceived, Is.False);

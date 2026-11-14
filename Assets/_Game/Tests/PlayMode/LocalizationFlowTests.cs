@@ -98,14 +98,14 @@ namespace DeadAir.Tests
             yield return MoveTo(-5);
             Assert.That(player.GetComponent<InteractionController>().CurrentPrompt, Does.Contain("гостевую книгу"));
             yield return Press(Key.E);
-            yield return Press(Key.Space);
+            yield return Press(Key.D);
             var ledger = ui.ActiveEvidence;
             Assert.That(ledger.Id, Is.EqualTo("motel.guest-ledger"));
             yield return Switch("en");
             Assert.That(Body.text, Is.EqualTo(ledger.GetPage(1)), "Language switch must retain current reading page.");
             yield return Switch("ru");
             Assert.That(Body.text, Is.EqualTo(ledger.GetPage(1)));
-            for (int i = 1; i < ledger.PageCount; i++) yield return Press(Key.Space);
+            for (int i = 1; i < ledger.PageCount; i++) yield return Press(Key.D);
             Assert.That(journal.Entries.Count, Is.EqualTo(1));
             yield return MoveTo(7);
             yield return Press(Key.LeftShift);
@@ -113,11 +113,11 @@ namespace DeadAir.Tests
             Assert.That(ui.IsOpen, Is.True);
             var testimony = ui.ActiveEvidence;
             Assert.That(testimony.Id, Is.EqualTo("witness.station-lead"));
-            for (int i = 0; i < testimony.PageCount; i++) yield return Press(Key.Space);
+            for (int i = 0; i < testimony.PageCount; i++) yield return Press(Key.D);
             Assert.That(Object.FindFirstObjectByType<InvestigationStateTracker>().TestimonyReceived, Is.True);
             string[] ids = journal.Entries.Select(e => e.Id).ToArray();
             yield return Press(Key.Tab);
-            yield return Press(Key.RightArrow);
+            yield return Press(Key.D);
             string russianPage = Body.text;
             yield return Switch("en");
             Assert.That(Body.text, Is.EqualTo(ledger.GetPage(1)));
@@ -150,7 +150,7 @@ namespace DeadAir.Tests
                         Assert.That(Body.text, Is.Not.Empty);
                         foreach (char character in Body.text)
                             if (!char.IsControl(character)) Assert.That(Body.font.HasCharacter(character), Is.True, "Missing glyph " + character);
-                        yield return Press(Key.Space);
+                        yield return Press(Key.D);
                     }
                 }
             }

@@ -1,0 +1,264 @@
+{
+  "entries": [
+    {
+      "key": "first_night.checkin.title",
+      "en": "Current registration",
+      "ru": "Текущая регистрация"
+    },
+    {
+      "key": "first_night.checkin.01",
+      "en": "CLERK: \"The bureau booked one night?\"",
+      "ru": "СОТРУДНИК: «Бюро забронировало одну ночь?»"
+    },
+    {
+      "key": "first_night.checkin.02",
+      "en": "JOURNALIST: \"One for now.\"",
+      "ru": "ЖУРНАЛИСТ: «Пока одну»."
+    },
+    {
+      "key": "first_night.checkin.03",
+      "en": "CLERK: \"Sign here. If you need another, tell me before noon.\"\n\n[You sign the current registration line. A room key is provided.]",
+      "ru": "СОТРУДНИК: «Распишитесь здесь. Если останетесь ещё, скажите до полудня».\n\n[Вы подписываете текущую регистрационную строку и получаете ключ от номера.]"
+    },
+    {
+      "key": "first_night.checkin.04",
+      "en": "JOURNALIST: \"Can I visit the radio station tonight?\"",
+      "ru": "ЖУРНАЛИСТ: «Я могу зайти на радиостанцию сегодня вечером?»"
+    },
+    {
+      "key": "first_night.checkin.05",
+      "en": "CLERK: \"Try in the morning. I wouldn't count on anyone answering the door now.\"",
+      "ru": "СОТРУДНИК: «Попробуйте утром. Не рассчитывайте, что сейчас вам откроют»."
+    },
+    {
+      "key": "first_night.location.reception",
+      "en": "MOTEL — Reception",
+      "ru": "МОТЕЛЬ — стойка регистрации"
+    },
+    {
+      "key": "first_night.location.room",
+      "en": "MOTEL — Your guest room",
+      "ru": "МОТЕЛЬ — ваш номер"
+    },
+    {
+      "key": "first_night.location.corridor",
+      "en": "MOTEL — Guest corridor",
+      "ru": "МОТЕЛЬ — коридор"
+    },
+    {
+      "key": "first_night.prompt.battery",
+      "en": "E — TEST: replace battery (does not turn radio ON)",
+      "ru": "E — ТЕСТ: заменить батарею (радио не включается)"
+    },
+    {
+      "key": "first_night.radio.on",
+      "en": "ON",
+      "ru": "ВКЛ"
+    },
+    {
+      "key": "first_night.radio.off",
+      "en": "OFF",
+      "ru": "ВЫКЛ"
+    },
+    {
+      "key": "first_night.movement.caption",
+      "en": "[Movement in the corridor.]",
+      "ru": "[В коридоре слышно движение.]"
+    },
+    {
+      "key": "first_night.room.person_awake",
+      "en": "JOURNALIST: \"Someone's still up.\"",
+      "ru": "ЖУРНАЛИСТ: «Кто-то ещё не спит»."
+    },
+    {
+      "key": "first_night.intro.title",
+      "en": "A man in the corridor",
+      "ru": "Мужчина в коридоре"
+    },
+    {
+      "key": "first_night.intro.01",
+      "en": "JOURNALIST: \"Do you work here?\"",
+      "ru": "ЖУРНАЛИСТ: «Вы здесь работаете?»"
+    },
+    {
+      "key": "first_night.intro.02",
+      "en": "MAN: \"Nights.\"",
+      "ru": "МУЖЧИНА: «По ночам»."
+    },
+    {
+      "key": "first_night.intro.03",
+      "en": "JOURNALIST: \"I'm here about the missing presenter from the local station.\"",
+      "ru": "ЖУРНАЛИСТ: «Я приехал из-за пропавшего ведущего местной станции»."
+    },
+    {
+      "key": "first_night.intro.04",
+      "en": "MAN: \"Their program's on now.\"",
+      "ru": "МУЖЧИНА: «Сейчас идёт его программа»."
+    },
+    {
+      "key": "first_night.radio.title",
+      "en": "Your portable receiver",
+      "ru": "Ваш переносной приёмник"
+    },
+    {
+      "key": "first_night.radio.inspect",
+      "en": "Your receiver is OFF beside your belongings. E at the receiver takes it; inspecting the bag does not. You can go into the corridor without it.",
+      "ru": "Приёмник выключен и лежит рядом с вещами. E у приёмника позволяет взять его; осмотр сумки этого не делает. Можно выйти в коридор без радио."
+    },
+    {
+      "key": "first_night.radio.take",
+      "en": "[You take the receiver. It remains OFF.]\nLeft Shift controls power once carried. E at your bag reviews its program while ON.",
+      "ru": "[Вы берёте приёмник. Он остаётся выключенным.]\nКогда радио при вас, левая Shift включает питание. E у сумки открывает текст эфира включённого приёмника."
+    },
+    {
+      "key": "first_night.radio.reason",
+      "en": "JOURNALIST: \"Let's hear which program he means.\"",
+      "ru": "ЖУРНАЛИСТ: «Послушаем, о какой программе он говорит»."
+    },
+    {
+      "key": "first_night.radio.power_hint",
+      "en": "Left Shift turns your carried receiver ON. Then use E at the bag to review the program. The cyan test stand replaces an empty battery without switching ON.",
+      "ru": "Левая Shift включает взятый приёмник. Затем E у сумки открывает текст эфира. Бирюзовый тестовый стенд заменяет пустую батарею, не включая радио."
+    },
+    {
+      "key": "first_night.program.text",
+      "en": "ANNOUNCER: \"Good evening. A reminder that tomorrow's community notices must reach the station before midday. We'll be back after the music.\"",
+      "ru": "ДИКТОР: «Добрый вечер. Напоминаем: объявления на завтра нужно передать на станцию до полудня. Мы вернёмся после музыки»."
+    },
+    {
+      "key": "first_night.program.observation",
+      "en": "JOURNALIST: \"I'll ask him what he meant.\"",
+      "ru": "ЖУРНАЛИСТ: «Спрошу, что он имел в виду»."
+    },
+    {
+      "key": "first_night.empty.title",
+      "en": "The corridor",
+      "ru": "Коридор"
+    },
+    {
+      "key": "first_night.empty.01",
+      "en": "JOURNALIST: \"Gone.\"",
+      "ru": "ЖУРНАЛИСТ: «Ушёл»."
+    },
+    {
+      "key": "first_night.empty.02",
+      "en": "JOURNALIST: \"I'll ask at the desk in the morning.\"",
+      "ru": "ЖУРНАЛИСТ: «Утром спрошу у стойки»."
+    },
+    {
+      "key": "first_night.end.notice",
+      "en": "PROTOTYPE: First-night trial complete. Morning inquiry is not included yet.\nThis is a development notice, not dialogue. Esc closes; D finishes. You may look around and return to the room.",
+      "ru": "ПРОТОТИП: пробный эпизод первой ночи завершён. Утренняя беседа ещё не включена.\nЭто служебное сообщение, не реплика персонажа. Esc закрывает его, D завершает чтение. Можно осмотреться и вернуться в номер."
+    },
+    {
+      "key": "first_night.blocked.title",
+      "en": "Current registration",
+      "ru": "Текущая регистрация"
+    },
+    {
+      "key": "first_night.blocked.checkin",
+      "en": "Finish the current check-in before using your room. This grants no access to historical guest records.",
+      "ru": "Завершите текущую регистрацию, прежде чем войти в номер. Она не даёт доступа к старым записям о гостях."
+    },
+    {
+      "key": "first_night.objective.checkin",
+      "en": "Check in at the counter.",
+      "ru": "Зарегистрируйтесь у стойки."
+    },
+    {
+      "key": "first_night.objective.room",
+      "en": "Find your room.",
+      "ru": "Найдите свой номер."
+    },
+    {
+      "key": "first_night.objective.corridor",
+      "en": "See who's in the corridor.",
+      "ru": "Посмотрите, кто в коридоре."
+    },
+    {
+      "key": "first_night.objective.contact",
+      "en": "Speak to the man, if someone is there.",
+      "ru": "Поговорите с мужчиной, если кто-то есть в коридоре."
+    },
+    {
+      "key": "first_night.objective.retrieve",
+      "en": "Fetch your receiver from the room.",
+      "ru": "Заберите приёмник из номера."
+    },
+    {
+      "key": "first_night.objective.check",
+      "en": "Check the station on your receiver.",
+      "ru": "Проверьте станцию на своём приёмнике."
+    },
+    {
+      "key": "first_night.objective.return",
+      "en": "Ask the man about the program.",
+      "ru": "Спросите мужчину о программе."
+    },
+    {
+      "key": "first_night.objective.end",
+      "en": "First-night trial complete. You may return to the room.",
+      "ru": "Пробный эпизод первой ночи завершён. Можно вернуться в номер."
+    },
+    {
+      "key": "first_night.receiver.packed",
+      "en": "left with belongings",
+      "ru": "оставлен с вещами"
+    },
+    {
+      "key": "first_night.receiver.carried",
+      "en": "carried",
+      "ru": "при вас"
+    },
+    {
+      "key": "first_night.controls",
+      "en": "A/D: walk   E: interact   Receiver: {0}, {1} ({2}%)\nLeft Shift: power when carried   Reading: A/D, Esc close   F1: language",
+      "ru": "A/D: идти   E: действие   Приёмник: {0}, {1} ({2}%)\nЛевая Shift: питание взятого радио   Чтение: A/D, Esc закрыть   F1: язык"
+    },
+    {
+      "key": "first_night.production.caption",
+      "en": "WORKING v02 — text-only program/movement. No new art/audio integration.",
+      "ru": "ЧЕРНОВОЙ v02 — эфир и движение переданы текстом. Новые графика и звук не подключены."
+    },
+    {
+      "key": "first_night.prompt.checkin",
+      "en": "E — current registration / clerk",
+      "ru": "E — текущая регистрация / разговор у стойки"
+    },
+    {
+      "key": "first_night.prompt.guestdoor",
+      "en": "E — enter your room",
+      "ru": "E — войти в свой номер"
+    },
+    {
+      "key": "first_night.prompt.retrieve",
+      "en": "E — take the receiver",
+      "ru": "E — взять приёмник"
+    },
+    {
+      "key": "first_night.prompt.review",
+      "en": "E — inspect bag / review your receiver",
+      "ru": "E — осмотреть сумку / послушать приёмник"
+    },
+    {
+      "key": "first_night.prompt.corridordoor",
+      "en": "E — go into the corridor",
+      "ru": "E — выйти в коридор"
+    },
+    {
+      "key": "first_night.prompt.return",
+      "en": "E — return to your room",
+      "ru": "E — вернуться в номер"
+    },
+    {
+      "key": "first_night.prompt.man",
+      "en": "E — speak to the man",
+      "ru": "E — поговорить с мужчиной"
+    },
+    {
+      "key": "first_night.prompt.look",
+      "en": "E — look around the empty corridor",
+      "ru": "E — осмотреть пустой коридор"
+    }
+  ]
+}
