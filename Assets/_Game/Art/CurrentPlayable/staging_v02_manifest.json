@@ -1,0 +1,462 @@
+{
+  "status": "WORKING staging v02 under approved first-night chronology",
+  "authority": "Docs/MOTEL_FIRST_NIGHT_V02.md / Designer task",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "worldViewProposal": [
+    8,
+    4.5
+  ],
+  "heroWorldHeight": 1.8,
+  "heroPixelHeight": 432,
+  "feetLineY": 924,
+  "movement": "horizontal only; floor depth does not add a walking axis",
+  "coordinates": "top-left rects in1920x1080; source bounds drawn into rect",
+  "assets": {
+    "door_closed": {
+      "file": "source/door_closed.png",
+      "bounds": [
+        0,
+        0,
+        637,
+        1297
+      ],
+      "textureSize": [
+        637,
+        1297
+      ],
+      "sha256": "d829650958cfbda62387baf8e5f82f36436cf89c8a11106d2a9c9961f69ddd98",
+      "reusedFrom": "../v01/source/door_closed.png"
+    },
+    "guest_room_plate": {
+      "file": "source/guest_room_plate.png",
+      "bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "textureSize": [
+        1672,
+        941
+      ],
+      "sha256": "0a73da7088b5ecf536362b5ff9df9ecdc8520226504ab2cc39ae81604d406743",
+      "reusedFrom": "../v01/source/guest_room_plate.png"
+    },
+    "hero_idle_right": {
+      "file": "source/hero_idle_right.png",
+      "bounds": [
+        0,
+        0,
+        197,
+        699
+      ],
+      "textureSize": [
+        197,
+        699
+      ],
+      "sha256": "0b6472918b69b3803333a3f8ebd12ecc3cdd894a8dc7343418d8ef8d74992929",
+      "reusedFrom": "../v01/source/hero_idle_right.png"
+    },
+    "lamp_on": {
+      "file": "source/lamp_on.png",
+      "bounds": [
+        0,
+        0,
+        1826,
+        265
+      ],
+      "textureSize": [
+        1826,
+        265
+      ],
+      "sha256": "3392fd74faf8d5a09ad411f3791085d14aff481d19c554cb7d6a5e337fa396a9",
+      "reusedFrom": "../v01/source/lamp_on.png"
+    },
+    "motel_background": {
+      "file": "source/motel_background.png",
+      "bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "textureSize": [
+        1672,
+        941
+      ],
+      "sha256": "7502f78f34a41996678d12e50df6f1948a64522b583ca273269e02ff99ea412b",
+      "reusedFrom": "../v01/source/motel_background.png"
+    },
+    "radio_portable": {
+      "file": "source/radio_portable.png",
+      "bounds": [
+        0,
+        0,
+        476,
+        1201
+      ],
+      "textureSize": [
+        476,
+        1201
+      ],
+      "sha256": "faf2f12e125e2828812ff6d679be88ffa3b0fa268893c96dc47037aea80c556b",
+      "reusedFrom": "../v01/source/radio_portable.png"
+    },
+    "reception_plate": {
+      "file": "source/reception_plate.png",
+      "bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "textureSize": [
+        1672,
+        941
+      ],
+      "sha256": "01b70839ab9998fc80f6b084fb0a550797af11d67914190dbaec747a743a8360",
+      "reusedFrom": "../v01/source/reception_plate.png"
+    },
+    "travel_bag": {
+      "file": "source/travel_bag.png",
+      "bounds": [
+        0,
+        0,
+        1117,
+        905
+      ],
+      "textureSize": [
+        1117,
+        905
+      ],
+      "sha256": "298c504c3fad94f0d8cc3133f3407fc81b4d8647a19bfe63318d86d634bd32a7",
+      "reusedFrom": "../v01/source/travel_bag.png"
+    },
+    "witness_idle_left": {
+      "file": "source/witness_idle_left.png",
+      "bounds": [
+        0,
+        0,
+        425,
+        1504
+      ],
+      "textureSize": [
+        425,
+        1504
+      ],
+      "sha256": "18048956dce21b15c0093173202d8f435683f418c5077b61c72db8e0a53da1bc",
+      "reusedFrom": "../v01/source/witness_idle_left.png"
+    }
+  },
+  "views": [
+    {
+      "name": "01_room_belongings_left",
+      "caption": "01  ROOM / RECEIVER LEFT BY BELONGINGS",
+      "possession": "receiver stays in room; OFF",
+      "layers": [
+        {
+          "asset": "guest_room_plate",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "travel_bag",
+          "rect": [
+            800,
+            771,
+            200,
+            153
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "radio_portable",
+          "rect": [
+            850,
+            581,
+            48,
+            121
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "hero_idle_right",
+          "rect": [
+            659.1244635193133,
+            492,
+            121.7510729613734,
+            432
+          ],
+          "shadow": true
+        }
+      ]
+    },
+    {
+      "name": "02_corridor_first_meeting",
+      "caption": "02  FIRST EXCURSION / ORDINARY CONVERSATION",
+      "possession": "hero has no receiver; receiver remains in room",
+      "layers": [
+        {
+          "asset": "motel_background",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "door_closed",
+          "rect": [
+            312.5,
+            272,
+            295,
+            600
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "lamp_on",
+          "rect": [
+            380,
+            232,
+            160,
+            23.2
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "door_closed",
+          "rect": [
+            1312.5,
+            272,
+            295,
+            600
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "lamp_on",
+          "rect": [
+            1380,
+            232,
+            160,
+            23.2
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "hero_idle_right",
+          "rect": [
+            739.1244635193133,
+            492,
+            121.7510729613734,
+            432
+          ],
+          "shadow": true
+        },
+        {
+          "asset": "witness_idle_left",
+          "rect": [
+            1157.2672872340427,
+            480,
+            125.46542553191489,
+            444
+          ],
+          "shadow": true
+        }
+      ]
+    },
+    {
+      "name": "03_room_receiver_retrieved",
+      "caption": "03  RETURN TO ROOM / RETRIEVE AND LISTEN",
+      "possession": "receiver carried; listening happens here; bag remains in room",
+      "layers": [
+        {
+          "asset": "guest_room_plate",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "travel_bag",
+          "rect": [
+            800,
+            771,
+            200,
+            153
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "hero_idle_right",
+          "rect": [
+            659.1244635193133,
+            492,
+            121.7510729613734,
+            432
+          ],
+          "shadow": true
+        },
+        {
+          "asset": "radio_portable",
+          "rect": [
+            761,
+            547,
+            48,
+            121
+          ],
+          "shadow": false
+        }
+      ]
+    },
+    {
+      "name": "04_corridor_return_empty",
+      "caption": "04  LATER RETURN / MAN LEFT WHILE UNOBSERVED",
+      "possession": "receiver carried; corridor remains empty with either power state",
+      "layers": [
+        {
+          "asset": "motel_background",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "door_closed",
+          "rect": [
+            312.5,
+            272,
+            295,
+            600
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "lamp_on",
+          "rect": [
+            380,
+            232,
+            160,
+            23.2
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "door_closed",
+          "rect": [
+            1312.5,
+            272,
+            295,
+            600
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "lamp_on",
+          "rect": [
+            1380,
+            232,
+            160,
+            23.2
+          ],
+          "shadow": false
+        },
+        {
+          "asset": "hero_idle_right",
+          "rect": [
+            739.1244635193133,
+            492,
+            121.7510729613734,
+            432
+          ],
+          "shadow": true
+        },
+        {
+          "asset": "radio_portable",
+          "rect": [
+            841,
+            547,
+            48,
+            121
+          ],
+          "shadow": false
+        }
+      ]
+    }
+  ],
+  "layerExports": [
+    {
+      "name": "room_base",
+      "layers": [
+        {
+          "asset": "guest_room_plate",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "shadow": false
+        }
+      ]
+    },
+    {
+      "name": "room_bag",
+      "layers": [
+        {
+          "asset": "travel_bag",
+          "rect": [
+            800,
+            771,
+            200,
+            153
+          ],
+          "shadow": false
+        }
+      ]
+    },
+    {
+      "name": "room_receiver_on_table",
+      "layers": [
+        {
+          "asset": "radio_portable",
+          "rect": [
+            850,
+            581,
+            48,
+            121
+          ],
+          "shadow": false
+        }
+      ]
+    }
+  ],
+  "chronologyRule": "Man leaves while hero is back in room after conversation; later absence is independent of ON/OFF. No visible disappearance is depicted.",
+  "layerRule": "Hide only room_receiver_on_table after retrieval. Keep room_bag. Add the carried receiver to hero. Bag is independently removable only if a later authored action requires it.",
+  "receiverVisual": "Same ordinary receiver sprite. No added glow or light changes. ON/OFF is not inferred from this painted scale.",
+  "newPaintedAssets": [],
+  "unityChanges": false,
+  "unityEditorTested": false,
+  "limitations": [
+    "Room furniture, door and lamp remain baked into reused conceptual base.",
+    "Only bag and receiver separation is delivered; no new inventory UI, morning scene or character designs.",
+    "Fixed prototype hand pose reused; no new carrying animation is claimed."
+  ]
+}

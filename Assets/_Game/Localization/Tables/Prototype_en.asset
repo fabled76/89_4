@@ -515,6 +515,254 @@ MonoBehaviour:
     m_Localized: "E \u2014 look around the empty corridor"
     m_Metadata:
       m_Items: []
+  - m_Id: 264371565367296
+    m_Localized: 'EDITOR: "Your envelope arrived?"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281856
+    m_Localized: 'JOURNALIST: "The assignment did. The payment didn''t."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281857
+    m_Localized: 'EDITOR: "Accounts have it."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281858
+    m_Localized: 'JOURNALIST: "They had it last week."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281859
+    m_Localized: 'EDITOR: "I''ve put an advance on this one."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281860
+    m_Localized: 'JOURNALIST: "What''s the story?"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281861
+    m_Localized: 'EDITOR: "Local radio presenter. Reported missing. A reader sent
+      us the cutting."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281862
+    m_Localized: 'JOURNALIST: "Why us?"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281863
+    m_Localized: 'EDITOR: "They wrote to three papers. We answered."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281864
+    m_Localized: 'JOURNALIST: "What have you checked?"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281865
+    m_Localized: 'EDITOR: "Enough to send someone. The rest is your job."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281866
+    m_Localized: 'JOURNALIST: "Travel?"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281867
+    m_Localized: 'EDITOR: "Return fare. One night at the motel. The booking''s in
+      the envelope."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281868
+    m_Localized: 'JOURNALIST: "And if it takes longer?"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281869
+    m_Localized: 'EDITOR: "Call me when you have something."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281870
+    m_Localized: 'JOURNALIST: "I''ll call when I know something."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281871
+    m_Localized: 'EDITOR: "Fine. Keep the receipts."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281872
+    m_Localized: 'Assignment: [TOWN_NAME]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281873
+    m_Localized: 'A presenter at [STATION_NAME] has been reported missing.
+
+
+      A
+      reader asks why the station has made no announcement about a replacement. This
+      has not been independently verified.
+
+
+      Establish the presenter''s last
+      confirmed movements. Speak to the station and seek corroboration outside it.
+
+
+      Expenses
+      authorized: return fare and one night at [MOTEL_NAME]. Booking enclosed.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281874
+    m_Localized: 'JOURNALIST: "No announcement isn''t proof of anything. Start with
+      the people who worked with them."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281875
+    m_Localized: 'JOURNALIST: "They kept the headline. Cut my name."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281876
+    m_Localized: 'JOURNALIST: "Take this. See what their station sounds like when
+      I get there."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281877
+    m_Localized: 'JOURNALIST: "I''d better read what they''re paying for."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281878
+    m_Localized: 'JOURNALIST: "Check in. Find out when the station opens."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281879
+    m_Localized: Answer the telephone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281880
+    m_Localized: Review the assignment.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281881
+    m_Localized: Take your things.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281882
+    m_Localized: Leave for [TOWN_NAME].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281883
+    m_Localized: Leave for the assignment.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281884
+    m_Localized: Published cutting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281885
+    m_Localized: Telephone conversation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281886
+    m_Localized: Portable receiver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281887
+    m_Localized: A working portable receiver.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281888
+    m_Localized: The Assignment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281889
+    m_Localized: 'A/D: walk   E: interact   Left Shift: radio {0}
+
+      A: previous
+      page   D: next   Esc: close   F1: language'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281890
+    m_Localized: ON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281891
+    m_Localized: OFF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281892
+    m_Localized: the town
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281893
+    m_Localized: the local station
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281894
+    m_Localized: the motel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281895
+    m_Localized: "E \u2014 answer the telephone"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281896
+    m_Localized: "E \u2014 review the assignment"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281897
+    m_Localized: "E \u2014 inspect published cutting"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281898
+    m_Localized: "E \u2014 inspect the receiver"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281899
+    m_Localized: "E \u2014 prepare travel bag"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281900
+    m_Localized: "E \u2014 review the packed assignment"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281901
+    m_Localized: "E \u2014 leave"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281902
+    m_Localized: Finish the telephone conversation before leaving.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281903
+    m_Localized: Finish reviewing the assignment before leaving.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281904
+    m_Localized: Prepare the travel bag before leaving.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281905
+    m_Localized: The folder and receiver are packed. You can review the assignment
+      at the bag before using the exit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281906
+    m_Localized: Later
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281907
+    m_Localized: Check in.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281908
+    m_Localized: '[You tune the portable radio ON.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264371628281909
+    m_Localized: 'PROTOTYPE BRIDGE: Reception/check-in and permission to read the
+      guest ledger are not implemented. No registration has occurred. Space/Enter
+      opens the existing corridor test; this does not establish access to private
+      records.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 612165945790464
+    m_Localized: 'WORKING audio: announcement and receiver texture; music break pending.'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

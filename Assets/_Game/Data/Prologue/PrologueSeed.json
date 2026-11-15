@@ -1,0 +1,279 @@
+{
+  "entries": [
+    {
+      "key": "prologue.call.01",
+      "en": "EDITOR: \"Your envelope arrived?\"",
+      "ru": "РЕДАКТОР: «Конверт дошёл?»"
+    },
+    {
+      "key": "prologue.call.02",
+      "en": "JOURNALIST: \"The assignment did. The payment didn't.\"",
+      "ru": "ЖУРНАЛИСТ: «Задание — да. Деньги — нет.»"
+    },
+    {
+      "key": "prologue.call.03",
+      "en": "EDITOR: \"Accounts have it.\"",
+      "ru": "РЕДАКТОР: «Бухгалтерия занимается.»"
+    },
+    {
+      "key": "prologue.call.04",
+      "en": "JOURNALIST: \"They had it last week.\"",
+      "ru": "ЖУРНАЛИСТ: «На прошлой неделе она тоже занималась.»"
+    },
+    {
+      "key": "prologue.call.05",
+      "en": "EDITOR: \"I've put an advance on this one.\"",
+      "ru": "РЕДАКТОР: «На этот раз я включил аванс.»"
+    },
+    {
+      "key": "prologue.call.06",
+      "en": "JOURNALIST: \"What's the story?\"",
+      "ru": "ЖУРНАЛИСТ: «Что за история?»"
+    },
+    {
+      "key": "prologue.call.07",
+      "en": "EDITOR: \"Local radio presenter. Reported missing. A reader sent us the cutting.\"",
+      "ru": "РЕДАКТОР: «Местный радиоведущий. Заявили о пропаже. Читатель прислал вырезку.»"
+    },
+    {
+      "key": "prologue.call.08",
+      "en": "JOURNALIST: \"Why us?\"",
+      "ru": "ЖУРНАЛИСТ: «Почему мы?»"
+    },
+    {
+      "key": "prologue.call.09",
+      "en": "EDITOR: \"They wrote to three papers. We answered.\"",
+      "ru": "РЕДАКТОР: «Написали в три газеты. Мы ответили.»"
+    },
+    {
+      "key": "prologue.call.10",
+      "en": "JOURNALIST: \"What have you checked?\"",
+      "ru": "ЖУРНАЛИСТ: «Что вы проверили?»"
+    },
+    {
+      "key": "prologue.call.11",
+      "en": "EDITOR: \"Enough to send someone. The rest is your job.\"",
+      "ru": "РЕДАКТОР: «Достаточно, чтобы кого-то послать. Остальное — твоя работа.»"
+    },
+    {
+      "key": "prologue.call.12",
+      "en": "JOURNALIST: \"Travel?\"",
+      "ru": "ЖУРНАЛИСТ: «Дорога?»"
+    },
+    {
+      "key": "prologue.call.13",
+      "en": "EDITOR: \"Return fare. One night at the motel. The booking's in the envelope.\"",
+      "ru": "РЕДАКТОР: «Проезд туда и обратно. Одна ночь в мотеле. Бронь в конверте.»"
+    },
+    {
+      "key": "prologue.call.14",
+      "en": "JOURNALIST: \"And if it takes longer?\"",
+      "ru": "ЖУРНАЛИСТ: «А если понадобится больше времени?»"
+    },
+    {
+      "key": "prologue.call.15",
+      "en": "EDITOR: \"Call me when you have something.\"",
+      "ru": "РЕДАКТОР: «Позвони, когда что-нибудь будет.»"
+    },
+    {
+      "key": "prologue.call.16",
+      "en": "JOURNALIST: \"I'll call when I know something.\"",
+      "ru": "ЖУРНАЛИСТ: «Позвоню, когда что-нибудь узнаю.»"
+    },
+    {
+      "key": "prologue.call.17",
+      "en": "EDITOR: \"Fine. Keep the receipts.\"",
+      "ru": "РЕДАКТОР: «Ладно. Сохраняй чеки.»"
+    },
+    {
+      "key": "prologue.case.title",
+      "en": "Assignment: [TOWN_NAME]",
+      "ru": "Задание: [TOWN_NAME]"
+    },
+    {
+      "key": "prologue.case.body",
+      "en": "A presenter at [STATION_NAME] has been reported missing.\n\nA reader asks why the station has made no announcement about a replacement. This has not been independently verified.\n\nEstablish the presenter's last confirmed movements. Speak to the station and seek corroboration outside it.\n\nExpenses authorized: return fare and one night at [MOTEL_NAME]. Booking enclosed.",
+      "ru": "Ведущий [STATION_NAME] объявлен пропавшим.\n\nЧитатель спрашивает, почему радиостанция не объявила о замене. Независимого подтверждения этому пока нет.\n\nУстановите последние подтверждённые передвижения ведущего. Поговорите с сотрудниками станции и найдите независимые подтверждения за её пределами.\n\nРазрешённые расходы: проезд туда и обратно и одна ночь в [MOTEL_NAME]. Бронь прилагается."
+    },
+    {
+      "key": "prologue.case.observation",
+      "en": "JOURNALIST: \"No announcement isn't proof of anything. Start with the people who worked with them.\"",
+      "ru": "ЖУРНАЛИСТ: «Отсутствие объявления ничего не доказывает. Начну с тех, кто с ним работал»."
+    },
+    {
+      "key": "prologue.article.observation",
+      "en": "JOURNALIST: \"They kept the headline. Cut my name.\"",
+      "ru": "ЖУРНАЛИСТ: «Заголовок оставили. Моё имя вырезали»."
+    },
+    {
+      "key": "prologue.radio.observation",
+      "en": "JOURNALIST: \"Take this. See what their station sounds like when I get there.\"",
+      "ru": "ЖУРНАЛИСТ: «Возьму его. Послушаю их станцию, когда доберусь»."
+    },
+    {
+      "key": "prologue.bag.early",
+      "en": "JOURNALIST: \"I'd better read what they're paying for.\"",
+      "ru": "ЖУРНАЛИСТ: «Лучше прочитать, за что мне собираются платить»."
+    },
+    {
+      "key": "prologue.arrival.line",
+      "en": "JOURNALIST: \"Check in. Find out when the station opens.\"",
+      "ru": "ЖУРНАЛИСТ: «Зарегистрироваться. Узнать, когда открывается станция»."
+    },
+    {
+      "key": "prologue.objective.answer_phone",
+      "en": "Answer the telephone.",
+      "ru": "Ответить на телефонный звонок."
+    },
+    {
+      "key": "prologue.objective.review_case",
+      "en": "Review the assignment.",
+      "ru": "Изучить задание."
+    },
+    {
+      "key": "prologue.objective.prepare",
+      "en": "Take your things.",
+      "ru": "Собрать вещи."
+    },
+    {
+      "key": "prologue.objective.leave",
+      "en": "Leave for [TOWN_NAME].",
+      "ru": "Отправиться в [TOWN_NAME]."
+    },
+    {
+      "key": "prologue.objective.leave_fallback",
+      "en": "Leave for the assignment.",
+      "ru": "Отправиться на задание."
+    },
+    {
+      "key": "prologue.article.title",
+      "en": "Published cutting",
+      "ru": "Газетная вырезка"
+    },
+    {
+      "key": "prologue.call.title",
+      "en": "Telephone conversation",
+      "ru": "Телефонный разговор"
+    },
+    {
+      "key": "prologue.radio.title",
+      "en": "Portable receiver",
+      "ru": "Переносной приёмник"
+    },
+    {
+      "key": "prologue.radio.before_case",
+      "en": "A working portable receiver.",
+      "ru": "Обычный работающий переносной приёмник."
+    },
+    {
+      "key": "prologue.ui.title",
+      "en": "The Assignment",
+      "ru": "Задание"
+    },
+    {
+      "key": "prologue.ui.controls",
+      "en": "A/D: walk   E: interact   Left Shift: radio {0}\nA: previous page   D: next   Esc: close   F1: language",
+      "ru": "A/D: идти   E: действие   Left Shift: радио {0}\nA: назад   D: далее   Esc: закрыть   F1: язык"
+    },
+    {
+      "key": "prologue.radio.on",
+      "en": "ON",
+      "ru": "ВКЛ"
+    },
+    {
+      "key": "prologue.radio.off",
+      "en": "OFF",
+      "ru": "ВЫКЛ"
+    },
+    {
+      "key": "prologue.name.town",
+      "en": "the town",
+      "ru": "город"
+    },
+    {
+      "key": "prologue.name.station",
+      "en": "the local station",
+      "ru": "местной радиостанции"
+    },
+    {
+      "key": "prologue.name.motel",
+      "en": "the motel",
+      "ru": "мотеле"
+    },
+    {
+      "key": "prologue.prompt.phone",
+      "en": "E — answer the telephone",
+      "ru": "E — ответить на звонок"
+    },
+    {
+      "key": "prologue.prompt.case",
+      "en": "E — review the assignment",
+      "ru": "E — изучить задание"
+    },
+    {
+      "key": "prologue.prompt.article",
+      "en": "E — inspect published cutting",
+      "ru": "E — осмотреть вырезку"
+    },
+    {
+      "key": "prologue.prompt.radio",
+      "en": "E — inspect the receiver",
+      "ru": "E — осмотреть приёмник"
+    },
+    {
+      "key": "prologue.prompt.bag",
+      "en": "E — prepare travel bag",
+      "ru": "E — собрать дорожную сумку"
+    },
+    {
+      "key": "prologue.prompt.bag_review",
+      "en": "E — review the packed assignment",
+      "ru": "E — перечитать задание в сумке"
+    },
+    {
+      "key": "prologue.prompt.exit",
+      "en": "E — leave",
+      "ru": "E — выйти"
+    },
+    {
+      "key": "prologue.hint.call_required",
+      "en": "Finish the telephone conversation before leaving.",
+      "ru": "Прежде чем уехать, закончите телефонный разговор."
+    },
+    {
+      "key": "prologue.hint.case_required",
+      "en": "Finish reviewing the assignment before leaving.",
+      "ru": "Прежде чем уехать, дочитайте задание."
+    },
+    {
+      "key": "prologue.hint.pack_required",
+      "en": "Prepare the travel bag before leaving.",
+      "ru": "Прежде чем уехать, соберите дорожную сумку."
+    },
+    {
+      "key": "prologue.bag.prepared",
+      "en": "The folder and receiver are packed. You can review the assignment at the bag before using the exit.",
+      "ru": "Папка и приёмник уложены. Перед выходом задание можно перечитать у сумки."
+    },
+    {
+      "key": "prologue.transition.later",
+      "en": "Later",
+      "ru": "Позже"
+    },
+    {
+      "key": "prologue.arrival.check_in",
+      "en": "Check in.",
+      "ru": "Зарегистрироваться."
+    },
+    {
+      "key": "prologue.arrival.tuning_caption",
+      "en": "[You tune the portable radio ON.]",
+      "ru": "[Вы настраиваете и включаете переносное радио.]"
+    },
+    {
+      "key": "prologue.arrival.prototype_bridge",
+      "en": "PROTOTYPE BRIDGE: Reception/check-in and permission to read the guest ledger are not implemented. No registration has occurred. Space/Enter opens the existing corridor test; this does not establish access to private records.",
+      "ru": "ПЕРЕХОД ПРОТОТИПА: стойка регистрации и разрешение читать гостевую книгу пока не реализованы. Регистрация не состоялась. Пробел/Enter открывает существующий тест коридора; это не даёт сюжетного доступа к личным записям."
+    }
+  ]
+}

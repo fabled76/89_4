@@ -17,6 +17,7 @@ namespace DeadAir
         [SerializeField] private string motelNameKey;
         [SerializeField] private string targetScenePath = "Assets/_Game/Scenes/MotelCorridor_ArtTrial.unity";
         [SerializeField, Min(.1f)] private float travelSeconds = 1.5f;
+        [SerializeField, Tooltip("Current first-night route: playable reception, packed/OFF receiver, no legacy bridge or tuning cue.")] private bool playableCheckInArrival;
         public EvidenceDefinition Call => call;
         public EvidenceDefinition CaseSummary => caseSummary;
         public EvidenceDefinition Article => article;
@@ -24,6 +25,7 @@ namespace DeadAir
         public EvidenceDefinition RadioAfterCase => radioAfterCase;
         public string TargetScenePath => targetScenePath;
         public float TravelSeconds => travelSeconds;
+        public bool PlayableCheckInArrival => playableCheckInArrival;
         public string LeaveObjective => string.IsNullOrWhiteSpace(townNameKey)
             ? PrototypeText.Get("prologue.objective.leave_fallback") : Text("prologue.objective.leave");
         public string Text(string key) => Format(PrototypeText.Get(key));

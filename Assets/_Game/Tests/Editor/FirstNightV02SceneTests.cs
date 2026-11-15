@@ -33,7 +33,7 @@ namespace DeadAir.Tests
                 Assert.That(new SerializedObject(radio).FindProperty("startPoweredOn").boolValue, Is.False);
                 Assert.That(radio.GetComponent<RadioInput>().enabled, Is.False);
                 Assert.That(scene.GetRootGameObjects().SelectMany(root => root.GetComponentsInChildren<AudioSource>(true)), Is.Empty);
-                Assert.That(EditorBuildSettings.scenes[0].path, Is.EqualTo("Assets/Scenes/SampleScene.unity"));
+                Assert.That(EditorBuildSettings.scenes[0].path, Is.EqualTo(CurrentPlayableInstaller.Entry));
             }
             finally { if (!loaded) EditorSceneManager.CloseScene(scene, true); }
         }

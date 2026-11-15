@@ -1,0 +1,1 @@
+Working artwork supplied by the designer. Runtime PNGs copied unchanged from output/art/motel_arrival_trial/v03_floor_integration/runtime; reception from v02/source. SHA-256 checked against both manifests. Home, guest and corridor backgrounds use the corrected floor pack. See retained manifests for origins and limitations. No new image generation or edits by the programmer.
