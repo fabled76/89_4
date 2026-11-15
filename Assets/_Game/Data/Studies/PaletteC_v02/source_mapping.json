@@ -1,0 +1,37 @@
+[
+  {
+    "id": "base_clean",
+    "source": "output/art/visual_direction_comparison/palette_C_pilot_v01/material_revision_v02/runtime/base_clean.png",
+    "target": "Assets/_Game/Art/Studies/PaletteC_v02/base_clean.png",
+    "sha256": "8f4a0bf0916092f1b14ed22e5684bf486c061e04cada5691f2f9f8156113bb2a"
+  },
+  {
+    "id": "receiver_shadow",
+    "source": "output/art/visual_direction_comparison/palette_C_pilot_v01/material_revision_v02/runtime/receiver_shadow.png",
+    "target": "Assets/_Game/Art/Studies/PaletteC_v02/receiver_shadow.png",
+    "sha256": "025ac8866c3a7f0a6fea877fe2f5403dcbb1f3f7380d950b62c94fdc4d03aae6"
+  },
+  {
+    "id": "receiver",
+    "source": "output/art/visual_direction_comparison/palette_C_pilot_v01/material_revision_v02/runtime/receiver.png",
+    "target": "Assets/_Game/Art/Studies/PaletteC_v02/receiver.png",
+    "sha256": "1499092a681bf9d1fb610706c7ef60e0b71ca6463529afb6f7b7e735d17e0ccb"
+  },
+  {
+    "id": "character_contact_shadow",
+    "source": "output/art/visual_direction_comparison/palette_C_pilot_v01/material_revision_v02/runtime/character_contact_shadow.png",
+    "target": "Assets/_Game/Art/Studies/PaletteC_v02/character_contact_shadow.png",
+    "sha256": "9c42148bbd600bb6782eb83a985c00a723cec20117122f163e763e27ca3f4130"
+  },
+  {
+    "id": "reference_person",
+    "source": "output/art/visual_direction_comparison/palette_C_pilot_v01/material_revision_v02/runtime/reference_person.png",
+    "target": "Assets/_Game/Art/Studies/PaletteC_v02/reference_person.png",
+    "sha256": "996bd05c3b9ae7ba7bae9d9fee013b4cd9701cbaa5e6c56b93f083cea1f47994"
+  },
+  {
+    "manifestSHA256": "d12e12bafa4cf1c65772ed857fbe5fba4c7af8bd0faf3b9823caca519451b0dd",
+    "handoffSHA256": "23258a4bc079eacea6195990768b186cc18811110dd90338a46a62f450b39a3d",
+    "deliveryVersion": "material_revision_v02"
+  }
+]

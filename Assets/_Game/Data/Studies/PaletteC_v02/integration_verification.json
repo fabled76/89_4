@@ -1,0 +1,152 @@
+{
+  "version": "material_revision_v02",
+  "result": "PASS",
+  "unity": "6000.3.8f1",
+  "editMode": {
+    "passed": 2,
+    "failed": 0
+  },
+  "playMode": {
+    "passed": 2,
+    "failed": 0
+  },
+  "referenceComparisons": {
+    "reference-present-1920.png": {
+      "maxChannelError255": 1,
+      "meanChannelError255": 0.00019290123456790122
+    },
+    "reference-removed-1920.png": {
+      "maxChannelError255": 1,
+      "meanChannelError255": 0.00018164866255144033
+    }
+  },
+  "removalComparisons": {
+    "1280": {
+      "changedPixels": 883,
+      "changedBoundsXYXYInclusive": [
+        526,
+        344,
+        607,
+        406
+      ],
+      "outsideReceiverRegionUnchanged": true
+    },
+    "960": {
+      "changedPixels": 534,
+      "changedBoundsXYXYInclusive": [
+        394,
+        258,
+        455,
+        304
+      ],
+      "outsideReceiverRegionUnchanged": true
+    }
+  },
+  "sourceHashes": {
+    "base_clean": "8f4a0bf0916092f1b14ed22e5684bf486c061e04cada5691f2f9f8156113bb2a",
+    "receiver_shadow": "025ac8866c3a7f0a6fea877fe2f5403dcbb1f3f7380d950b62c94fdc4d03aae6",
+    "receiver": "1499092a681bf9d1fb610706c7ef60e0b71ca6463529afb6f7b7e735d17e0ccb",
+    "character_contact_shadow": "9c42148bbd600bb6782eb83a985c00a723cec20117122f163e763e27ca3f4130",
+    "reference_person": "996bd05c3b9ae7ba7bae9d9fee013b4cd9701cbaa5e6c56b93f083cea1f47994"
+  },
+  "captures": {
+    "TestResults/ArtPaletteCPilot/v02/desk-receiver-removed-1280.png": {
+      "sha256": "842152a20c27a4abccd5569e89614cf86d5f18d3587147228716d061a08e5e38",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v02/desk-receiver-removed-960.png": {
+      "sha256": "ddb9ecd11f2c638b387e5faecc60914954435d574736c21d311ecf559c440ec9",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v02/desk-receiver-restored-1280.png": {
+      "sha256": "2a452300346724727eaab0d3c6355236626b4b5ac33e4d1efffaa8c6a5ad1a6c",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v02/desk-receiver-restored-960.png": {
+      "sha256": "3f4da732175b2adb4da48b9334f10a821b9061f955e1d443bd1977540834ad40",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v02/position-1-1280.png": {
+      "sha256": "8872bb1c35d48ae5968da5da637d683a7dc230a38f530b9e4c85dde6323f610a",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v02/position-1-960.png": {
+      "sha256": "e8063807fa8e3c9b130499246a65b49729035822af985a6e2686e5a34f96bdee",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v02/position-2-1280.png": {
+      "sha256": "b53c3ac5c6b95084565a2e45f57f5bd3823e1f1dc7a7cdb5816201a5c4730208",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v02/position-2-960.png": {
+      "sha256": "d9373cc5d637b173d3bcc800aa6e3f75737375c1ecf607a31c5b0d3bf107c94c",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v02/position-3-1280.png": {
+      "sha256": "a41815eba2c73f8e32e6b1d0fcfebe9fdebc9f10641a75e0eeb75c6288d22780",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v02/position-3-960.png": {
+      "sha256": "d6c45138a5e632efa4d3e7dd78c028a999b5e157fce9a2c93243fab569134513",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v02/reference-present-1920.png": {
+      "sha256": "7e8004cc2fc84f471fdb69c25620e565d25fc5ab7ba7adce5781b12bdd222e80",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v02/reference-removed-1920.png": {
+      "sha256": "af72bacb7e71e92f547f4b8dded6bec953b9c9777d2199a6f36a3c4f12b96354",
+      "size": [
+        1920,
+        1080
+      ]
+    }
+  },
+  "limits": [
+    "Static translated neutral reference, not walking animation",
+    "Translated local contact profile, not dynamic lighting",
+    "No isolated second photographic prop supplied",
+    "v02 technical baseline; v03 and final style approval separate",
+    "Batchmode camera renders inspected, no new interactive human Editor session"
+  ],
+  "integratedSceneSHA256": "0d0529e2b72ea8b3352d51b380c134324c79a7cdcc0907ae09b6feec9a5d649e",
+  "pinnedManifestSHA256": "d12e12bafa4cf1c65772ed857fbe5fba4c7af8bd0faf3b9823caca519451b0dd",
+  "pinnedHandoffSHA256": "23258a4bc079eacea6195990768b186cc18811110dd90338a46a62f450b39a3d",
+  "testReportsSHA256": {
+    "TestResults\\art-palette-c-v02-editmode.xml": "984f0d938136f86c794fddc7eb2c34ec0fcc0a8968566d5dcde0443c814ad14e",
+    "TestResults\\art-palette-c-v02-playmode.xml": "7cdbc4652c4dd4d32ebb9a9c6600e1e4d3cf7c2c9c0cb62c7417a4f61f257354"
+  }
+}

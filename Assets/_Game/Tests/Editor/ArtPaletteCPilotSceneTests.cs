@@ -10,7 +10,7 @@ namespace DeadAir.Tests
     public sealed class ArtPaletteCPilotSceneTests
     {
         [Test]
-        public void IsolatedPilotReusesSavedGeometryAndCameraWithoutArtSubstitution()
+        public void IntegratedV02KeepsMeasuredGeometryAndCameraAndUsesFivePrelitLayers()
         {
             const string pilot = "Assets/_Game/Scenes/Studies/ArtPilot_PaletteC.unity";
             EditorSceneManager.OpenScene("Assets/_Game/Scenes/Studies/VisualBlockout.unity");
@@ -31,12 +31,27 @@ namespace DeadAir.Tests
             Assert.That(Camera.main.transform.position, Is.EqualTo(cameraPosition));
             Assert.That(Camera.main.transform.rotation, Is.EqualTo(rotation));
             Assert.That(Camera.main.orthographicSize, Is.EqualTo(2.25f));
-            Assert.That(Object.FindObjectsByType<SpriteRenderer>(FindObjectsSortMode.None), Is.Empty, "No old comparison screenshot substituted");
+            Assert.That(meshes.All(mesh => !mesh.GetComponent<MeshRenderer>().enabled), Is.True, "Superseded meshes must not leak through art");
+            var sprites = Object.FindObjectsByType<SpriteRenderer>(FindObjectsSortMode.None);
+            Assert.That(sprites.Length, Is.EqualTo(5));
+            foreach (var sprite in sprites)
+            {
+                string path = AssetDatabase.GetAssetPath(sprite.sprite);
+                Assert.That(path.StartsWith("Assets/_Game/Art/Studies/PaletteC_v02/"), Is.True);
+                var importer = (TextureImporter)AssetImporter.GetAtPath(path);
+                Assert.That(importer.sRGBTexture && !importer.mipmapEnabled, Is.True);
+                Assert.That(importer.textureCompression, Is.EqualTo(TextureImporterCompression.Uncompressed));
+                Assert.That(sprite.sprite.rect.size, Is.EqualTo(new Vector2(1920, 1080)));
+                Assert.That(sprite.sprite.pixelsPerUnit, Is.EqualTo(240));
+                Assert.That(Quaternion.Angle(sprite.transform.rotation, rotation), Is.LessThan(.001f));
+                Assert.That(Vector3.Distance(sprite.transform.lossyScale, Vector3.one), Is.LessThan(.00001f));
+                Assert.That(sprite.sharedMaterial.shader.name, Is.EqualTo("Universal Render Pipeline/2D/Sprite-Unlit-Default"));
+            }
             Assert.That(Object.FindObjectsByType<Light>(FindObjectsSortMode.None), Is.Empty);
             Assert.That(EditorBuildSettings.scenes.Any(scene => scene.path == pilot), Is.False);
             var toggle = new SerializedObject(Object.FindFirstObjectByType<ArtPilotReceiverToggle>());
             Assert.That(toggle.FindProperty("receiverVisual").objectReferenceValue, Is.Not.Null);
-            Assert.That(toggle.FindProperty("receiverShadow").objectReferenceValue, Is.Null, "Actual designer shadow is pending, not fabricated");
+            Assert.That(toggle.FindProperty("receiverShadow").objectReferenceValue, Is.Not.Null);
         }
     }
 }

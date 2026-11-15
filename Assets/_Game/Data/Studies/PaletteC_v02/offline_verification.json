@@ -1,0 +1,83 @@
+{
+  "result": "PASS",
+  "scope": "Offline final art-layer delivery, not Unity integration/art approval",
+  "maximumAnchorDeltaPixels": 0.00015926361083984375,
+  "geometryTransformsUnchangedDuringMaterialRevision": true,
+  "linearAssemblyMaxRGBError": 0,
+  "receiverRemovalChangesOnlyItsLayers": true,
+  "receiverShadowBodyOverlapPixels": 0,
+  "receiverAlphaSupportMatchesBlenderVisibleMask": true,
+  "nativeRoomReconstruction": {
+    "meanRGBError": 0.0333397633744856,
+    "maxRGBError": 9,
+    "pixelsAbove8Levels": 1,
+    "note": "Small sampling/denoiser/threshold difference; not a geometry or material-approval score."
+  },
+  "sourceMapsVerified": 9,
+  "legacyHeroAlphaUnchanged": true,
+  "alpha": {
+    "base_clean": {
+      "min": 255,
+      "max": 255,
+      "nonzeroPixels": 2073600,
+      "bboxAlpha1": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "8f4a0bf0916092f1b14ed22e5684bf486c061e04cada5691f2f9f8156113bb2a"
+    },
+    "receiver_shadow": {
+      "min": 0,
+      "max": 199,
+      "nonzeroPixels": 333,
+      "bboxAlpha1": [
+        789,
+        592,
+        912,
+        610
+      ],
+      "sha256": "025ac8866c3a7f0a6fea877fe2f5403dcbb1f3f7380d950b62c94fdc4d03aae6"
+    },
+    "receiver": {
+      "min": 0,
+      "max": 255,
+      "nonzeroPixels": 1573,
+      "bboxAlpha1": [
+        841,
+        517,
+        887,
+        604
+      ],
+      "sha256": "1499092a681bf9d1fb610706c7ef60e0b71ca6463529afb6f7b7e735d17e0ccb"
+    },
+    "character_contact_shadow": {
+      "min": 0,
+      "max": 231,
+      "nonzeroPixels": 12927,
+      "bboxAlpha1": [
+        1086,
+        800,
+        1295,
+        884
+      ],
+      "sha256": "9c42148bbd600bb6782eb83a985c00a723cec20117122f163e763e27ca3f4130"
+    },
+    "reference_person": {
+      "min": 0,
+      "max": 255,
+      "nonzeroPixels": 39777,
+      "bboxAlpha1": [
+        1098,
+        401,
+        1254,
+        828
+      ],
+      "sha256": "996bd05c3b9ae7ba7bae9d9fee013b4cd9701cbaa5e6c56b93f083cea1f47994"
+    }
+  },
+  "visualReview": "Neutral composite, detail crop, optional legacy, receiver-off and diagnostic reviewed at delivered size.",
+  "unityImportedOrTestedByDesigner": false,
+  "finalStyleApproved": false
+}
