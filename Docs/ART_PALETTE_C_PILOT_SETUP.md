@@ -73,3 +73,9 @@ Preserved SHA256: VisualBlockout B0179DF416E1BA5644DFB5FBEA0E6B623CCA331F288E2EC
 ## v04 delivery gate
 
 At the end of the v03 refresh, `material_revision_v04/manifest.json` and `HANDOFF.md` were not published. No intermediate v04 layers were read or imported, and no substitute human/art was made. Once its complete versioned package is published READY, verify every referenced file/hash and its explicit revised occlusion contract, then perform a separate integration/capture/commit. Until that delivery the live ArtPilot remains pinned v03. Existing gameplay route, sound, rules, inventory and save behavior are untouched.
+
+## Latest assignment: prioritize v05
+
+The preceding gate records the historical v03 refresh. v04 has since been published offline; its HANDOFF/source/provenance are retained and inspected, **not imported**. Under ART_PILOT_SILVER_PINES_BENCHMARK_V05.md, prioritize the complete v05 slice instead of a disposable full v04 import. The active Unity scene remains verified v03, commit f891631.
+
+Existing movement/animation support and precise artist requirements are documented in `ART_PILOT_V05_PROGRAMMER_CONTRACT.md`. There is currently no authored walk/listening playback; no speculative framework, new recording package or replacement art was created. v05 camera/layout may change, so old transforms/PPU/actor IDs will not be assumed compatible. Actual v05 import, listening interaction, motion/capture checks and integration commit remain gated on its complete published manifest/HANDOFF/frame set. No new Unity test result is claimed for this documentation-only contract inspection.
