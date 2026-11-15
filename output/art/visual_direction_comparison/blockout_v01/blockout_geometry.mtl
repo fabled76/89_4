@@ -1,0 +1,223 @@
+# Neutral comparison materials, not a final art palette
+newmtl Bed_0
+Kd 0.699999988 0.699999988 0.699999988
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Bed_1
+Kd 0.579999983 0.579999983 0.579999983
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Bed_2
+Kd 0.5 0.5 0.5
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Bed_3
+Kd 0.439999968 0.439999968 0.439999968
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Calibration_OutsideFrame_0
+Kd 0.670000017 0.670000017 0.670000017
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Calibration_OutsideFrame_1
+Kd 0.549999952 0.549999952 0.549999952
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Calibration_OutsideFrame_2
+Kd 0.469999969 0.469999969 0.469999969
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Calibration_OutsideFrame_3
+Kd 0.409999996 0.409999996 0.409999996
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Chair_0
+Kd 0.5 0.5 0.5
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Chair_1
+Kd 0.379999936 0.379999936 0.379999936
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Chair_2
+Kd 0.299999982 0.299999982 0.299999982
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Chair_3
+Kd 0.23999995 0.23999995 0.23999995
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Desk_0
+Kd 0.569999933 0.569999933 0.569999933
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Desk_1
+Kd 0.449999988 0.449999988 0.449999988
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Desk_2
+Kd 0.369999975 0.369999975 0.369999975
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Desk_3
+Kd 0.309999973 0.309999973 0.309999973
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Door_0
+Kd 0.539999902 0.539999902 0.539999902
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Door_1
+Kd 0.419999957 0.419999957 0.419999957
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Door_2
+Kd 0.339999944 0.339999944 0.339999944
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Door_3
+Kd 0.279999942 0.279999942 0.279999942
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Receiver_0
+Kd 0.319999963 0.319999963 0.319999963
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Receiver_1
+Kd 0.199999958 0.199999958 0.199999958
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Receiver_2
+Kd 0.119999968 0.119999968 0.119999968
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Receiver_3
+Kd 0.0599999726 0.0599999726 0.0599999726
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Receiver_4
+Kd 0 0 0
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl ReferencePerson_0
+Kd 0.389999986 0.389999986 0.389999986
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl ReferencePerson_1
+Kd 0.269999951 0.269999951 0.269999951
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl ReferencePerson_2
+Kd 0.189999968 0.189999968 0.189999968
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl ReferencePerson_3
+Kd 0.129999965 0.129999965 0.129999965
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Room_0
+Kd 0.74000001 0.74000001 0.74000001
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Room_1
+Kd 0.620000005 0.620000005 0.620000005
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Room_2
+Kd 0.539999962 0.539999962 0.539999962
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl Room_3
+Kd 0.479999959 0.479999959 0.479999959
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl TravelBag_0
+Kd 0.439999968 0.439999968 0.439999968
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl TravelBag_1
+Kd 0.319999963 0.319999963 0.319999963
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl TravelBag_2
+Kd 0.23999995 0.23999995 0.23999995
+Ka 0 0 0
+d 1
+illum 1
+
+newmtl TravelBag_3
+Kd 0.179999948 0.179999948 0.179999948
+Ka 0 0 0
+d 1
+illum 1
+

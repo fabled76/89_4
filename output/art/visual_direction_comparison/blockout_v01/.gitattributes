@@ -1,0 +1,2 @@
+# Preserve the exact handoff bytes recorded by SHA256SUMS on every platform.
+* -text

@@ -1,0 +1,3582 @@
+{
+    "status": "Provisional measured comparison, not final art/camera/PPU standard",
+    "sourceScene": "Assets/_Game/Scenes/Studies/VisualBlockout.unity",
+    "unityVersion": "6000.3.8f1",
+    "proBuilderVersion": "6.1.4",
+    "rendererAsset": "Assets/Settings/UniversalRP.asset",
+    "colorSpace": "Linear",
+    "packageReference": "https://docs.unity.com/en-us/engine/6000.3/manual/packages-list/packages-all/pack-safe/com-unity-probuilder",
+    "axes": "Unity left-handed: +X right, +Y up, +Z toward rear wall; room floor Y=0; units metres.",
+    "objAxes": "OBJ right-handed, Y-up: (X,Y,Z)obj=(X,Y,-Z)unity; transforms baked; reversed triangle winding. 1 numeric unit = 1 metre.",
+    "objExporter": "Study utility exports actual ProBuilder MeshFilters as triangulated Wavefront OBJ/MTL; no camera/scripts/colliders transfer.",
+    "unityToObjRowMajor": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+    ],
+    "nominalRoomWidthDepthHeight": [
+        6.400000095367432,
+        3.0,
+        2.5999999046325685
+    ],
+    "designGrid": 0.10000000149011612,
+    "assemblySnap": 0.05000000074505806,
+    "fixedPathZ": 0.25,
+    "camera": {
+        "position": [
+            0.0,
+            4.290170669555664,
+            -9.260564804077149
+        ],
+        "eulerDegrees": [
+            18.000001907348634,
+            0.0,
+            0.0
+        ],
+        "quaternionXYZW": [
+            0.15643447637557984,
+            0.0,
+            0.0,
+            0.9876883625984192
+        ],
+        "forward": [
+            0.0,
+            -0.30901703238487246,
+            0.9510564804077148
+        ],
+        "up": [
+            0.0,
+            0.9510564804077148,
+            0.30901703238487246
+        ],
+        "right": [
+            1.0,
+            0.0,
+            0.0
+        ],
+        "target": [
+            0.0,
+            1.2000000476837159,
+            0.25
+        ],
+        "orthographicHalfHeight": 2.25,
+        "projectedWidth": 8.0,
+        "projectedHeight": 4.5,
+        "nearClip": 0.10000000149011612,
+        "farClip": 30.0,
+        "resolution": [
+            1920,
+            1080
+        ],
+        "worldToCameraRowMajor": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9510564804077148,
+            0.30901703238487246,
+            -1.218522310256958,
+            0.0,
+            0.30901703238487246,
+            -0.9510564804077148,
+            -10.133056640625,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "cameraToWorldRowMajor": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9510565400123596,
+            0.3090170621871948,
+            4.290171146392822,
+            0.0,
+            0.3090170621871948,
+            -0.9510565400123596,
+            -9.260565757751465,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "projectionRowMajor": [
+            0.25,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.4444444477558136,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.06688963621854782,
+            -1.0066889524459839,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "objects": [
+        {
+            "name": "Room",
+            "hierarchy": "MeasuredGeometry/Room",
+            "boundsMin": [
+                -4.400000095367432,
+                -0.10000002384185791,
+                -4.550000190734863
+            ],
+            "boundsMax": [
+                4.400000095367432,
+                2.6000003814697267,
+                1.5999999046325684
+            ],
+            "dimensionsXYZ": [
+                8.800000190734864,
+                2.700000286102295,
+                6.150000095367432
+            ],
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                -96.0000228881836,
+                120.32359313964844,
+                2112.0,
+                1072.3936767578125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Floor_WithPresentationApron",
+                "Wall_Left",
+                "Wall_Right",
+                "Wall_Back_LeftPier",
+                "Wall_Back_Main",
+                "Wall_Back_DoorHeader"
+            ]
+        },
+        {
+            "name": "Door",
+            "hierarchy": "MeasuredGeometry/Door",
+            "boundsMin": [
+                -2.7250001430511476,
+                0.0,
+                1.4149999618530274
+            ],
+            "boundsMax": [
+                -1.7749998569488526,
+                2.200000047683716,
+                1.5199999809265137
+            ],
+            "dimensionsXYZ": [
+                0.9500002861022949,
+                2.200000047683716,
+                0.10500001907348633
+            ],
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                305.9999694824219,
+                218.29971313476563,
+                228.00003051757813,
+                508.0910339355469
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Door_Leaf",
+                "Door_Frame_Left",
+                "Door_Frame_Right",
+                "Door_Frame_Top",
+                "Door_Handle"
+            ]
+        },
+        {
+            "name": "Desk",
+            "hierarchy": "MeasuredGeometry/Desk",
+            "boundsMin": [
+                -1.0750000476837159,
+                0.0,
+                0.7750000953674316
+            ],
+            "boundsMax": [
+                0.2749999761581421,
+                0.7400000095367432,
+                1.4249999523162842
+            ],
+            "dimensionsXYZ": [
+                1.350000023841858,
+                0.7400000095367432,
+                0.6499998569488525
+            ],
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                702.0,
+                557.8538818359375,
+                324.0,
+                214.5185546875
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Desk_Top",
+                "Desk_Leg_L_L",
+                "Desk_Leg_L_R",
+                "Desk_Leg_R_L",
+                "Desk_Leg_R_R"
+            ]
+        },
+        {
+            "name": "Chair",
+            "hierarchy": "MeasuredGeometry/Chair",
+            "boundsMin": [
+                -0.625,
+                0.0,
+                0.39499998092651369
+            ],
+            "boundsMax": [
+                -0.17500001192092896,
+                0.8499999642372131,
+                0.8450000286102295
+            ],
+            "dimensionsXYZ": [
+                0.44999998807907107,
+                0.8499999642372131,
+                0.4500000476837158
+            ],
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                810.0,
+                606.16845703125,
+                108.0,
+                195.49884033203126
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Chair_Seat",
+                "Chair_Leg_L_L",
+                "Chair_Leg_L_R",
+                "Chair_Leg_R_L",
+                "Chair_Leg_R_R",
+                "Chair_Back"
+            ]
+        },
+        {
+            "name": "Bed",
+            "hierarchy": "MeasuredGeometry/Bed",
+            "boundsMin": [
+                1.0250000953674317,
+                0.0,
+                0.5499999523162842
+            ],
+            "boundsMax": [
+                3.0149998664855959,
+                0.8999999761581421,
+                1.4500000476837159
+            ],
+            "dimensionsXYZ": [
+                1.989999771118164,
+                0.8999999761581421,
+                0.9000000953674316
+            ],
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1206.0,
+                519.479248046875,
+                477.60009765625,
+                272.17584228515627
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bed_Mattress",
+                "Bed_Base",
+                "Bed_Leg_L_L",
+                "Bed_Leg_L_R",
+                "Bed_Leg_R_L",
+                "Bed_Leg_R_R",
+                "Bed_Headboard"
+            ]
+        },
+        {
+            "name": "TravelBag",
+            "hierarchy": "MeasuredGeometry/TravelBag",
+            "boundsMin": [
+                -1.5750000476837159,
+                0.0,
+                0.625
+            ],
+            "boundsMax": [
+                -1.125,
+                0.29999998211860659,
+                0.875
+            ],
+            "dimensionsXYZ": [
+                0.4500000476837158,
+                0.29999998211860659,
+                0.25
+            ],
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                582.0,
+                706.8629760742188,
+                108.0,
+                79.22979736328125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bag_Body",
+                "Bag_HandlePost_L",
+                "Bag_HandlePost_R",
+                "Bag_HandleTop"
+            ]
+        },
+        {
+            "name": "Receiver",
+            "hierarchy": "MeasuredGeometry/Receiver",
+            "boundsMin": [
+                -0.49000000953674319,
+                0.7400000095367432,
+                0.8190000057220459
+            ],
+            "boundsMax": [
+                -0.3100000023841858,
+                1.100000023841858,
+                0.875
+            ],
+            "dimensionsXYZ": [
+                0.18000000715255738,
+                0.36000001430511477,
+                0.0559999942779541
+            ],
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                842.3999633789063,
+                518.1044311523438,
+                43.2000732421875,
+                84.2479248046875
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Receiver_Body",
+                "Receiver_Display",
+                "Receiver_Antenna"
+            ]
+        },
+        {
+            "name": "Calibration_OutsideFrame",
+            "hierarchy": "MeasuredGeometry/Calibration_OutsideFrame",
+            "boundsMin": [
+                4.5,
+                0.0,
+                -0.5
+            ],
+            "boundsMax": [
+                5.5,
+                1.0,
+                0.5
+            ],
+            "dimensionsXYZ": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                2040.0,
+                567.1097412109375,
+                240.0,
+                302.41766357421877
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Calibration_1m_Cube"
+            ]
+        },
+        {
+            "name": "ReferencePerson",
+            "hierarchy": "MeasuredGeometry/ReferencePerson",
+            "boundsMin": [
+                0.5800000429153442,
+                0.0,
+                0.07999999821186066
+            ],
+            "boundsMax": [
+                1.2200000286102296,
+                1.7999999523162842,
+                0.3700000047683716
+            ],
+            "dimensionsXYZ": [
+                0.6399999856948853,
+                1.7999999523162842,
+                0.2900000214576721
+            ],
+            "worldPosition": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.25
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1099.199951171875,
+                402.04913330078127,
+                153.60009765625,
+                424.46307373046877
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.8999999761581421,
+                0.0,
+                1.0,
+                0.0,
+                0.8999999761581421,
+                0.0,
+                0.0,
+                1.0,
+                0.25,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Torso",
+                "Person_Pelvis",
+                "Person_Neck",
+                "Person_Leg_L",
+                "Person_Foot_L",
+                "Person_Arm_L",
+                "Person_Hand_L",
+                "Person_Leg_R",
+                "Person_Foot_R",
+                "Person_Arm_R",
+                "Person_Hand_R",
+                "Person_Head"
+            ]
+        }
+    ],
+    "meshObjects": [
+        {
+            "name": "Floor_WithPresentationApron",
+            "hierarchy": "MeasuredGeometry/Room/Floor_WithPresentationApron",
+            "boundsMin": [
+                -4.400000095367432,
+                -0.10000000149011612,
+                -4.550000190734863
+            ],
+            "boundsMax": [
+                4.400000095367432,
+                0.0,
+                1.5500001907348633
+            ],
+            "dimensionsXYZ": [
+                8.800000190734864,
+                0.10000000149011612,
+                6.100000381469727
+            ],
+            "worldPosition": [
+                0.0,
+                -0.05000000074505806,
+                -1.5
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                -96.0000228881836,
+                717.4910278320313,
+                2112.0,
+                475.22625732421877
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -0.05000000074505806,
+                0.0,
+                0.0,
+                1.0,
+                -1.5,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Floor_WithPresentationApron"
+            ]
+        },
+        {
+            "name": "Wall_Left",
+            "hierarchy": "MeasuredGeometry/Room/Wall_Left",
+            "boundsMin": [
+                -3.299999952316284,
+                0.0,
+                -1.5
+            ],
+            "boundsMax": [
+                -3.200000047683716,
+                2.5999999046325685,
+                1.5
+            ],
+            "dimensionsXYZ": [
+                0.09999990463256836,
+                2.5999999046325685,
+                3.0
+            ],
+            "worldPosition": [
+                -3.25,
+                1.2999999523162842,
+                0.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                168.00001525878907,
+                127.7400131225586,
+                23.999969482421876,
+                815.9514770507813
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -3.25,
+                0.0,
+                1.0,
+                0.0,
+                1.2999999523162842,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Wall_Left"
+            ]
+        },
+        {
+            "name": "Wall_Right",
+            "hierarchy": "MeasuredGeometry/Room/Wall_Right",
+            "boundsMin": [
+                3.200000047683716,
+                0.0,
+                -1.5
+            ],
+            "boundsMax": [
+                3.299999952316284,
+                2.5999999046325685,
+                1.5
+            ],
+            "dimensionsXYZ": [
+                0.09999990463256836,
+                2.5999999046325685,
+                3.0
+            ],
+            "worldPosition": [
+                3.25,
+                1.2999999523162842,
+                0.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1728.0,
+                127.7400131225586,
+                24.0,
+                815.9514770507813
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                3.25,
+                0.0,
+                1.0,
+                0.0,
+                1.2999999523162842,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Wall_Right"
+            ]
+        },
+        {
+            "name": "Wall_Back_LeftPier",
+            "hierarchy": "MeasuredGeometry/Room/Wall_Back_LeftPier",
+            "boundsMin": [
+                -3.200000047683716,
+                0.0,
+                1.5
+            ],
+            "boundsMax": [
+                -2.7250001430511476,
+                2.5999999046325685,
+                1.5999999046325684
+            ],
+            "dimensionsXYZ": [
+                0.47499990463256838,
+                2.5999999046325685,
+                0.09999990463256836
+            ],
+            "worldPosition": [
+                -2.9625000953674318,
+                1.2999999523162842,
+                1.5499999523162842
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                191.99998474121095,
+                120.32359313964844,
+                113.99998474121094,
+                600.8756103515625
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -2.9625000953674318,
+                0.0,
+                1.0,
+                0.0,
+                1.2999999523162842,
+                0.0,
+                0.0,
+                1.0,
+                1.5499999523162842,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Wall_Back_LeftPier"
+            ]
+        },
+        {
+            "name": "Wall_Back_Main",
+            "hierarchy": "MeasuredGeometry/Room/Wall_Back_Main",
+            "boundsMin": [
+                -1.774999976158142,
+                0.0,
+                1.5
+            ],
+            "boundsMax": [
+                3.1999998092651369,
+                2.5999999046325685,
+                1.5999999046325684
+            ],
+            "dimensionsXYZ": [
+                4.974999904632568,
+                2.5999999046325685,
+                0.09999990463256836
+            ],
+            "worldPosition": [
+                0.7124999761581421,
+                1.2999999523162842,
+                1.5499999523162842
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                534.0,
+                120.32359313964844,
+                1194.0,
+                600.8756103515625
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.7124999761581421,
+                0.0,
+                1.0,
+                0.0,
+                1.2999999523162842,
+                0.0,
+                0.0,
+                1.0,
+                1.5499999523162842,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Wall_Back_Main"
+            ]
+        },
+        {
+            "name": "Wall_Back_DoorHeader",
+            "hierarchy": "MeasuredGeometry/Room/Wall_Back_DoorHeader",
+            "boundsMin": [
+                -2.7249999046325685,
+                2.200000047683716,
+                1.5
+            ],
+            "boundsMax": [
+                -1.7750000953674317,
+                2.6000001430511476,
+                1.5999999046325684
+            ],
+            "dimensionsXYZ": [
+                0.9499999284744263,
+                0.40000009536743166,
+                0.09999990463256836
+            ],
+            "worldPosition": [
+                -2.25,
+                2.4000000953674318,
+                1.5499999523162842
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                306.0000305175781,
+                120.32359313964844,
+                227.99996948242188,
+                98.71781921386719
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -2.25,
+                0.0,
+                1.0,
+                0.0,
+                2.4000000953674318,
+                0.0,
+                0.0,
+                1.0,
+                1.5499999523162842,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Wall_Back_DoorHeader"
+            ]
+        },
+        {
+            "name": "Door_Leaf",
+            "hierarchy": "MeasuredGeometry/Door/Door_Leaf",
+            "boundsMin": [
+                -2.674999952316284,
+                0.0,
+                1.4800000190734864
+            ],
+            "boundsMax": [
+                -1.8250000476837159,
+                2.0999999046325685,
+                1.5199999809265137
+            ],
+            "dimensionsXYZ": [
+                0.8499999046325684,
+                2.0999999046325685,
+                0.039999961853027347
+            ],
+            "worldPosition": [
+                -2.25,
+                1.0499999523162842,
+                1.5
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                318.0,
+                240.38351440429688,
+                204.0,
+                482.2989807128906
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -2.25,
+                0.0,
+                1.0,
+                0.0,
+                1.0499999523162842,
+                0.0,
+                0.0,
+                1.0,
+                1.5,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Door_Leaf"
+            ]
+        },
+        {
+            "name": "Door_Frame_Left",
+            "hierarchy": "MeasuredGeometry/Door/Door_Frame_Left",
+            "boundsMin": [
+                -2.7250001430511476,
+                0.0,
+                1.4300000667572022
+            ],
+            "boundsMax": [
+                -2.674999952316284,
+                2.200000047683716,
+                1.5099999904632569
+            ],
+            "dimensionsXYZ": [
+                0.05000019073486328,
+                2.200000047683716,
+                0.07999992370605469
+            ],
+            "worldPosition": [
+                -2.700000047683716,
+                1.100000023841858,
+                1.4700000286102296
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                305.9999694824219,
+                218.29971313476563,
+                12.000030517578125,
+                508.0910339355469
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -2.700000047683716,
+                0.0,
+                1.0,
+                0.0,
+                1.100000023841858,
+                0.0,
+                0.0,
+                1.0,
+                1.4700000286102296,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Door_Frame_Left"
+            ]
+        },
+        {
+            "name": "Door_Frame_Right",
+            "hierarchy": "MeasuredGeometry/Door/Door_Frame_Right",
+            "boundsMin": [
+                -1.8249999284744263,
+                0.0,
+                1.4300000667572022
+            ],
+            "boundsMax": [
+                -1.774999976158142,
+                2.200000047683716,
+                1.5099999904632569
+            ],
+            "dimensionsXYZ": [
+                0.04999995231628418,
+                2.200000047683716,
+                0.07999992370605469
+            ],
+            "worldPosition": [
+                -1.7999999523162842,
+                1.100000023841858,
+                1.4700000286102296
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                522.0000610351563,
+                218.29971313476563,
+                11.99993896484375,
+                508.0910339355469
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -1.7999999523162842,
+                0.0,
+                1.0,
+                0.0,
+                1.100000023841858,
+                0.0,
+                0.0,
+                1.0,
+                1.4700000286102296,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Door_Frame_Right"
+            ]
+        },
+        {
+            "name": "Door_Frame_Top",
+            "hierarchy": "MeasuredGeometry/Door/Door_Frame_Top",
+            "boundsMin": [
+                -2.7249999046325685,
+                2.1499998569488527,
+                1.4300000667572022
+            ],
+            "boundsMax": [
+                -1.7750000953674317,
+                2.200000047683716,
+                1.5099999904632569
+            ],
+            "dimensionsXYZ": [
+                0.9499999284744263,
+                0.05000019073486328,
+                0.07999992370605469
+            ],
+            "worldPosition": [
+                -2.25,
+                2.174999952316284,
+                1.4700000286102296
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                306.0000305175781,
+                218.29971313476563,
+                227.99996948242188,
+                17.3458251953125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -2.25,
+                0.0,
+                1.0,
+                0.0,
+                2.174999952316284,
+                0.0,
+                0.0,
+                1.0,
+                1.4700000286102296,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Door_Frame_Top"
+            ]
+        },
+        {
+            "name": "Door_Handle",
+            "hierarchy": "MeasuredGeometry/Door/Door_Handle",
+            "boundsMin": [
+                -2.0,
+                0.9874999523162842,
+                1.4149999618530274
+            ],
+            "boundsMax": [
+                -1.9000000953674317,
+                1.0125000476837159,
+                1.4549999237060547
+            ],
+            "dimensionsXYZ": [
+                0.09999990463256836,
+                0.02500009536743164,
+                0.039999961853027347
+            ],
+            "worldPosition": [
+                -1.9500000476837159,
+                1.0,
+                1.434999942779541
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                480.0,
+                493.42987060546877,
+                23.999969482421876,
+                8.67291259765625
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -1.9500000476837159,
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                1.434999942779541,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Door_Handle"
+            ]
+        },
+        {
+            "name": "Desk_Top",
+            "hierarchy": "MeasuredGeometry/Desk/Desk_Top",
+            "boundsMin": [
+                -1.0750000476837159,
+                0.7000000476837158,
+                0.7750000953674316
+            ],
+            "boundsMax": [
+                0.2749999761581421,
+                0.7400000095367432,
+                1.4249999523162842
+            ],
+            "dimensionsXYZ": [
+                1.350000023841858,
+                0.039999961853027347,
+                0.6499998569488525
+            ],
+            "worldPosition": [
+                -0.4000000059604645,
+                0.7200000286102295,
+                1.100000023841858
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                702.0,
+                557.8538818359375,
+                324.0,
+                57.33685302734375
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -0.4000000059604645,
+                0.0,
+                1.0,
+                0.0,
+                0.7200000286102295,
+                0.0,
+                0.0,
+                1.0,
+                1.100000023841858,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Desk_Top"
+            ]
+        },
+        {
+            "name": "Desk_Leg_L_L",
+            "hierarchy": "MeasuredGeometry/Desk/Desk_Leg_L_L",
+            "boundsMin": [
+                -1.0399999618530274,
+                0.0,
+                0.8100000023841858
+            ],
+            "boundsMax": [
+                -0.9900000095367432,
+                0.699999988079071,
+                0.85999995470047
+            ],
+            "dimensionsXYZ": [
+                0.04999995231628418,
+                0.699999988079071,
+                0.04999995231628418
+            ],
+            "worldPosition": [
+                -1.0149999856948853,
+                0.3499999940395355,
+                0.8349999785423279
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                710.4000244140625,
+                608.8867797851563,
+                12.0,
+                163.48565673828126
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -1.0149999856948853,
+                0.0,
+                1.0,
+                0.0,
+                0.3499999940395355,
+                0.0,
+                0.0,
+                1.0,
+                0.8349999785423279,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Desk_Leg_L_L"
+            ]
+        },
+        {
+            "name": "Desk_Leg_L_R",
+            "hierarchy": "MeasuredGeometry/Desk/Desk_Leg_L_R",
+            "boundsMin": [
+                -1.0399999618530274,
+                0.0,
+                1.340000033378601
+            ],
+            "boundsMax": [
+                -0.9900000095367432,
+                0.699999988079071,
+                1.3899999856948853
+            ],
+            "dimensionsXYZ": [
+                0.04999995231628418,
+                0.699999988079071,
+                0.04999995231628418
+            ],
+            "worldPosition": [
+                -1.0149999856948853,
+                0.3499999940395355,
+                1.3650000095367432
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                710.4000244140625,
+                569.5797729492188,
+                12.0,
+                163.4857177734375
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -1.0149999856948853,
+                0.0,
+                1.0,
+                0.0,
+                0.3499999940395355,
+                0.0,
+                0.0,
+                1.0,
+                1.3650000095367432,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Desk_Leg_L_R"
+            ]
+        },
+        {
+            "name": "Desk_Leg_R_L",
+            "hierarchy": "MeasuredGeometry/Desk/Desk_Leg_R_L",
+            "boundsMin": [
+                0.1899999976158142,
+                0.0,
+                0.8100000023841858
+            ],
+            "boundsMax": [
+                0.24000000953674317,
+                0.699999988079071,
+                0.85999995470047
+            ],
+            "dimensionsXYZ": [
+                0.050000011920928958,
+                0.699999988079071,
+                0.04999995231628418
+            ],
+            "worldPosition": [
+                0.2150000035762787,
+                0.3499999940395355,
+                0.8349999785423279
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1005.6000366210938,
+                608.8867797851563,
+                11.99993896484375,
+                163.48565673828126
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.2150000035762787,
+                0.0,
+                1.0,
+                0.0,
+                0.3499999940395355,
+                0.0,
+                0.0,
+                1.0,
+                0.8349999785423279,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Desk_Leg_R_L"
+            ]
+        },
+        {
+            "name": "Desk_Leg_R_R",
+            "hierarchy": "MeasuredGeometry/Desk/Desk_Leg_R_R",
+            "boundsMin": [
+                0.1899999976158142,
+                0.0,
+                1.340000033378601
+            ],
+            "boundsMax": [
+                0.24000000953674317,
+                0.699999988079071,
+                1.3899999856948853
+            ],
+            "dimensionsXYZ": [
+                0.050000011920928958,
+                0.699999988079071,
+                0.04999995231628418
+            ],
+            "worldPosition": [
+                0.2150000035762787,
+                0.3499999940395355,
+                1.3650000095367432
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1005.6000366210938,
+                569.5797729492188,
+                11.99993896484375,
+                163.4857177734375
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.2150000035762787,
+                0.0,
+                1.0,
+                0.0,
+                0.3499999940395355,
+                0.0,
+                0.0,
+                1.0,
+                1.3650000095367432,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Desk_Leg_R_R"
+            ]
+        },
+        {
+            "name": "Chair_Seat",
+            "hierarchy": "MeasuredGeometry/Chair/Chair_Seat",
+            "boundsMin": [
+                -0.625,
+                0.4099999964237213,
+                0.39499998092651369
+            ],
+            "boundsMax": [
+                -0.17500001192092896,
+                0.45000001788139346,
+                0.8450000286102295
+            ],
+            "dimensionsXYZ": [
+                0.44999998807907107,
+                0.04000002145767212,
+                0.4500000476837158
+            ],
+            "worldPosition": [
+                -0.4000000059604645,
+                0.4300000071525574,
+                0.6200000047683716
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                810.0,
+                667.0626220703125,
+                108.0,
+                42.50396728515625
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -0.4000000059604645,
+                0.0,
+                1.0,
+                0.0,
+                0.4300000071525574,
+                0.0,
+                0.0,
+                1.0,
+                0.6200000047683716,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Chair_Seat"
+            ]
+        },
+        {
+            "name": "Chair_Leg_L_L",
+            "hierarchy": "MeasuredGeometry/Chair/Chair_Leg_L_L",
+            "boundsMin": [
+                -0.6049999594688416,
+                0.0,
+                0.41499999165534975
+            ],
+            "boundsMax": [
+                -0.5649999976158142,
+                0.4099999964237213,
+                0.45500001311302187
+            ],
+            "dimensionsXYZ": [
+                0.039999961853027347,
+                0.4099999964237213,
+                0.04000002145767212
+            ],
+            "worldPosition": [
+                -0.5849999785423279,
+                0.20499999821186067,
+                0.4350000023841858
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                814.7999877929688,
+                705.11669921875,
+                9.5999755859375,
+                96.55059814453125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -0.5849999785423279,
+                0.0,
+                1.0,
+                0.0,
+                0.20499999821186067,
+                0.0,
+                0.0,
+                1.0,
+                0.4350000023841858,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Chair_Leg_L_L"
+            ]
+        },
+        {
+            "name": "Chair_Leg_L_R",
+            "hierarchy": "MeasuredGeometry/Chair/Chair_Leg_L_R",
+            "boundsMin": [
+                -0.6049999594688416,
+                0.0,
+                0.7850000262260437
+            ],
+            "boundsMax": [
+                -0.5649999976158142,
+                0.4099999964237213,
+                0.824999988079071
+            ],
+            "dimensionsXYZ": [
+                0.039999961853027347,
+                0.4099999964237213,
+                0.039999961853027347
+            ],
+            "worldPosition": [
+                -0.5849999785423279,
+                0.20499999821186067,
+                0.8050000071525574
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                814.7999877929688,
+                677.676025390625,
+                9.5999755859375,
+                96.550537109375
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -0.5849999785423279,
+                0.0,
+                1.0,
+                0.0,
+                0.20499999821186067,
+                0.0,
+                0.0,
+                1.0,
+                0.8050000071525574,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Chair_Leg_L_R"
+            ]
+        },
+        {
+            "name": "Chair_Leg_R_L",
+            "hierarchy": "MeasuredGeometry/Chair/Chair_Leg_R_L",
+            "boundsMin": [
+                -0.23499999940395356,
+                0.0,
+                0.41499999165534975
+            ],
+            "boundsMax": [
+                -0.19500000774860383,
+                0.4099999964237213,
+                0.45500001311302187
+            ],
+            "dimensionsXYZ": [
+                0.03999999165534973,
+                0.4099999964237213,
+                0.04000002145767212
+            ],
+            "worldPosition": [
+                -0.2150000035762787,
+                0.20499999821186067,
+                0.4350000023841858
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                903.6000366210938,
+                705.11669921875,
+                9.59991455078125,
+                96.55059814453125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -0.2150000035762787,
+                0.0,
+                1.0,
+                0.0,
+                0.20499999821186067,
+                0.0,
+                0.0,
+                1.0,
+                0.4350000023841858,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Chair_Leg_R_L"
+            ]
+        },
+        {
+            "name": "Chair_Leg_R_R",
+            "hierarchy": "MeasuredGeometry/Chair/Chair_Leg_R_R",
+            "boundsMin": [
+                -0.23499999940395356,
+                0.0,
+                0.7850000262260437
+            ],
+            "boundsMax": [
+                -0.19500000774860383,
+                0.4099999964237213,
+                0.824999988079071
+            ],
+            "dimensionsXYZ": [
+                0.03999999165534973,
+                0.4099999964237213,
+                0.039999961853027347
+            ],
+            "worldPosition": [
+                -0.2150000035762787,
+                0.20499999821186067,
+                0.8050000071525574
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                903.6000366210938,
+                677.676025390625,
+                9.59991455078125,
+                96.550537109375
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -0.2150000035762787,
+                0.0,
+                1.0,
+                0.0,
+                0.20499999821186067,
+                0.0,
+                0.0,
+                1.0,
+                0.8050000071525574,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Chair_Leg_R_R"
+            ]
+        },
+        {
+            "name": "Chair_Back",
+            "hierarchy": "MeasuredGeometry/Chair/Chair_Back",
+            "boundsMin": [
+                -0.625,
+                0.44999998807907107,
+                0.39499998092651369
+            ],
+            "boundsMax": [
+                -0.17500001192092896,
+                0.8499999642372131,
+                0.4350000023841858
+            ],
+            "dimensionsXYZ": [
+                0.44999998807907107,
+                0.3999999761581421,
+                0.04000002145767212
+            ],
+            "worldPosition": [
+                -0.4000000059604645,
+                0.6499999761581421,
+                0.41499999165534975
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                810.0,
+                606.16845703125,
+                108.0,
+                94.26800537109375
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -0.4000000059604645,
+                0.0,
+                1.0,
+                0.0,
+                0.6499999761581421,
+                0.0,
+                0.0,
+                1.0,
+                0.41499999165534975,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Chair_Back"
+            ]
+        },
+        {
+            "name": "Bed_Mattress",
+            "hierarchy": "MeasuredGeometry/Bed/Bed_Mattress",
+            "boundsMin": [
+                1.0250000953674317,
+                0.3199999928474426,
+                0.5499999523162842
+            ],
+            "boundsMax": [
+                2.9749999046325685,
+                0.5,
+                1.4500000476837159
+            ],
+            "dimensionsXYZ": [
+                1.9499998092651368,
+                0.18000000715255738,
+                0.9000000953674316
+            ],
+            "worldPosition": [
+                2.0,
+                0.4099999964237213,
+                1.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1206.0,
+                610.7806396484375,
+                468.0,
+                107.83331298828125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                1.0,
+                0.0,
+                0.4099999964237213,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bed_Mattress"
+            ]
+        },
+        {
+            "name": "Bed_Base",
+            "hierarchy": "MeasuredGeometry/Bed/Bed_Base",
+            "boundsMin": [
+                1.0250000953674317,
+                0.2199999988079071,
+                0.5499999523162842
+            ],
+            "boundsMax": [
+                2.9749999046325685,
+                0.320000022649765,
+                1.4500000476837159
+            ],
+            "dimensionsXYZ": [
+                1.9499998092651368,
+                0.10000002384185791,
+                0.9000000953674316
+            ],
+            "worldPosition": [
+                2.0,
+                0.27000001072883608,
+                1.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1206.0,
+                651.8662719726563,
+                468.0,
+                89.57305908203125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                1.0,
+                0.0,
+                0.27000001072883608,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bed_Base"
+            ]
+        },
+        {
+            "name": "Bed_Leg_L_L",
+            "hierarchy": "MeasuredGeometry/Bed/Bed_Leg_L_L",
+            "boundsMin": [
+                1.0750000476837159,
+                0.0,
+                0.5999999642372131
+            ],
+            "boundsMax": [
+                1.1749999523162842,
+                0.2199999988079071,
+                0.699999988079071
+            ],
+            "dimensionsXYZ": [
+                0.09999990463256836,
+                0.2199999988079071,
+                0.10000002384185791
+            ],
+            "worldPosition": [
+                1.125,
+                0.10999999940395355,
+                0.6499999761581421
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1218.0,
+                730.3147583007813,
+                24.0,
+                57.63214111328125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                1.125,
+                0.0,
+                1.0,
+                0.0,
+                0.10999999940395355,
+                0.0,
+                0.0,
+                1.0,
+                0.6499999761581421,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bed_Leg_L_L"
+            ]
+        },
+        {
+            "name": "Bed_Leg_L_R",
+            "hierarchy": "MeasuredGeometry/Bed/Bed_Leg_L_R",
+            "boundsMin": [
+                1.0750000476837159,
+                0.0,
+                1.3000000715255738
+            ],
+            "boundsMax": [
+                1.1749999523162842,
+                0.2199999988079071,
+                1.399999976158142
+            ],
+            "dimensionsXYZ": [
+                0.09999990463256836,
+                0.2199999988079071,
+                0.09999990463256836
+            ],
+            "worldPosition": [
+                1.125,
+                0.10999999940395355,
+                1.350000023841858
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1218.0,
+                678.3998413085938,
+                24.0,
+                57.63226318359375
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                1.125,
+                0.0,
+                1.0,
+                0.0,
+                0.10999999940395355,
+                0.0,
+                0.0,
+                1.0,
+                1.350000023841858,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bed_Leg_L_R"
+            ]
+        },
+        {
+            "name": "Bed_Leg_R_L",
+            "hierarchy": "MeasuredGeometry/Bed/Bed_Leg_R_L",
+            "boundsMin": [
+                2.825000047683716,
+                0.0,
+                0.5999999642372131
+            ],
+            "boundsMax": [
+                2.924999952316284,
+                0.2199999988079071,
+                0.699999988079071
+            ],
+            "dimensionsXYZ": [
+                0.09999990463256836,
+                0.2199999988079071,
+                0.10000002384185791
+            ],
+            "worldPosition": [
+                2.875,
+                0.10999999940395355,
+                0.6499999761581421
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1638.0,
+                730.3147583007813,
+                24.0,
+                57.63214111328125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                2.875,
+                0.0,
+                1.0,
+                0.0,
+                0.10999999940395355,
+                0.0,
+                0.0,
+                1.0,
+                0.6499999761581421,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bed_Leg_R_L"
+            ]
+        },
+        {
+            "name": "Bed_Leg_R_R",
+            "hierarchy": "MeasuredGeometry/Bed/Bed_Leg_R_R",
+            "boundsMin": [
+                2.825000047683716,
+                0.0,
+                1.3000000715255738
+            ],
+            "boundsMax": [
+                2.924999952316284,
+                0.2199999988079071,
+                1.399999976158142
+            ],
+            "dimensionsXYZ": [
+                0.09999990463256836,
+                0.2199999988079071,
+                0.09999990463256836
+            ],
+            "worldPosition": [
+                2.875,
+                0.10999999940395355,
+                1.350000023841858
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1638.0,
+                678.3998413085938,
+                24.0,
+                57.63226318359375
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                2.875,
+                0.0,
+                1.0,
+                0.0,
+                0.10999999940395355,
+                0.0,
+                0.0,
+                1.0,
+                1.350000023841858,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bed_Leg_R_R"
+            ]
+        },
+        {
+            "name": "Bed_Headboard",
+            "hierarchy": "MeasuredGeometry/Bed/Bed_Headboard",
+            "boundsMin": [
+                2.9749999046325685,
+                0.0,
+                0.5499999523162842
+            ],
+            "boundsMax": [
+                3.0149998664855959,
+                0.8999999761581421,
+                1.4500000476837159
+            ],
+            "dimensionsXYZ": [
+                0.039999961853027347,
+                0.8999999761581421,
+                0.9000000953674316
+            ],
+            "worldPosition": [
+                2.994999885559082,
+                0.44999998807907107,
+                1.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1674.0,
+                519.479248046875,
+                9.60009765625,
+                272.17584228515627
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                2.994999885559082,
+                0.0,
+                1.0,
+                0.0,
+                0.44999998807907107,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bed_Headboard"
+            ]
+        },
+        {
+            "name": "Bag_Body",
+            "hierarchy": "MeasuredGeometry/TravelBag/Bag_Body",
+            "boundsMin": [
+                -1.5750000476837159,
+                0.0,
+                0.625
+            ],
+            "boundsMax": [
+                -1.125,
+                0.23999999463558198,
+                0.875
+            ],
+            "dimensionsXYZ": [
+                0.4500000476837158,
+                0.23999999463558198,
+                0.25
+            ],
+            "worldPosition": [
+                -1.350000023841858,
+                0.11999999731779099,
+                0.75
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                582.0,
+                712.7709350585938,
+                108.0,
+                73.32183837890625
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -1.350000023841858,
+                0.0,
+                1.0,
+                0.0,
+                0.11999999731779099,
+                0.0,
+                0.0,
+                1.0,
+                0.75,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bag_Body"
+            ]
+        },
+        {
+            "name": "Bag_HandlePost_L",
+            "hierarchy": "MeasuredGeometry/TravelBag/Bag_HandlePost_L",
+            "boundsMin": [
+                -1.4399999380111695,
+                0.23999997973442079,
+                0.7300000190734863
+            ],
+            "boundsMax": [
+                -1.4199999570846558,
+                0.28999999165534975,
+                0.7699999809265137
+            ],
+            "dimensionsXYZ": [
+                0.019999980926513673,
+                0.050000011920928958,
+                0.039999961853027347
+            ],
+            "worldPosition": [
+                -1.4299999475479127,
+                0.26499998569488528,
+                0.75
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                614.3999633789063,
+                709.1454467773438,
+                4.79998779296875,
+                14.3792724609375
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -1.4299999475479127,
+                0.0,
+                1.0,
+                0.0,
+                0.26499998569488528,
+                0.0,
+                0.0,
+                1.0,
+                0.75,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bag_HandlePost_L"
+            ]
+        },
+        {
+            "name": "Bag_HandlePost_R",
+            "hierarchy": "MeasuredGeometry/TravelBag/Bag_HandlePost_R",
+            "boundsMin": [
+                -1.2799999713897706,
+                0.23999997973442079,
+                0.7300000190734863
+            ],
+            "boundsMax": [
+                -1.2599999904632569,
+                0.28999999165534975,
+                0.7699999809265137
+            ],
+            "dimensionsXYZ": [
+                0.019999980926513673,
+                0.050000011920928958,
+                0.039999961853027347
+            ],
+            "worldPosition": [
+                -1.2699999809265137,
+                0.26499998569488528,
+                0.75
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                652.7999877929688,
+                709.1454467773438,
+                4.79998779296875,
+                14.3792724609375
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -1.2699999809265137,
+                0.0,
+                1.0,
+                0.0,
+                0.26499998569488528,
+                0.0,
+                0.0,
+                1.0,
+                0.75,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bag_HandlePost_R"
+            ]
+        },
+        {
+            "name": "Bag_HandleTop",
+            "hierarchy": "MeasuredGeometry/TravelBag/Bag_HandleTop",
+            "boundsMin": [
+                -1.440000057220459,
+                0.2800000011920929,
+                0.7300000190734863
+            ],
+            "boundsMax": [
+                -1.2599999904632569,
+                0.29999998211860659,
+                0.7699999809265137
+            ],
+            "dimensionsXYZ": [
+                0.18000006675720216,
+                0.019999980926513673,
+                0.039999961853027347
+            ],
+            "worldPosition": [
+                -1.350000023841858,
+                0.28999999165534975,
+                0.75
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                614.3999633789063,
+                706.8629760742188,
+                43.20001220703125,
+                7.5316162109375
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -1.350000023841858,
+                0.0,
+                1.0,
+                0.0,
+                0.28999999165534975,
+                0.0,
+                0.0,
+                1.0,
+                0.75,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Bag_HandleTop"
+            ]
+        },
+        {
+            "name": "Receiver_Body",
+            "hierarchy": "MeasuredGeometry/Receiver/Receiver_Body",
+            "boundsMin": [
+                -0.49000000953674319,
+                0.7400000095367432,
+                0.8250000476837158
+            ],
+            "boundsMax": [
+                -0.3100000023841858,
+                0.8500000238418579,
+                0.875
+            ],
+            "dimensionsXYZ": [
+                0.18000000715255738,
+                0.11000001430511475,
+                0.04999995231628418
+            ],
+            "worldPosition": [
+                -0.4000000059604645,
+                0.7950000166893005,
+                0.8500000238418579
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                842.3999633789063,
+                573.5362548828125,
+                43.2000732421875,
+                28.81610107421875
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -0.4000000059604645,
+                0.0,
+                1.0,
+                0.0,
+                0.7950000166893005,
+                0.0,
+                0.0,
+                1.0,
+                0.8500000238418579,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Receiver_Body"
+            ]
+        },
+        {
+            "name": "Receiver_Display",
+            "hierarchy": "MeasuredGeometry/Receiver/Receiver_Display",
+            "boundsMin": [
+                -0.4625000059604645,
+                0.7925000190734863,
+                0.8190000057220459
+            ],
+            "boundsMax": [
+                -0.3474999964237213,
+                0.8274999856948853,
+                0.8250000476837158
+            ],
+            "dimensionsXYZ": [
+                0.11500000953674317,
+                0.034999966621398929,
+                0.006000041961669922
+            ],
+            "worldPosition": [
+                -0.4050000011920929,
+                0.8100000023841858,
+                0.8220000267028809
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                849.0,
+                582.3801879882813,
+                27.59991455078125,
+                8.433837890625
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -0.4050000011920929,
+                0.0,
+                1.0,
+                0.0,
+                0.8100000023841858,
+                0.0,
+                0.0,
+                1.0,
+                0.8220000267028809,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Receiver_Display"
+            ]
+        },
+        {
+            "name": "Receiver_Antenna",
+            "hierarchy": "MeasuredGeometry/Receiver/Receiver_Antenna",
+            "boundsMin": [
+                -0.3330000042915344,
+                0.8500000238418579,
+                0.847000002861023
+            ],
+            "boundsMax": [
+                -0.3270000219345093,
+                1.100000023841858,
+                0.8530000448226929
+            ],
+            "dimensionsXYZ": [
+                0.0059999823570251469,
+                0.25,
+                0.006000041961669922
+            ],
+            "worldPosition": [
+                -0.33000001311302187,
+                0.9750000238418579,
+                0.8500000238418579
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                880.080078125,
+                518.1044311523438,
+                1.43988037109375,
+                57.5084228515625
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                -0.33000001311302187,
+                0.0,
+                1.0,
+                0.0,
+                0.9750000238418579,
+                0.0,
+                0.0,
+                1.0,
+                0.8500000238418579,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Receiver_Antenna"
+            ]
+        },
+        {
+            "name": "Calibration_1m_Cube",
+            "hierarchy": "MeasuredGeometry/Calibration_OutsideFrame/Calibration_1m_Cube",
+            "boundsMin": [
+                4.5,
+                0.0,
+                -0.5
+            ],
+            "boundsMax": [
+                5.5,
+                1.0,
+                0.5
+            ],
+            "dimensionsXYZ": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "worldPosition": [
+                5.0,
+                0.5,
+                0.0
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                2040.0,
+                567.1097412109375,
+                240.0,
+                302.41766357421877
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                5.0,
+                0.0,
+                1.0,
+                0.0,
+                0.5,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Calibration_1m_Cube"
+            ]
+        },
+        {
+            "name": "Person_Torso",
+            "hierarchy": "MeasuredGeometry/ReferencePerson/Person_Torso",
+            "boundsMin": [
+                0.6999999284744263,
+                0.9700000286102295,
+                0.15000000596046449
+            ],
+            "boundsMax": [
+                1.100000023841858,
+                1.5199999809265137,
+                0.3499999940395355
+            ],
+            "dimensionsXYZ": [
+                0.40000009536743166,
+                0.5499999523162842,
+                0.19999998807907105
+            ],
+            "worldPosition": [
+                0.8999999761581421,
+                1.2450000047683716,
+                0.25
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1128.0,
+                459.54254150390627,
+                96.0,
+                140.37225341796876
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.8999999761581421,
+                0.0,
+                1.0,
+                0.0,
+                1.2450000047683716,
+                0.0,
+                0.0,
+                1.0,
+                0.25,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Torso"
+            ]
+        },
+        {
+            "name": "Person_Pelvis",
+            "hierarchy": "MeasuredGeometry/ReferencePerson/Person_Pelvis",
+            "boundsMin": [
+                0.7450000047683716,
+                0.800000011920929,
+                0.13999998569488526
+            ],
+            "boundsMax": [
+                1.0549999475479127,
+                0.9699999690055847,
+                0.36000001430511477
+            ],
+            "dimensionsXYZ": [
+                0.309999942779541,
+                0.16999995708465577,
+                0.2200000286102295
+            ],
+            "worldPosition": [
+                0.8999999761581421,
+                0.8849999904632568,
+                0.25
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1138.7999267578125,
+                584.34033203125,
+                74.4000244140625,
+                55.11920166015625
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.8999999761581421,
+                0.0,
+                1.0,
+                0.0,
+                0.8849999904632568,
+                0.0,
+                0.0,
+                1.0,
+                0.25,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Pelvis"
+            ]
+        },
+        {
+            "name": "Person_Neck",
+            "hierarchy": "MeasuredGeometry/ReferencePerson/Person_Neck",
+            "boundsMin": [
+                0.8499999642372131,
+                1.5,
+                0.19999998807907105
+            ],
+            "boundsMax": [
+                0.949999988079071,
+                1.5799999237060547,
+                0.30000001192092898
+            ],
+            "dimensionsXYZ": [
+                0.10000002384185791,
+                0.07999992370605469,
+                0.10000002384185791
+            ],
+            "worldPosition": [
+                0.8999999761581421,
+                1.5399999618530274,
+                0.25
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1164.0,
+                449.5555114746094,
+                24.0,
+                25.676727294921876
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.8999999761581421,
+                0.0,
+                1.0,
+                0.0,
+                1.5399999618530274,
+                0.0,
+                0.0,
+                1.0,
+                0.25,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Neck"
+            ]
+        },
+        {
+            "name": "Person_Leg_L",
+            "hierarchy": "MeasuredGeometry/ReferencePerson/Person_Leg_L",
+            "boundsMin": [
+                0.7449999451637268,
+                0.11000001430511475,
+                0.17000001668930055
+            ],
+            "boundsMax": [
+                0.8649999499320984,
+                0.800000011920929,
+                0.32999998331069949
+            ],
+            "dimensionsXYZ": [
+                0.12000000476837158,
+                0.6899999976158142,
+                0.15999996662139893
+            ],
+            "worldPosition": [
+                0.8049999475479126,
+                0.45500001311302187,
+                0.25
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1138.7999267578125,
+                625.3683471679688,
+                28.800048828125,
+                169.3612060546875
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.8049999475479126,
+                0.0,
+                1.0,
+                0.0,
+                0.45500001311302187,
+                0.0,
+                0.0,
+                1.0,
+                0.25,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Leg_L"
+            ]
+        },
+        {
+            "name": "Person_Foot_L",
+            "hierarchy": "MeasuredGeometry/ReferencePerson/Person_Foot_L",
+            "boundsMin": [
+                0.7399999499320984,
+                0.0,
+                0.07999999821186066
+            ],
+            "boundsMax": [
+                0.8699999451637268,
+                0.11000001430511475,
+                0.36000001430511477
+            ],
+            "dimensionsXYZ": [
+                0.12999999523162843,
+                0.11000001430511475,
+                0.2800000309944153
+            ],
+            "worldPosition": [
+                0.8049999475479126,
+                0.05500000715255737,
+                0.2199999988079071
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1137.5999755859375,
+                780.6383666992188,
+                31.199951171875,
+                45.87384033203125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.8049999475479126,
+                0.0,
+                1.0,
+                0.0,
+                0.05500000715255737,
+                0.0,
+                0.0,
+                1.0,
+                0.2199999988079071,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Foot_L"
+            ]
+        },
+        {
+            "name": "Person_Arm_L",
+            "hierarchy": "MeasuredGeometry/ReferencePerson/Person_Arm_L",
+            "boundsMin": [
+                0.5799999833106995,
+                0.940000057220459,
+                0.18000000715255738
+            ],
+            "boundsMax": [
+                0.6800000071525574,
+                1.4900000095367432,
+                0.3199999928474426
+            ],
+            "dimensionsXYZ": [
+                0.10000002384185791,
+                0.5499999523162842,
+                0.13999998569488526
+            ],
+            "worldPosition": [
+                0.6299999952316284,
+                1.215000033378601,
+                0.25
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1099.199951171875,
+                468.6150817871094,
+                24.0,
+                135.92239379882813
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.6299999952316284,
+                0.0,
+                1.0,
+                0.0,
+                1.215000033378601,
+                0.0,
+                0.0,
+                1.0,
+                0.25,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Arm_L"
+            ]
+        },
+        {
+            "name": "Person_Hand_L",
+            "hierarchy": "MeasuredGeometry/ReferencePerson/Person_Hand_L",
+            "boundsMin": [
+                0.5799999833106995,
+                0.8399999737739563,
+                0.1899999976158142
+            ],
+            "boundsMax": [
+                0.6800000071525574,
+                0.9599999785423279,
+                0.3100000023841858
+            ],
+            "dimensionsXYZ": [
+                0.10000002384185791,
+                0.12000000476837158,
+                0.12000000476837158
+            ],
+            "worldPosition": [
+                0.6299999952316284,
+                0.8999999761581421,
+                0.25
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1099.199951171875,
+                590.3310546875,
+                24.0,
+                36.2901611328125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.6299999952316284,
+                0.0,
+                1.0,
+                0.0,
+                0.8999999761581421,
+                0.0,
+                0.0,
+                1.0,
+                0.25,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Hand_L"
+            ]
+        },
+        {
+            "name": "Person_Leg_R",
+            "hierarchy": "MeasuredGeometry/ReferencePerson/Person_Leg_R",
+            "boundsMin": [
+                0.934999942779541,
+                0.11000001430511475,
+                0.17000001668930055
+            ],
+            "boundsMax": [
+                1.0550000667572022,
+                0.800000011920929,
+                0.32999998331069949
+            ],
+            "dimensionsXYZ": [
+                0.12000012397766113,
+                0.6899999976158142,
+                0.15999996662139893
+            ],
+            "worldPosition": [
+                0.9950000047683716,
+                0.45500001311302187,
+                0.25
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1184.4000244140625,
+                625.3683471679688,
+                28.800048828125,
+                169.3612060546875
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.9950000047683716,
+                0.0,
+                1.0,
+                0.0,
+                0.45500001311302187,
+                0.0,
+                0.0,
+                1.0,
+                0.25,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Leg_R"
+            ]
+        },
+        {
+            "name": "Person_Foot_R",
+            "hierarchy": "MeasuredGeometry/ReferencePerson/Person_Foot_R",
+            "boundsMin": [
+                0.9300000667572022,
+                0.0,
+                0.07999999821186066
+            ],
+            "boundsMax": [
+                1.059999942779541,
+                0.11000001430511475,
+                0.36000001430511477
+            ],
+            "dimensionsXYZ": [
+                0.12999987602233888,
+                0.11000001430511475,
+                0.2800000309944153
+            ],
+            "worldPosition": [
+                0.9950000047683716,
+                0.05500000715255737,
+                0.2199999988079071
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1183.199951171875,
+                780.6383666992188,
+                31.2000732421875,
+                45.87384033203125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.9950000047683716,
+                0.0,
+                1.0,
+                0.0,
+                0.05500000715255737,
+                0.0,
+                0.0,
+                1.0,
+                0.2199999988079071,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Foot_R"
+            ]
+        },
+        {
+            "name": "Person_Arm_R",
+            "hierarchy": "MeasuredGeometry/ReferencePerson/Person_Arm_R",
+            "boundsMin": [
+                1.1200001239776612,
+                0.940000057220459,
+                0.18000000715255738
+            ],
+            "boundsMax": [
+                1.2200000286102296,
+                1.4900000095367432,
+                0.3199999928474426
+            ],
+            "dimensionsXYZ": [
+                0.09999990463256836,
+                0.5499999523162842,
+                0.13999998569488526
+            ],
+            "worldPosition": [
+                1.1699999570846558,
+                1.215000033378601,
+                0.25
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1228.7999267578125,
+                468.6150817871094,
+                24.0001220703125,
+                135.92239379882813
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                1.1699999570846558,
+                0.0,
+                1.0,
+                0.0,
+                1.215000033378601,
+                0.0,
+                0.0,
+                1.0,
+                0.25,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Arm_R"
+            ]
+        },
+        {
+            "name": "Person_Hand_R",
+            "hierarchy": "MeasuredGeometry/ReferencePerson/Person_Hand_R",
+            "boundsMin": [
+                1.1200001239776612,
+                0.8399999737739563,
+                0.1899999976158142
+            ],
+            "boundsMax": [
+                1.2200000286102296,
+                0.9599999785423279,
+                0.3100000023841858
+            ],
+            "dimensionsXYZ": [
+                0.09999990463256836,
+                0.12000000476837158,
+                0.12000000476837158
+            ],
+            "worldPosition": [
+                1.1699999570846558,
+                0.8999999761581421,
+                0.25
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1228.7999267578125,
+                590.3310546875,
+                24.0001220703125,
+                36.2901611328125
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                1.1699999570846558,
+                0.0,
+                1.0,
+                0.0,
+                0.8999999761581421,
+                0.0,
+                0.0,
+                1.0,
+                0.25,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Hand_R"
+            ]
+        },
+        {
+            "name": "Person_Head",
+            "hierarchy": "MeasuredGeometry/ReferencePerson/Person_Head",
+            "boundsMin": [
+                0.7799999713897705,
+                1.559999942779541,
+                0.12999999523162843
+            ],
+            "boundsMax": [
+                1.0199999809265137,
+                1.7999999523162842,
+                0.3700000047683716
+            ],
+            "dimensionsXYZ": [
+                0.24000000953674317,
+                0.24000000953674317,
+                0.24000000953674317
+            ],
+            "worldPosition": [
+                0.8999999761581421,
+                1.6799999475479127,
+                0.25
+            ],
+            "localScale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "projectedRectTopLeftPixels": [
+                1147.199951171875,
+                402.04913330078127,
+                57.60009765625,
+                56.77850341796875
+            ],
+            "localToWorldRowMajor": [
+                1.0,
+                0.0,
+                0.0,
+                0.8999999761581421,
+                0.0,
+                1.0,
+                0.0,
+                1.6799999475479127,
+                0.0,
+                0.0,
+                1.0,
+                0.25,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshParts": [
+                "Person_Head"
+            ]
+        }
+    ],
+    "anchors": [
+        {
+            "name": "foot",
+            "unityWorld": [
+                0.8999999761581421,
+                0.0,
+                0.25
+            ],
+            "pixelTopLeft": [
+                1176.0,
+                813.9043579101563
+            ]
+        },
+        {
+            "name": "head_top",
+            "unityWorld": [
+                0.8999999761581421,
+                1.7999999523162842,
+                0.25
+            ],
+            "pixelTopLeft": [
+                1176.0,
+                403.0479431152344
+            ]
+        },
+        {
+            "name": "door_handle",
+            "unityWorld": [
+                -1.9500000476837159,
+                1.0,
+                1.434999942779541
+            ],
+            "pixelTopLeft": [
+                492.0,
+                497.766357421875
+            ]
+        },
+        {
+            "name": "desk_surface",
+            "unityWorld": [
+                -0.4000000059604645,
+                0.7400000095367432,
+                1.100000023841858
+            ],
+            "pixelTopLeft": [
+                864.0,
+                581.9572143554688
+            ]
+        },
+        {
+            "name": "chair_seat",
+            "unityWorld": [
+                -0.4000000059604645,
+                0.44999998807907107,
+                0.6200000047683716
+            ],
+            "pixelTopLeft": [
+                864.0,
+                683.74951171875
+            ]
+        },
+        {
+            "name": "bed_sleeping_top",
+            "unityWorld": [
+                2.0,
+                0.5,
+                1.0
+            ],
+            "pixelTopLeft": [
+                1440.0,
+                644.154541015625
+            ]
+        },
+        {
+            "name": "receiver_body_center",
+            "unityWorld": [
+                -0.4000000059604645,
+                0.7950000166893005,
+                0.8500000238418579
+            ],
+            "pixelTopLeft": [
+                864.0,
+                587.9443359375
+            ]
+        },
+        {
+            "name": "bag_foot",
+            "unityWorld": [
+                -1.350000023841858,
+                0.0,
+                0.75
+            ],
+            "pixelTopLeft": [
+                636.0,
+                776.822265625
+            ]
+        },
+        {
+            "name": "wall_floor_seam",
+            "unityWorld": [
+                0.0,
+                0.0,
+                1.5
+            ],
+            "pixelTopLeft": [
+                960.0,
+                721.19921875
+            ]
+        },
+        {
+            "name": "nominal_room_front",
+            "unityWorld": [
+                0.0,
+                0.0,
+                -1.5
+            ],
+            "pixelTopLeft": [
+                960.0,
+                943.6914672851563
+            ]
+        }
+    ],
+    "wallSeamYpx": 721.19921875,
+    "feetYpx": 813.9043579101563,
+    "roomFrontOpeningYpx": 943.6914672851563,
+    "viewportForegroundYpx": 1080.0,
+    "rejectedPitch": 8.0,
+    "rejectedBackFloorPixels": 41.751930236816409,
+    "selectedBackFloorPixels": 92.7051010131836,
+    "selectedFrontRoomPixels": 129.78713989257813,
+    "projectionBoundsMeaning": "Unoccluded mesh-vertex projection envelopes, not visible segmentation masks; top-left x,y,width,height.",
+    "exceptions": [
+        "Selected 18 degrees after testing candidate 8: nominal 3m floor needs readable projected depth. Not a game camera migration.",
+        "Nominal clear room 6.4 x 3.0 x 2.6m. Cutaway floor slab 8.8 x 6.1m extends beyond the open front to avoid a platform edge. No extra navigable depth.",
+        "Bed sleeping surface is 1.95 x .90m, top .50m. Headboard adds .04m to overall X footprint and reaches .90m high.",
+        "Neutral segmented 1.80m reference, no costume/identity/animation rig. Projected tilted height is measured, never stretched to 432px.",
+        "Calibration 1m cube at X=5 is outside the image but included in OBJ. No new runtime art or final material system.",
+        "Flat gray face-value materials use existing URP Unlit and current Renderer2D. No renderer/global lighting changes; no Blender render claimed."
+    ],
+    "reachNotes": [
+        "Horizontal movement reuses PlayerController2D on XY, Z fixed .25. 2D collision support at Y=0; no vertical/depth input.",
+        "Door/receiver/bag use existing InteractionController/InspectInteractable proxies. 2D proximity is not literal 3D hand contact.",
+        "Rear door handle Z=1.435 is 1.185m behind path: requires a controlled door cut in future gameplay, no invented long reach.",
+        "Receiver near table front Z=.85 is .60m behind path; a raised hand near Y=1.0 can reach within roughly .7m.",
+        "Chair front .395 and bed front .55 stay behind mannequin maximum Z=.36, leaving the horizontal lane clear."
+    ],
+    "standingEvidence": [
+        "standing_door_1920.png",
+        "standing_desk_1920.png",
+        "standing_bed_1920.png"
+    ]
+}

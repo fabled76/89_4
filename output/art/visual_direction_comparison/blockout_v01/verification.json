@@ -1,0 +1,80 @@
+{
+  "result": "PASS",
+  "meshObjects": 49,
+  "vertices": 2112,
+  "triangles": 896,
+  "checks": [
+    "OBJ indices, finite vertices, winding/normals",
+    "all 49 mesh bounds agree with Unity manifest",
+    "unit transform scales and calibration cube",
+    "declared reference dimensions",
+    "camera anchor reprojection",
+    "PNG headers and sizes"
+  ],
+  "images": {
+    "blockout_base_1280.png": [
+      1280,
+      720
+    ],
+    "blockout_base_1920.png": [
+      1920,
+      1080
+    ],
+    "blockout_base_960.png": [
+      960,
+      540
+    ],
+    "blockout_guide_1920.png": [
+      1920,
+      1080
+    ],
+    "diagnostics\\camera_candidate_08_1920.png": [
+      1920,
+      1080
+    ],
+    "standing_bed_1920.png": [
+      1920,
+      1080
+    ],
+    "standing_bed_960.png": [
+      960,
+      540
+    ],
+    "standing_desk_1920.png": [
+      1920,
+      1080
+    ],
+    "standing_desk_960.png": [
+      960,
+      540
+    ],
+    "standing_door_1920.png": [
+      1920,
+      1080
+    ],
+    "standing_door_960.png": [
+      960,
+      540
+    ]
+  },
+  "limits": "PNG content reviewed separately by programmer. No Blender import/render or final art approval claimed.",
+  "unityChecks": {
+    "editMode": {
+      "passed": 1,
+      "failed": 0,
+      "report": "TestResults/visual-blockout-editmode.xml"
+    },
+    "playMode": {
+      "passed": 1,
+      "failed": 0,
+      "report": "TestResults/visual-blockout-playmode.xml"
+    },
+    "exportExitCode": 0,
+    "review": "Base, guide and all three standing positions inspected; source scene not rebuilt."
+  },
+  "preservedFilesSHA256": {
+    "Assets/_Game/Scenes/CurrentPrologue.unity": "9714fa8e5c9f9829f6d25a5d90d2d35407275195c2ef57bae2895274e02f5fc1",
+    "Assets/_Game/Scenes/CurrentMotel.unity": "23c2595b98dcde067a12b2fa6390b66f5112580aa56cffd4e30377a5ac48dafb",
+    "ProjectSettings/EditorBuildSettings.asset": "dde43d1c2da8e4791fc568274d20ae695e8974e777d462848e32ca4bcc35933c"
+  }
+}

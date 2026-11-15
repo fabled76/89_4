@@ -1,0 +1,5 @@
+{
+  "name": "DeadAir.Blockout.Editor",
+  "references": ["DeadAir.Runtime", "Unity.ProBuilder", "Unity.ugui"],
+  "includePlatforms": ["Editor"]
+}
