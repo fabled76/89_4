@@ -19,8 +19,8 @@ namespace DeadAir.Tests
                 target.Create(); camera.aspect = 16f / 9f; camera.targetTexture = target;
                 RenderPipeline.SubmitRenderRequest(camera, new RenderPipeline.StandardRequest { destination = target });
                 RenderTexture.active = target; png.ReadPixels(new Rect(0, 0, width, target.height), 0, 0); png.Apply();
-                Directory.CreateDirectory("TestResults/ArtPaletteCPilot/v02");
-                File.WriteAllBytes("TestResults/ArtPaletteCPilot/v02/" + name + "-" + width + ".png", png.EncodeToPNG());
+                Directory.CreateDirectory("TestResults/ArtPaletteCPilot/v03");
+                File.WriteAllBytes("TestResults/ArtPaletteCPilot/v03/" + name + "-" + width + ".png", png.EncodeToPNG());
             }
             finally
             {

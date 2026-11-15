@@ -33,6 +33,8 @@ namespace DeadAir.Editor.Studies
             AssetDatabase.Refresh();
             var scene = EditorSceneManager.OpenScene(ArtPaletteCPilotSetup.ScenePath);
             if (GameObject.Find("PaletteC_v02_Integrated") != null) return; // Preserve manual pilot changes.
+            if (scene.GetRootGameObjects().Any(root => root.name.StartsWith("PaletteC_") && root.name.EndsWith("_Integrated")))
+                throw new InvalidOperationException("Another art revision is already assigned. Use an explicit version refresh, never rebuild over it.");
             var camera = Camera.main;
             var actor = UnityEngine.Object.FindFirstObjectByType<PlayerController2D>();
             foreach (var renderer in GameObject.Find("MeasuredGeometry").GetComponentsInChildren<MeshRenderer>(true)) renderer.enabled = false;

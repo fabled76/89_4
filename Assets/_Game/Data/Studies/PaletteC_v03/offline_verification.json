@@ -1,0 +1,151 @@
+{
+  "result": "PASS",
+  "scope": "Offline v03 delivery, not engine or final-art acceptance",
+  "v02FilesPreservedByteForByte": 49,
+  "rootStillPublishesV02": true,
+  "geometryTransformsAllUVsAndCameraUnchanged": true,
+  "maximumAnchorErrorPixels": 0.00015926361083984375,
+  "linearAssemblyMaxRGBError": 0,
+  "receiverRemovalAffectsOnlyReceiverAndItsShadow": true,
+  "receiverShadowOverlapsObjectPixels": 0,
+  "visibleMaskSourcesByteIdenticalToV02": true,
+  "equalMatchedPanelsPixelIdenticalToActual960Copies": true,
+  "alpha": {
+    "base_clean": {
+      "range": [
+        255,
+        255
+      ],
+      "bboxAlpha1": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "nonzeroPixels": 2073600
+    },
+    "receiver_shadow": {
+      "range": [
+        0,
+        190
+      ],
+      "bboxAlpha1": [
+        789,
+        527,
+        912,
+        611
+      ],
+      "nonzeroPixels": 344
+    },
+    "receiver": {
+      "range": [
+        0,
+        255
+      ],
+      "bboxAlpha1": [
+        841,
+        517,
+        887,
+        604
+      ],
+      "nonzeroPixels": 1573
+    },
+    "character_contact_shadow": {
+      "range": [
+        0,
+        232
+      ],
+      "bboxAlpha1": [
+        1086,
+        800,
+        1295,
+        884
+      ],
+      "nonzeroPixels": 12915
+    },
+    "reference_person": {
+      "range": [
+        0,
+        255
+      ],
+      "bboxAlpha1": [
+        1098,
+        401,
+        1254,
+        828
+      ],
+      "nonzeroPixels": 39777
+    }
+  },
+  "nativeRoomReconstruction": {
+    "meanRGBError": 0.03315586419753087,
+    "maximumRGBError": 9,
+    "pixelsAbove8Levels": 1
+  },
+  "sampledMaterialRGB": {
+    "wall": {
+      "v02": [
+        163,
+        143,
+        148
+      ],
+      "v03": [
+        183,
+        112,
+        102
+      ]
+    },
+    "teal": {
+      "v02": [
+        58,
+        91,
+        102
+      ],
+      "v03": [
+        37,
+        94,
+        98
+      ]
+    },
+    "burgundy": {
+      "v02": [
+        59,
+        35,
+        55
+      ],
+      "v03": [
+        76,
+        23,
+        46
+      ]
+    },
+    "neutral_desk": {
+      "v02": [
+        233,
+        220,
+        208
+      ],
+      "v03": [
+        235,
+        217,
+        203
+      ]
+    },
+    "wood_floor": {
+      "v02": [
+        136,
+        109,
+        95
+      ],
+      "v03": [
+        143,
+        103,
+        84
+      ]
+    }
+  },
+  "exposureUnchanged": 0.6499999761581421,
+  "visualReview": "Matched v02/v03 and neutral v03 at960 plus detail/removal reviewed. No new character produced.",
+  "unityChangedOrTested": false,
+  "finalStyleApproved": false
+}

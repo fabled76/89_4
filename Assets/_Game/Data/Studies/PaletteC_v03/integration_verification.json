@@ -1,0 +1,160 @@
+{
+  "version": "material_revision_v03",
+  "result": "PASS",
+  "unity": "6000.3.8f1",
+  "editMode": {
+    "passed": 2,
+    "failed": 0
+  },
+  "playMode": {
+    "passed": 2,
+    "failed": 0
+  },
+  "referenceComparisons": {
+    "reference-present-1920.png": {
+      "maxChannelError255": 1,
+      "meanChannelError255": 0.00018229166666666667
+    },
+    "reference-removed-1920.png": {
+      "maxChannelError255": 1,
+      "meanChannelError255": 0.0001728073559670782
+    }
+  },
+  "removalComparisons": {
+    "1280": {
+      "changedPixels": 909,
+      "changedBoundsXYXYInclusive": [
+        526,
+        344,
+        607,
+        406
+      ],
+      "outsideReceiverRegionUnchanged": true
+    },
+    "960": {
+      "changedPixels": 540,
+      "changedBoundsXYXYInclusive": [
+        394,
+        258,
+        455,
+        304
+      ],
+      "outsideReceiverRegionUnchanged": true
+    }
+  },
+  "sourceHashes": {
+    "base_clean": "7e7b1d4bcf1a83e3b1fe808e3781be8252ac21685e12febcc1674b102ca2bf64",
+    "receiver_shadow": "454d4d623161d59ff167c5d45ecb89240b67892d4ec8958553d1d4861a674ea7",
+    "receiver": "ce3241a05abdfdba707af3befa9ef9722468f7333af71534eb4a6d8fedc06c52",
+    "character_contact_shadow": "0debac5e503a4ceab02f520592c0839d843c697ba69b0e99802064b12c71931b",
+    "reference_person": "afb43c6e15d37ce307da6578982769cb7e0e738d1c9f27c24e912cc4f81e739b"
+  },
+  "captures": {
+    "TestResults/ArtPaletteCPilot/v03/desk-receiver-removed-1280.png": {
+      "sha256": "0f23f3dd5731df94b181c76d9cb0791b04f01a4007b2d8e9fa83129425be7509",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v03/desk-receiver-removed-960.png": {
+      "sha256": "cfacbba6bcc25e2e2628671efab08b1470bdfad97db0071b15195c08b182a60e",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v03/desk-receiver-restored-1280.png": {
+      "sha256": "ec6bb5fc0a560039502f3f1b508a2c7c83986822ba24d9b97c770f983d8e23b2",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v03/desk-receiver-restored-960.png": {
+      "sha256": "19640658d449f002711ea7deaedae4ebebec23682a4566370c0b4b4c2a3c5475",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v03/position-1-1280.png": {
+      "sha256": "90e78ae8911e6f46ac432b418d1aecba98588ce1e3f4940a078fed7274984387",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v03/position-1-960.png": {
+      "sha256": "d40a6b0d8269269db8e53172faad14d529f674c711282586e1f176ab7e2e5c41",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v03/position-2-1280.png": {
+      "sha256": "801ebfa2f9012b208a6b878613f40a0fd20ba5604f09dc7eef0d29a5163fde52",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v03/position-2-960.png": {
+      "sha256": "e9eb1af0e6da71bfdfa03aeb53eb355c51dd9b2d5e04e71d643872a146d39f53",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v03/position-3-1280.png": {
+      "sha256": "bf87c4e9b7768a48274bb42c9bc2dd8bd1a4c833af55662b47f7afa3f85860a0",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v03/position-3-960.png": {
+      "sha256": "c65ba17bf3607a7d3ebc49cff37f02be840279d5bbf95fd1f33cfb591d1bccf3",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v03/reference-present-1920.png": {
+      "sha256": "80e7d8293c2daff034b70f3c2cd15b68adbdb60276b7937aa4d499045e65ad78",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    "TestResults/ArtPaletteCPilot/v03/reference-removed-1920.png": {
+      "sha256": "5507c39fc0567ffedeb9654a87370b8f3176e2d9fca37c22e971a9ddc5cb3984",
+      "size": [
+        1920,
+        1080
+      ]
+    }
+  },
+  "v02PreservedFiles": 27,
+  "pinnedManifestSHA256": "fc2de82c4f78d65f51508ff275e5b137d8b6d634cde0cf71453756587996fe3d",
+  "pinnedHandoffSHA256": "8c6e061119be128be5ea852a14a3dea497ee13d9f3cdd6798009507bfe8d7411",
+  "integratedSceneSHA256": "e011b358b1b72a8b79a4b0550e37f2d8a19431a3d16912414504e2ffa05b777e",
+  "limits": [
+    "Static translated neutral reference, not walking animation",
+    "Translated local contact profile, not dynamic light response",
+    "No isolated second prop supplied",
+    "v04 requires its published complete versioned package",
+    "Actual batchmode Unity renders inspected; no new interactive human session"
+  ],
+  "idempotentReopenExitCode": 0,
+  "testReportsSHA256": {
+    "TestResults\\art-palette-c-v03-editmode.xml": "947a863d825f807d25e80b11c608d166f39d73620c19ec192f2fcddf4c462803",
+    "TestResults\\art-palette-c-v03-playmode.xml": "696c4ec006275dbf4ea7bce0d996dc763a196914cd57dd21a5823efc6008ce03"
+  },
+  "preservedSHA256": {
+    "Assets/_Game/Scenes/Studies/VisualBlockout.unity": "b0179df416e1ba5644dfb5fbea0e6b623cca331f288e2ec03eea70697ad853b0",
+    "Assets/_Game/Scenes/CurrentPrologue.unity": "9714fa8e5c9f9829f6d25a5d90d2d35407275195c2ef57bae2895274e02f5fc1",
+    "Assets/_Game/Scenes/CurrentMotel.unity": "23c2595b98dcde067a12b2fa6390b66f5112580aa56cffd4e30377a5ac48dafb",
+    "ProjectSettings/EditorBuildSettings.asset": "dde43d1c2da8e4791fc568274d20ae695e8974e777d462848e32ca4bcc35933c"
+  }
+}

@@ -10,7 +10,7 @@ namespace DeadAir.Tests
     public sealed class ArtPaletteCPilotSceneTests
     {
         [Test]
-        public void IntegratedV02KeepsMeasuredGeometryAndCameraAndUsesFivePrelitLayers()
+        public void IntegratedV03KeepsMeasuredGeometryAndCameraAndUsesFivePrelitLayers()
         {
             const string pilot = "Assets/_Game/Scenes/Studies/ArtPilot_PaletteC.unity";
             EditorSceneManager.OpenScene("Assets/_Game/Scenes/Studies/VisualBlockout.unity");
@@ -37,7 +37,7 @@ namespace DeadAir.Tests
             foreach (var sprite in sprites)
             {
                 string path = AssetDatabase.GetAssetPath(sprite.sprite);
-                Assert.That(path.StartsWith("Assets/_Game/Art/Studies/PaletteC_v02/"), Is.True);
+                Assert.That(path.StartsWith("Assets/_Game/Art/Studies/PaletteC_v03/"), Is.True);
                 var importer = (TextureImporter)AssetImporter.GetAtPath(path);
                 Assert.That(importer.sRGBTexture && !importer.mipmapEnabled, Is.True);
                 Assert.That(importer.textureCompression, Is.EqualTo(TextureImporterCompression.Uncompressed));

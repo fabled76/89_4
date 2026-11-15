@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "pathBase": ".",
+  "status": "READY_FOR_VERSION_PINNED_COLOR_REFRESH_NOT_STYLE_APPROVAL",
+  "date": "2026-11-15",
+  "deliveryVersion": "material_revision_v03",
+  "authority": "Docs/ART_PILOT_COLOR_AND_INTEGRATION_V03.md",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "pixelsPerProjectedMetre": 240,
+  "camera": {
+    "position": [
+      0.0,
+      4.290170669555664,
+      -9.260564804077148
+    ],
+    "eulerDegrees": [
+      18.000001907348633,
+      0.0,
+      0.0
+    ],
+    "quaternionXYZW": [
+      0.15643447637557983,
+      0.0,
+      0.0,
+      0.9876883625984192
+    ],
+    "forward": [
+      0.0,
+      -0.30901703238487244,
+      0.9510564804077148
+    ],
+    "up": [
+      0.0,
+      0.9510564804077148,
+      0.30901703238487244
+    ],
+    "right": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "target": [
+      0.0,
+      1.2000000476837158,
+      0.25
+    ],
+    "orthographicHalfHeight": 2.25,
+    "projectedWidth": 8.0,
+    "projectedHeight": 4.5,
+    "nearClip": 0.10000000149011612,
+    "farClip": 30.0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "worldToCameraRowMajor": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9510564804077148,
+      0.30901703238487244,
+      -1.218522310256958,
+      0.0,
+      0.30901703238487244,
+      -0.9510564804077148,
+      -10.133056640625,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "cameraToWorldRowMajor": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9510565400123596,
+      0.3090170621871948,
+      4.290171146392822,
+      0.0,
+      0.3090170621871948,
+      -0.9510565400123596,
+      -9.260565757751465,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "projectionRowMajor": [
+      0.25,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4444444477558136,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.06688963621854782,
+      -1.0066889524459839,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "cameraManifest": {
+    "file": "../source/blockout/camera_layout_manifest.json",
+    "sha256": "b10e377dc76e5279b6a6e961d6e3039377edbc452a8ca5eaf588d86696e12ffd"
+  },
+  "coordinateContract": "Camera-facing planes; C + cameraRight*((x-960)/240) + cameraUp*((540-y)/240). Do not foreshorten preprojected PNGs again.",
+  "layers": [
+    {
+      "id": "base_clean",
+      "role": "opaquePrelitBase",
+      "file": "runtime/base_clean.png",
+      "sha256": "7e7b1d4bcf1a83e3b1fe808e3781be8252ac21685e12febcc1674b102ca2bf64",
+      "canvas": [
+        1920,
+        1080
+      ],
+      "originalCanvasOffset": [
+        0,
+        0
+      ],
+      "pixelsPerUnit": 240,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "quadSizeWorld": [
+        8,
+        4.5
+      ],
+      "quadFrameCenterUnity": [
+        0.0,
+        1.2000000476837158,
+        0.25
+      ],
+      "forwardDepthOffsetMeters": 0.004,
+      "sortingOrder": 0,
+      "alpha": "straight",
+      "rgbEncoding": "sRGB",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "followReferenceRootHorizontalDelta": false
+    },
+    {
+      "id": "receiver_shadow",
+      "role": "removableReceiverShadow",
+      "file": "runtime/receiver_shadow.png",
+      "sha256": "454d4d623161d59ff167c5d45ecb89240b67892d4ec8958553d1d4861a674ea7",
+      "canvas": [
+        1920,
+        1080
+      ],
+      "originalCanvasOffset": [
+        0,
+        0
+      ],
+      "pixelsPerUnit": 240,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "quadSizeWorld": [
+        8,
+        4.5
+      ],
+      "quadFrameCenterUnity": [
+        0.0,
+        1.2000000476837158,
+        0.25
+      ],
+      "forwardDepthOffsetMeters": 0.003,
+      "sortingOrder": 10,
+      "alpha": "straight",
+      "rgbEncoding": "sRGB",
+      "alphaBoundsTopLeft": [
+        789,
+        527,
+        912,
+        611
+      ],
+      "followReferenceRootHorizontalDelta": false
+    },
+    {
+      "id": "receiver",
+      "role": "removableReceiver",
+      "file": "runtime/receiver.png",
+      "sha256": "ce3241a05abdfdba707af3befa9ef9722468f7333af71534eb4a6d8fedc06c52",
+      "canvas": [
+        1920,
+        1080
+      ],
+      "originalCanvasOffset": [
+        0,
+        0
+      ],
+      "pixelsPerUnit": 240,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "quadSizeWorld": [
+        8,
+        4.5
+      ],
+      "quadFrameCenterUnity": [
+        0.0,
+        1.2000000476837158,
+        0.25
+      ],
+      "forwardDepthOffsetMeters": 0.002,
+      "sortingOrder": 20,
+      "alpha": "straight",
+      "rgbEncoding": "sRGB",
+      "alphaBoundsTopLeft": [
+        841,
+        517,
+        887,
+        604
+      ],
+      "followReferenceRootHorizontalDelta": false
+    },
+    {
+      "id": "character_contact_shadow",
+      "role": "followingContactShadowProfile",
+      "file": "runtime/character_contact_shadow.png",
+      "sha256": "0debac5e503a4ceab02f520592c0839d843c697ba69b0e99802064b12c71931b",
+      "canvas": [
+        1920,
+        1080
+      ],
+      "originalCanvasOffset": [
+        0,
+        0
+      ],
+      "pixelsPerUnit": 240,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "quadSizeWorld": [
+        8,
+        4.5
+      ],
+      "quadFrameCenterUnity": [
+        0.0,
+        1.2000000476837158,
+        0.25
+      ],
+      "forwardDepthOffsetMeters": 0.001,
+      "sortingOrder": 30,
+      "alpha": "straight",
+      "rgbEncoding": "sRGB",
+      "alphaBoundsTopLeft": [
+        1086,
+        800,
+        1295,
+        884
+      ],
+      "followReferenceRootHorizontalDelta": true
+    },
+    {
+      "id": "reference_person",
+      "role": "neutralReferenceActor",
+      "file": "runtime/reference_person.png",
+      "sha256": "afb43c6e15d37ce307da6578982769cb7e0e738d1c9f27c24e912cc4f81e739b",
+      "canvas": [
+        1920,
+        1080
+      ],
+      "originalCanvasOffset": [
+        0,
+        0
+      ],
+      "pixelsPerUnit": 240,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "quadSizeWorld": [
+        8,
+        4.5
+      ],
+      "quadFrameCenterUnity": [
+        0.0,
+        1.2000000476837158,
+        0.25
+      ],
+      "forwardDepthOffsetMeters": 0.0,
+      "sortingOrder": 40,
+      "alpha": "straight",
+      "rgbEncoding": "sRGB",
+      "alphaBoundsTopLeft": [
+        1098,
+        401,
+        1254,
+        828
+      ],
+      "followReferenceRootHorizontalDelta": true
+    }
+  ],
+  "assemblyOrder": [
+    "base_clean",
+    "receiver_shadow",
+    "receiver",
+    "character_contact_shadow",
+    "reference_person"
+  ],
+  "states": {
+    "receiverPresent": [
+      "base_clean",
+      "receiver_shadow",
+      "receiver",
+      "character_contact_shadow",
+      "reference_person"
+    ],
+    "receiverHidden": [
+      "base_clean",
+      "character_contact_shadow",
+      "reference_person"
+    ]
+  },
+  "referenceActor": {
+    "physicalHeightMetres": 1.8,
+    "sourceControllerRootUnity": [
+      0.9,
+      0.9,
+      0.25
+    ],
+    "physicalFootUnity": [
+      0.8999999761581421,
+      0.0,
+      0.25
+    ],
+    "footPixel": [
+      1176.0,
+      813.9043579101562
+    ],
+    "semanticFootPivotOnFullCanvas": [
+      0.6125,
+      0.24638485378689234
+    ],
+    "fullCanvasVisualOffsetFromInitialControllerRootUnity": [
+      -0.9,
+      0.3,
+      0
+    ],
+    "movement": "Translate visual and contact shadow by same worldX delta only; existing body/collider and pathZ=.25 retained. Do not combine full-canvas center placement with a second foot-pivot correction."
+  },
+  "receiverAnchor": {
+    "name": "receiver_body_center",
+    "unityWorld": [
+      -0.4000000059604645,
+      0.7950000166893005,
+      0.8500000238418579
+    ],
+    "pixelTopLeft": [
+      864.0,
+      587.9443359375
+    ]
+  },
+  "floor": {
+    "wallSeamY": 721.19921875,
+    "footY": 813.9043579101562,
+    "nominalFrontY": 943.6914672851562,
+    "viewportForegroundY": 1080
+  },
+  "foregroundLayer": null,
+  "foregroundReason": "All furniture behind fixed path. Receiver layer uses actual desk occlusion; no front-of-path desk layer is necessary.",
+  "colorContract": {
+    "projectColorSpace": "Linear",
+    "textureSRGB": true,
+    "material": "Unlit",
+    "alpha": "straight linear coverage",
+    "blend": "standard linear source-over",
+    "baked": "Cycles lighting, AgX Medium High Contrast exposure+.65 and selected surface colors; no additional runtime light/grade/tone map",
+    "import": "Sprite Single / Full Rect / Bilinear / no mipmaps or compression for first check / no non-POT resizing / maxTextureSize>=2048"
+  },
+  "light": {
+    "emitterUnity": [
+      -0.65,
+      2.02,
+      1.2
+    ],
+    "fixtureMountUnity": [
+      -0.65,
+      2.13,
+      1.48
+    ],
+    "type": "AreaDisk",
+    "watts": 55,
+    "sizeMetres": 0.35,
+    "linearColor": [
+      1,
+      0.75,
+      0.5
+    ],
+    "worldStrength": 1.05,
+    "status": "One WORKING pilot decoration; not narrative canon or power rule",
+    "ambientSRGB": [
+      0.68,
+      0.71,
+      0.79
+    ]
+  },
+  "presentationMatte": {
+    "role": "Outside rendered cutaway only; not geometry/navigation",
+    "topSRGB": [
+      70,
+      66,
+      89
+    ],
+    "bottomSRGB": [
+      76,
+      72,
+      95
+    ]
+  },
+  "materials": {
+    "old_wooden_floor_02": {
+      "used": true,
+      "tileMeters": [
+        2,
+        2
+      ],
+      "basis": "Official page states2m width; square image used as2m square.",
+      "grain": "Parallel to room X/horizontal walking direction.",
+      "roughness": "0.28+0.55*map",
+      "normalStrength": 0.25,
+      "saturation": 0.72
+    },
+    "white_stucco_02": {
+      "used": true,
+      "tileMeters": [
+        1.8,
+        1.8
+      ],
+      "basis": "Artist test scale only. Website texel-density numbers are unreliable; no verified source scan dimensions claimed.",
+      "normalStrength": 0.055,
+      "displacement": false,
+      "albedoVariation": "96\u2013104percent of preserved salmon plaster tint",
+      "roughness": "0.70+0.15*map"
+    },
+    "natural_walnut_veneer": {
+      "used": true,
+      "tileMeters": [
+        1,
+        1
+      ],
+      "basis": "Official page states1m width; square image treated as1m square.",
+      "grain": "Along long axis of each wood surface/member.",
+      "normalStrength": 0.18,
+      "roughness": "0.40+0.35*map",
+      "warmFinishLinearRGB": [
+        0.92,
+        0.65,
+        0.4
+      ],
+      "deskTop": "Existing neutral laminate retained."
+    }
+  },
+  "materialProvenance": "../material_revision_v02/source/polyhaven/provenance.json",
+  "renderer": {
+    "engine": "Cycles",
+    "device": "OPTIX",
+    "samples": 64,
+    "seed": 7,
+    "view": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.6499999761581421
+  },
+  "editableSource": "source/palette_C_color_v03.blend",
+  "editableSourceSHA256": "c4c7e310405f8f31d7596a8060e80802736981a798a4d5a1de4a75f12ce56f19",
+  "recipe": [
+    "tools/revise_color.py",
+    "tools/assemble.ps1"
+  ],
+  "diagnostic": "diagnostics/neutral_material_light_1920.png",
+  "optionalWorkingHero": {
+    "regenerated": false,
+    "existingIncompatibleComparison": "../material_revision_v02/pilot_working_hero_960.png",
+    "assignByDefault": false,
+    "status": "Eye-level painterly source remains incompatible; neutral reference required; see CHARACTER_METHODS.md."
+  },
+  "limits": [
+    "Static simplified furniture and neutral segmented person, not final anatomy/art system.",
+    "Character contact shadow is a local translated profile, not full dynamic shadow relighting across the room.",
+    "No additional isolated second prop; existing bag is context in base/source; new prop reuse remains a stage2 check.",
+    "No Unity edits, imports, traversal/E captures or artistic acceptance by designer.",
+    "No final character method or animation commissioned; no v03 painterly hero repaint."
+  ],
+  "verification": "verification.json",
+  "handoff": "HANDOFF.md",
+  "colorRevision": {
+    "status": "WORKING v03 owner-selected stronger C palette; final style not approved",
+    "blender": "5.3.0",
+    "sourceBlend": "../material_revision_v02/source/palette_C_material_revision.blend",
+    "sourceSHA256": "828f4243669e276d8ebc76b31c50e24cd877df5d7b404e8de37c433ea0b311aa",
+    "geometryUVTransformsBefore": "34793899373db7e506fbea1cf2e966a0ab166537ed391443f5d60bc0c2d1b3c9",
+    "geometryUVTransformsAfter": "34793899373db7e506fbea1cf2e966a0ab166537ed391443f5d60bc0c2d1b3c9",
+    "geometryUVTransformsUnchanged": true,
+    "cameraUnchanged": true,
+    "anchors": [
+      {
+        "name": "foot",
+        "pixel": [
+          1176.0000228881836,
+          813.9042073488235
+        ],
+        "delta": [
+          2.288818359375e-05,
+          -0.00015056133270263672
+        ]
+      },
+      {
+        "name": "head_top",
+        "pixel": [
+          1176.0000228881836,
+          403.0478882789612
+        ],
+        "delta": [
+          2.288818359375e-05,
+          -5.4836273193359375e-05
+        ]
+      },
+      {
+        "name": "door_handle",
+        "pixel": [
+          491.9999885559082,
+          497.76628017425537
+        ],
+        "delta": [
+          -1.1444091796875e-05,
+          -7.724761962890625e-05
+        ]
+      },
+      {
+        "name": "desk_surface",
+        "pixel": [
+          863.9999771118164,
+          581.957141160965
+        ],
+        "delta": [
+          -2.288818359375e-05,
+          -7.319450378417969e-05
+        ]
+      },
+      {
+        "name": "chair_seat",
+        "pixel": [
+          863.9999771118164,
+          683.7494194507599
+        ],
+        "delta": [
+          -2.288818359375e-05,
+          -9.226799011230469e-05
+        ]
+      },
+      {
+        "name": "bed_sleeping_top",
+        "pixel": [
+          1440.0,
+          644.1543817520142
+        ],
+        "delta": [
+          0.0,
+          -0.00015926361083984375
+        ]
+      },
+      {
+        "name": "receiver_body_center",
+        "pixel": [
+          863.9999771118164,
+          587.9442179203033
+        ],
+        "delta": [
+          -2.288818359375e-05,
+          -0.00011801719665527344
+        ]
+      },
+      {
+        "name": "bag_foot",
+        "pixel": [
+          636.0000228881836,
+          776.822179555893
+        ],
+        "delta": [
+          2.288818359375e-05,
+          -8.606910705566406e-05
+        ]
+      },
+      {
+        "name": "wall_floor_seam",
+        "pixel": [
+          960.0,
+          721.1990976333618
+        ],
+        "delta": [
+          0.0,
+          -0.00012111663818359375
+        ]
+      },
+      {
+        "name": "nominal_room_front",
+        "pixel": [
+          960.0,
+          943.69136095047
+        ],
+        "delta": [
+          0.0,
+          -0.00010633468627929688
+        ]
+      }
+    ],
+    "pigmentChanges": [
+      {
+        "material": "CC0 pilot / white_stucco_02",
+        "oldSRGB": [
+          0.8,
+          0.68,
+          0.64
+        ],
+        "newSRGB": [
+          0.85,
+          0.52,
+          0.46
+        ],
+        "operation": "Pigment ramp only; texture/roughness/normal/UV unchanged"
+      },
+      {
+        "material": "Smoked teal enamel",
+        "oldSRGB": [
+          0.38,
+          0.56,
+          0.55
+        ],
+        "newSRGB": [
+          0.23,
+          0.58,
+          0.57
+        ],
+        "operation": "Pigment ramp only; texture/roughness/normal/UV unchanged"
+      },
+      {
+        "material": "Door front / bounded photographic wear30percent",
+        "oldSRGB": [
+          0.38,
+          0.56,
+          0.55
+        ],
+        "newSRGB": [
+          0.23,
+          0.58,
+          0.57
+        ],
+        "operation": "Pigment ramp only; texture/roughness/normal/UV unchanged"
+      },
+      {
+        "material": "Burgundy fine upholstery",
+        "oldSRGB": [
+          0.48,
+          0.29,
+          0.35
+        ],
+        "newSRGB": [
+          0.54,
+          0.2,
+          0.32
+        ],
+        "operation": "Pigment ramp only; texture/roughness/normal/UV unchanged"
+      }
+    ],
+    "ambientBefore": {
+      "colorLinear": [
+        0.2846466898918152,
+        0.33034372329711914,
+        0.5070785284042358,
+        1.0
+      ],
+      "strength": 1.2999999523162842
+    },
+    "ambientAfter": {
+      "sRGB": [
+        0.68,
+        0.71,
+        0.79
+      ],
+      "strength": 1.05
+    },
+    "keyBeforeLinear": [
+      1.0,
+      0.7799999713897705,
+      0.5299999713897705
+    ],
+    "keyAfterLinear": [
+      1,
+      0.75,
+      0.5
+    ],
+    "sourcePositionsPowerSizeUnchanged": true,
+    "exposureUnchanged": 0.6499999761581421,
+    "look": "AgX - Medium High Contrast",
+    "textureScalesAndMaps": "Exactly retained from v02 material_revision_manifest.json",
+    "woodLaminatePlasticAndNeutralReference": "Pigments/materials retained; only respond to new scene illumination."
+  },
+  "comparison": {
+    "file": "matched_v02_v03.png",
+    "panelSize": [
+      960,
+      540
+    ],
+    "labelsOutside": true,
+    "leftSource": "../material_revision_v02/pilot_composite_960.png",
+    "rightSource": "pilot_composite_960.png"
+  },
+  "v02Preservation": {
+    "protectedDirectory": "../material_revision_v02/",
+    "verifiedFiles": 49,
+    "baselineHashes": "source/v02_baseline_hashes.json",
+    "originalRootContractLeftUnchanged": true
+  },
+  "characterMethodNote": "CHARACTER_METHODS.md",
+  "contractCompatibility": "Same5 runtime IDs/files, dimensions/origins, camera,PPU,pivots,sorting and state wiring. New per-version prelit RGB/shadow/alpha contents and hashes must be imported as one complete set.",
+  "sourceFiles": {
+    "tools/assemble.ps1": {
+      "bytes": 1881,
+      "sha256": "cdba2c65f2b8f61f4dcab828a556f5476fccbab4b2f2d91a36416d12d3ad2491"
+    },
+    "tools/AssembleLayers.cs": {
+      "bytes": 7335,
+      "sha256": "b44ef175744a0dda02041afad6f1e878441464349ac28756d211bb08848121ec"
+    },
+    "tools/check_and_publish.py": {
+      "bytes": 7630,
+      "sha256": "fea10824066d2960de1d5f79e3a4829959e27e026403a68e2f4586e62401cb20"
+    },
+    "tools/render_visible_masks.py": {
+      "bytes": 1927,
+      "sha256": "5a2d642d30d8685b2e5131fed2348389bcfd42be95e10c36cede9aac7cd74821"
+    },
+    "tools/revise_color.py": {
+      "bytes": 6188,
+      "sha256": "dc113aae75809d07d92edff0177b0ab5749dc25740ac3dc8915b21f44cbd61fe"
+    },
+    "source/color_revision_manifest.json": {
+      "bytes": 4663,
+      "sha256": "ebe4bcd8aa9c631d2dc57cb1bacdef8e65665f85f6fa1024b970109adee48be9"
+    },
+    "source/v02_baseline_hashes.json": {
+      "bytes": 5596,
+      "sha256": "941b7649795c44675c4c5dec0cbdaf29b8ca2d160d9a9894b323721119d35e81"
+    },
+    "HANDOFF.md": {
+      "bytes": 5841,
+      "sha256": "8c6e061119be128be5ea852a14a3dea497ee13d9f3cdd6798009507bfe8d7411"
+    },
+    "CHARACTER_METHODS.md": {
+      "bytes": 3994,
+      "sha256": "7a9b06108d30d74cefc06f2db61d28ecbc7f33c4b8d2decb712cf6e72d7f9a98"
+    }
+  }
+}

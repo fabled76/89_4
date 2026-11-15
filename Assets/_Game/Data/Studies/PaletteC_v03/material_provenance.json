@@ -1,0 +1,88 @@
+{
+  "license": "CC0",
+  "licenseURL": "https://polyhaven.com/license",
+  "checkedDate": "2026-11-15",
+  "method": "Official asset page download path,2K JPEG variant; original bytes preserved.",
+  "resolution": "2K color,roughness,OpenGL normal; no displacement or larger download batch",
+  "assets": {
+    "old_wooden_floor_02": {
+      "source": "https://polyhaven.com/a/old_wooden_floor_02",
+      "authors": [
+        "Charlotte Baglioni (scanning)",
+        "Jenelle van Heerden (processing)"
+      ],
+      "maps": {
+        "diff": {
+          "file": "source/polyhaven/old_wooden_floor_02/old_wooden_floor_02_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/old_wooden_floor_02/old_wooden_floor_02_diff_2k.jpg",
+          "bytes": 3473257,
+          "sha256": "3865f2bed4cf95fae06ce740bf659161dfdc075b80c70f87179f185fede5a68b"
+        },
+        "rough": {
+          "file": "source/polyhaven/old_wooden_floor_02/old_wooden_floor_02_rough_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/old_wooden_floor_02/old_wooden_floor_02_rough_2k.jpg",
+          "bytes": 1205461,
+          "sha256": "7a2932e27dd6ba951b6823921cb21af4763988e31bf3400106a12c9c48e203fd"
+        },
+        "nor_gl": {
+          "file": "source/polyhaven/old_wooden_floor_02/old_wooden_floor_02_nor_gl_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/old_wooden_floor_02/old_wooden_floor_02_nor_gl_2k.jpg",
+          "bytes": 2455839,
+          "sha256": "2161e373f1965fd082cc3adde86a1624dcb28bcbd5e83743a679a263f267c874"
+        }
+      }
+    },
+    "white_stucco_02": {
+      "source": "https://polyhaven.com/a/white_stucco_02",
+      "authors": [
+        "Dimitrios Savva"
+      ],
+      "maps": {
+        "diff": {
+          "file": "source/polyhaven/white_stucco_02/white_stucco_02_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_stucco_02/white_stucco_02_diff_2k.jpg",
+          "bytes": 2887168,
+          "sha256": "794a309cd768446958e7344d058a35626f507fe132fe9160bb4d50434e2e892c"
+        },
+        "rough": {
+          "file": "source/polyhaven/white_stucco_02/white_stucco_02_rough_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_stucco_02/white_stucco_02_rough_2k.jpg",
+          "bytes": 1851837,
+          "sha256": "7b15871fe2124197e0269f784dd311aca83d6e288457c2f7a02ba5e2584be97b"
+        },
+        "nor_gl": {
+          "file": "source/polyhaven/white_stucco_02/white_stucco_02_nor_gl_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_stucco_02/white_stucco_02_nor_gl_2k.jpg",
+          "bytes": 4746171,
+          "sha256": "9d7f80ba4d49da2b6d6a66953e597ff14489d8c50a626cb9d95006878e719c06"
+        }
+      }
+    },
+    "natural_walnut_veneer": {
+      "source": "https://polyhaven.com/a/natural_walnut_veneer",
+      "authors": [
+        "Jenelle van Heerden"
+      ],
+      "maps": {
+        "diff": {
+          "file": "source/polyhaven/natural_walnut_veneer/natural_walnut_veneer_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/natural_walnut_veneer/natural_walnut_veneer_diff_2k.jpg",
+          "bytes": 2484434,
+          "sha256": "4a1a84e9537b291ac0cce1e2b8908fb9b5d1057a246ee0b3c25345565ac9686d"
+        },
+        "rough": {
+          "file": "source/polyhaven/natural_walnut_veneer/natural_walnut_veneer_rough_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/natural_walnut_veneer/natural_walnut_veneer_rough_2k.jpg",
+          "bytes": 2316837,
+          "sha256": "2056eb8c99a936bdc7ec4fc6b04e3b1a443c7c87ca8fd0e7011bed6188290fef"
+        },
+        "nor_gl": {
+          "file": "source/polyhaven/natural_walnut_veneer/natural_walnut_veneer_nor_gl_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/natural_walnut_veneer/natural_walnut_veneer_nor_gl_2k.jpg",
+          "bytes": 1893243,
+          "sha256": "9b1e316d019b2ae07f5327e2a8203ef34d7c8b86dbf2579273d3b5cf8e5fd441"
+        }
+      }
+    }
+  }
+}

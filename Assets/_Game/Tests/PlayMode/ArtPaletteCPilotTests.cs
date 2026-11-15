@@ -14,7 +14,7 @@ namespace DeadAir.Tests
     public sealed class ArtPaletteCPilotTests
     {
         [UnityTest]
-        public IEnumerator IntegratedV02TraversesAndRemovesReceiverWithShadowAndCapturesUnityFrames()
+        public IEnumerator IntegratedV03TraversesAndRemovesReceiverWithShadowAndCapturesUnityFrames()
         {
             var oldSettings = InputSystem.settings;
             var settings = Object.Instantiate(oldSettings);
@@ -31,8 +31,8 @@ namespace DeadAir.Tests
                 var player = Object.FindFirstObjectByType<PlayerController2D>().GetComponent<Rigidbody2D>();
                 var toggle = Object.FindFirstObjectByType<ArtPilotReceiverToggle>();
                 yield return new WaitForSeconds(.15f);
-                var receiver = GameObject.Find("PaletteC_v02_Integrated/receiver");
-                var shadow = GameObject.Find("PaletteC_v02_Integrated/receiver_shadow");
+                var receiver = GameObject.Find("PaletteC_v03_Integrated/receiver");
+                var shadow = GameObject.Find("PaletteC_v03_Integrated/receiver_shadow");
                 var following = Object.FindFirstObjectByType<ArtPilotHorizontalVisuals>().transform;
                 yield return ArtPaletteCPilotCapture.Save("reference-present", 1920);
                 toggle.SetVisible(false);
