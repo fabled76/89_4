@@ -1,0 +1,1 @@
+Poly Haven states that its downloadable assets are CC0. Official asset and license links, authors, original map URLs and hashes are preserved in provenance.json. License source: https://polyhaven.com/license (checked2026-11-15). No Pinterest/Google-thumbnail/LOC photograph pixels used.

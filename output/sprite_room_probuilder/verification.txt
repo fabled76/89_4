@@ -1,0 +1,8 @@
+Saved scene reopened: Assets/_Game/Scenes/Studies/SpriteRoom_ProBuilder.unity
+ProBuilder meshes: 16
+Mesh filters: 30
+Missing meshes/materials/scripts: 0
+Door/window collider raycasts: clear; solid right pier hit
+Character source: revision_02 selected, static, separate contact placeholder
+Pipeline/settings/build scenes: untouched by this helper
+Lighting: all presentation materials UNLIT; disabled point-source anchors only
