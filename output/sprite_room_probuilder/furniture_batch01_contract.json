@@ -1,0 +1,298 @@
+{
+  "contract_id": "sprite_room_furniture_batch01_v1",
+  "status": "FROZEN_FOR_DESIGN_EXPORT",
+  "scene": "Assets/_Game/Scenes/Studies/SpriteRoom_ProBuilder.unity",
+  "scene_sha256_before_preparation": "5b4909ba2f4d2f7b22845516443915c510e37bcb3547b31ff6664d92e83b8d1e",
+  "camera": {
+    "actual_saved_transform": {
+      "position": [
+        0.0,
+        3.329117,
+        -9.781476
+      ],
+      "quaternion_xyzw": [
+        0.104528464,
+        -0.0,
+        -0.0,
+        0.9945219
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "euler_degrees": [
+      12,
+      0,
+      0
+    ],
+    "target": [
+      0,
+      1.25,
+      0
+    ],
+    "orthographic_size": 2.05,
+    "aspect": 1.7777777777777777,
+    "span_m": [
+      7.288888888888888,
+      4.1
+    ],
+    "right": [
+      1,
+      0,
+      0
+    ],
+    "up": [
+      0,
+      0.9781476007338057,
+      0.20791169081775934
+    ],
+    "forward": [
+      0,
+      -0.20791169081775934,
+      0.9781476007338057
+    ],
+    "near": 0.1,
+    "far": 30,
+    "projection": "orthographic; no convergence; zero yaw"
+  },
+  "axes": {
+    "X": "right",
+    "Y": "up; floor y=0",
+    "Z": "into room; rear wall inner face z=1.51",
+    "character_path_z": -0.15
+  },
+  "raster": {
+    "canvas_reference": [
+      1920,
+      1080
+    ],
+    "pixels_per_projected_metre": 263.4146341463415,
+    "unity_sprite_pixels_per_unit": 263.4146341463415,
+    "sprite_visual_local_rotation_degrees": [
+      12,
+      0,
+      0
+    ],
+    "visual_local_position": [
+      -0.0,
+      0.10395584540887967,
+      -0.48907380036690284
+    ],
+    "uniform_scale": [
+      1,
+      1,
+      1
+    ],
+    "shadow_projection": "Same camera projection, root and PPU. Camera-facing visual plane offset toward camera by 0.50 m; shadow plane by 0.51 m (-forward * distance). This is depth-only registration: orthographic screen position unchanged. Prevents floor clipping at front supports; not a physical displacement of the furniture root.",
+    "formula_relative_to_root": "u_px = D * dx; v_up_px = D * (cos(12deg)*dy + sin(12deg)*dz); image y_down = anchor_pixel_y - v_up_px",
+    "pivot": "metadata ground_anchor_px=[x,y] measured from top-left pixel edges; importer pivot=(x/width,1-y/height). Anchor may lie on transparent pixel. Report all four projected supports. Do not infer pivot from alpha bounds.",
+    "export": "Native gameplay density D. Transparent RGBA. Arbitrary tightly padded per-item canvas; record size and semantic anchor. No down/up-scaling individual objects to fit legacy rectangles. Higher-res masters allowed; if export density differs, declare density and use uniform PPU equal to that density.",
+    "world_units_per_pixel": 0.003796296296296296,
+    "depth_registration_note": "Export projection/density/dimensions unchanged. Depth offset along camera.forward has zero projected displacement. All sprite groups remain order -10, behind hero order 0."
+  },
+  "layering": {
+    "furniture": "all behind static character path; no foreground occlusion split needed for this batch",
+    "hero": "preserve SpriteRenderer sortingOrder=0; use geometric camera depth for furniture-vs-hero, all furniture sprites remain behind hero plane. Furniture orders 10/20 are within a SortingGroup with sortingOrder=-10; hero stays 0.",
+    "per_item": "SortingGroup on root order=-10; inside group visual=10 desk/bed,20 chair; shadow=visual-1. Groups sort by root camera distance; chair root closer than desk.",
+    "shadows": "only local contact support of that item, projected into its own layer, no floor patch/neighbouring shadow. Transparent Sprite-Unlit material. Baked form shading acceptable, dynamic relighting not proven."
+  },
+  "slots": [
+    {
+      "id": "desk",
+      "scene_anchor_name": "Desk_PLACEHOLDER_1.35x0.74_FootAnchor",
+      "anchor_transform": {
+        "position": [
+          -0.85,
+          0.0,
+          0.55
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "root_semantics": "centre of ground footprint / support polygon, y=0; not alpha-bottom centre",
+      "footprint_m": {
+        "width_x": 1.35,
+        "depth_z": 0.65
+      },
+      "height_m": 0.74,
+      "details": {
+        "top_height_m": 0.74
+      },
+      "supports_world": {
+        "front_left": [
+          -1.525,
+          0,
+          0.22500000000000003
+        ],
+        "front_right": [
+          -0.17499999999999993,
+          0,
+          0.22500000000000003
+        ],
+        "rear_left": [
+          -1.525,
+          0,
+          0.875
+        ],
+        "rear_right": [
+          -0.17499999999999993,
+          0,
+          0.875
+        ]
+      },
+      "anchor_pixel_1920_top_left": [
+        736.0975609756098,
+        831.9511504011923
+      ],
+      "sorting_order_visual": 10,
+      "sorting_order_shadow": 9,
+      "visual_child": "Visual",
+      "shadow_child": "ContactShadow",
+      "legacy_placeholder_child": "PlaceholderReference"
+    },
+    {
+      "id": "chair",
+      "scene_anchor_name": "Chair_PLACEHOLDER_0.45x0.85_FootAnchor",
+      "anchor_transform": {
+        "position": [
+          -0.9,
+          0.0,
+          0.15
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "root_semantics": "centre of ground footprint / support polygon, y=0; not alpha-bottom centre",
+      "footprint_m": {
+        "width_x": 0.45,
+        "depth_z": 0.45
+      },
+      "height_m": 0.85,
+      "details": {
+        "seat_height_m": 0.45
+      },
+      "supports_world": {
+        "front_left": [
+          -1.125,
+          0,
+          -0.07500000000000001
+        ],
+        "front_right": [
+          -0.675,
+          0,
+          -0.07500000000000001
+        ],
+        "rear_left": [
+          -1.125,
+          0,
+          0.375
+        ],
+        "rear_right": [
+          -0.675,
+          0,
+          0.375
+        ]
+      },
+      "anchor_pixel_1920_top_left": [
+        722.9268292682926,
+        853.8579431897953
+      ],
+      "sorting_order_visual": 20,
+      "sorting_order_shadow": 19,
+      "visual_child": "Visual",
+      "shadow_child": "ContactShadow",
+      "legacy_placeholder_child": "PlaceholderReference"
+    },
+    {
+      "id": "bed",
+      "scene_anchor_name": "Bed_PLACEHOLDER_1.95x0.90_FootAnchor",
+      "anchor_transform": {
+        "position": [
+          2.05,
+          0.0,
+          0.65
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "root_semantics": "centre of ground footprint / support polygon, y=0; not alpha-bottom centre",
+      "footprint_m": {
+        "width_x": 1.95,
+        "depth_z": 0.9
+      },
+      "height_m": 0.85,
+      "details": {
+        "mattress_top_m": 0.5,
+        "headboard_height_m": 0.85,
+        "long_axis": "world X; headboard on +X end"
+      },
+      "supports_world": {
+        "front_left": [
+          1.0749999999999997,
+          0,
+          0.2
+        ],
+        "front_right": [
+          3.025,
+          0,
+          0.2
+        ],
+        "rear_left": [
+          1.0749999999999997,
+          0,
+          1.1
+        ],
+        "rear_right": [
+          3.025,
+          0,
+          1.1
+        ]
+      },
+      "anchor_pixel_1920_top_left": [
+        1500.0,
+        826.4744522040417
+      ],
+      "sorting_order_visual": 10,
+      "sorting_order_shadow": 9,
+      "visual_child": "Visual",
+      "shadow_child": "ContactShadow",
+      "legacy_placeholder_child": "PlaceholderReference"
+    }
+  ],
+  "designer_delivery_root": "output/art/sprite_room_furniture_batch01",
+  "required_delivery": "READY.json with status READY and manifest path; manifest contains each id, file, sha256, canvas_px, ground_anchor_px, alpha_bounds_px, export_pixels_per_projected_metre, dimensions_m, shadow file/hash/canvas/ground_anchor as applicable, baked_light assumptions and provenance. Publish HANDOFF.md. No Unity edits.",
+  "references": {
+    "clean_before": "output/sprite_room_probuilder/game_with_slots.png",
+    "guide": "output/sprite_room_probuilder/furniture_batch01_guide.png",
+    "handoff": "output/sprite_room_probuilder/FURNITURE_BATCH01_HANDOFF.md"
+  }
+}

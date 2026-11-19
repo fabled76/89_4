@@ -1,0 +1,1 @@
+Prepared and reopened saved scene. Camera and architecture transforms unchanged. Exact roots preserved. Three Visual + ContactShadow containers prepared. Source textures unchanged; task-owned contrast derivatives only. All presentation remains unlit. READY designer package still required for art replacement.
