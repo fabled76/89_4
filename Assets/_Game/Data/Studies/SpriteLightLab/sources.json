@@ -1,0 +1,25 @@
+{
+  "shellCommit": "8d7c232",
+  "resources": [
+    {
+      "source": "Assets/_Game/Art/Studies/SpriteRoom/Textures/Hero_Selected_Revision02.png",
+      "sourceCommit": "8d7c232",
+      "copy": "Assets/_Game/Art/Studies/SpriteLightLab/Hero_Selected_Revision02.png",
+      "sha256": "16ffb42757adc62bb8a48bd486658dc569b367ffbc7c5daf062b980be44c81e9"
+    },
+    {
+      "source": "Assets/_Game/Art/Studies/SpriteRoom/Textures/Batch01_Wood_Quiet.png",
+      "sourceCommit": "8d7c232",
+      "copy": "Assets/_Game/Art/Studies/SpriteLightLab/Wood_Quiet.png",
+      "sha256": "a86bb3c365d3661169512530d6c576623bc9eb0d6275499d1211e421e3b8a1c2"
+    },
+    {
+      "source": "Assets/_Game/Art/Studies/SpriteRoom/Textures/Batch01_Stucco_Quiet.png",
+      "sourceCommit": "8d7c232",
+      "copy": "Assets/_Game/Art/Studies/SpriteLightLab/Stucco_Quiet.png",
+      "sha256": "811faf4b459618c34759224f4550460e905bd1c16071b23cf727815ff27b0a6a"
+    }
+  ],
+  "hero": "Selected static revision_02, no rejected R03-R05 walk imported",
+  "textures": "Existing CC0 derivatives; quiet recipe recorded in SpriteRoomFurnitureBatch01.Quiet"
+}

@@ -1,0 +1,472 @@
+{
+  "result": "PASS",
+  "unity": "6000.3.8f1",
+  "validation": "Isolated Unity project, identical pipeline/quality/package inputs and task sources; primary Editor left running",
+  "editMode": {
+    "passed": 1,
+    "failed": 0
+  },
+  "playMode": {
+    "passed": 2,
+    "failed": 0
+  },
+  "switchOffMaxRGB255": 0.0,
+  "outOfRangeMaxRGB255": 0.0,
+  "alpha": {
+    "unchanged": true,
+    "coveredPixels": 26505,
+    "partialEdgePixels": 4140
+  },
+  "sourceFacingSides": {
+    "07-neon-left": {
+      "leftMedianNormalizedGreenGain": 0.30537654504086126,
+      "rightMedianNormalizedGreenGain": 0.13128418971242073
+    },
+    "08-neon-right": {
+      "leftMedianNormalizedGreenGain": 0.17765721393880637,
+      "rightMedianNormalizedGreenGain": 0.3835041045199712
+    }
+  },
+  "environmentChangedPixels": {
+    "03-warm": 424855,
+    "04-neon": 206105
+  },
+  "traversal": {
+    "frames": 36,
+    "sampledGameSeconds": 3.5286519999999992,
+    "startX": -2.83,
+    "endX": 2.303004,
+    "label": "Static sprite translation with actual A/D physics, not gait"
+  },
+  "cpuUpdateCost": {
+    "targets": 21,
+    "samples": 250,
+    "meanMilliseconds": 0.0146628,
+    "scope": "CPU property-block updates only, not GPU/frame-rate profiling"
+  },
+  "captures": {
+    "TestResults/SpriteLightLab/01-neutral-1600.png": {
+      "sha256": "097f0a00edc920878bd21f4922aae4411e9ab4383b877735faadf135035ed3a2",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    "TestResults/SpriteLightLab/01-neutral-960.png": {
+      "sha256": "126fd4479b39066294d4e0d1162175e9a5e1ce4c7bf8fcb4d3a2a8d98cd43eab",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/02-half-shadow-1600.png": {
+      "sha256": "164638ca6a57420158eb138941f042585cc627585423f025021c14576f773551",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    "TestResults/SpriteLightLab/02-half-shadow-960.png": {
+      "sha256": "9562e698d4707a4d0a4866876da835e4dd6b152cc86088e2d63e1d8921ab5909",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/03-warm-1600.png": {
+      "sha256": "29531811e8a9f2b46f1334d9b981b99987f75b81605ef0ac2b3ef0454671f337",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    "TestResults/SpriteLightLab/03-warm-960.png": {
+      "sha256": "8b1be2d5a027932637d6fcb1c10d579ace5dff5d951c37e377ac368ca6e61b62",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/04-neon-1600.png": {
+      "sha256": "aac99194747eb8e971e64a35837fbf1287dd46d33e04ef6b53ffc7bad4a37ba6",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    "TestResults/SpriteLightLab/04-neon-960.png": {
+      "sha256": "d9b9e784436a60b078d28577d3912ff6897da397eff1e0869dcffcfe9165de91",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/05-both-1600.png": {
+      "sha256": "b054d3cd9b2999920c99267527c84751cc3e253aff71e7d1c448fd53614433c1",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    "TestResults/SpriteLightLab/05-both-960.png": {
+      "sha256": "9e2dc165c1a87735770be93faf54553bda395807c23bdb0751c6831b020b865e",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/06-neon-off-again-1600.png": {
+      "sha256": "29531811e8a9f2b46f1334d9b981b99987f75b81605ef0ac2b3ef0454671f337",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    "TestResults/SpriteLightLab/06-neon-off-again-960.png": {
+      "sha256": "8b1be2d5a027932637d6fcb1c10d579ace5dff5d951c37e377ac368ca6e61b62",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/07-neon-left-1600.png": {
+      "sha256": "e99811f890fd18e85d18da2cfba448233f249474f189033b788c16d37c50c257",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    "TestResults/SpriteLightLab/07-neon-left-960.png": {
+      "sha256": "f26d748aeff08a2ceb43ac5b0186f13b22d2929a9d2d91536ad1def4a973685b",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/08-neon-right-1600.png": {
+      "sha256": "8e8ba8115de207ca2751864cb9f0d97b63d508446e96b700129e1b7f2c2432a7",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    "TestResults/SpriteLightLab/08-neon-right-960.png": {
+      "sha256": "2426f57211d3ad02b92fba7c30526ed7fe45db20ec0d743d5b70e385439c95d6",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/09-neon-far-1600.png": {
+      "sha256": "164638ca6a57420158eb138941f042585cc627585423f025021c14576f773551",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    "TestResults/SpriteLightLab/09-neon-far-960.png": {
+      "sha256": "9562e698d4707a4d0a4866876da835e4dd6b152cc86088e2d63e1d8921ab5909",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/10-facing-diagnostic-1600.png": {
+      "sha256": "8ac32e4544930418cdf0825ba621ea98849e595770970e11cc077535c9650eee",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    "TestResults/SpriteLightLab/10-facing-diagnostic-960.png": {
+      "sha256": "37118e35c7941b8f579f7cecd4fee10ee1075b17e99335e19b27014e2ab265c3",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/alpha-neon-1600.png": {
+      "sha256": "d8dbe9a509ed93bfa3b805b09ecbf5456e74550762cd54a82e65bf1a2da1a868",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    "TestResults/SpriteLightLab/alpha-neutral-1600.png": {
+      "sha256": "8590ac336e31dab07d03e1cf772e8adbbeda6672c72dc07b65dd4eea51aef002",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-000-960.png": {
+      "sha256": "0cbb1e3e5f3241202ed50d6af06e1f33525f6b4ddf6f1cae2611d888db4f0b84",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-001-960.png": {
+      "sha256": "0683c784b3cc71b0f863847b9f24a111b332d92ead75e8173caba24695383324",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-002-960.png": {
+      "sha256": "9cc09ed2acdbac01c1bc5a7fdab946e4ae96dceea286499d6010aeeb88c0857c",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-003-960.png": {
+      "sha256": "2651367a877fc9bfae9c4e3168bb0280532b38be87b7b05ce3bc8939521446fe",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-004-960.png": {
+      "sha256": "26013da4aa2561c06a7063fd9e86d261c5a113a19ce1d3b7e96f4bae46183f05",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-005-960.png": {
+      "sha256": "eaf1d5b92d8876dde71fac542ce248d07b375308554ad36473b15fb7fa756c7e",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-006-960.png": {
+      "sha256": "02e8e0ef352d7cc1a14f07ce2cd3ecbeb2d87384d6016cce0d1206848cdfbfa2",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-007-960.png": {
+      "sha256": "93cc35f8f1d4820df3dc95e7111f6e0cbd7e7ca4546d7d8294edbbce997f29d2",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-008-960.png": {
+      "sha256": "1557f05aa65efa9de9b0187228ad5c93315abe10fcbe2a2943da27a82c35e7bf",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-009-960.png": {
+      "sha256": "c8ab3c1d6f3adaeaf802eb62b3ab2dafc0070b604e286ab04972a8089a1927ec",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-010-960.png": {
+      "sha256": "13468eff2cd0d8e427f0c7254ce7723f1c502777f4bff143e04066558a1a9668",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-011-960.png": {
+      "sha256": "1f69a68c6784ddf53c21c5ac299dff7b894f1d3414a35bd6d9cf9dc053875bfa",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-012-960.png": {
+      "sha256": "431c36b0d6ea5470c13d9fe78bde7baf35bbfd572bbda18772d43e7054f66579",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-013-960.png": {
+      "sha256": "27d26f6ac0797eebc6e149c9483de53e808deb3a5b2c5766e62f708c1de9068e",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-014-960.png": {
+      "sha256": "71a75eabdd98ce02d7bcca999ad4a04d502608f254e0f4a6c81124dceac60872",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-015-960.png": {
+      "sha256": "97669df3d8618966ffd6cf00fe0eb47ebf0ce332402cd5da281b3dc53591b109",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-016-960.png": {
+      "sha256": "6ac09d91ed686af55a93040234ac64340b4d252dcdae6f8f6c06eec1211168be",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-017-960.png": {
+      "sha256": "017812f2e1ae3af47441f1f443f8d055825360edc695c3cf1ff347066e458e54",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-018-960.png": {
+      "sha256": "d8a3ee8171a5fab227ed73e33f45d76631a927ec3c8fd6d22dcd26061de4cb3a",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-019-960.png": {
+      "sha256": "166f36eb3c4dd40abcbeea680f7d185e91fad190de8b2c6ad18134bdaca86857",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-020-960.png": {
+      "sha256": "3930001ed29d4c12528a73381833b489a8279cbc5d78c9575d810d389eec6889",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-021-960.png": {
+      "sha256": "1179e4e7d784de69b0e7786e5b595ac5f2ef32fced251fc03dcda510d026ed2b",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-022-960.png": {
+      "sha256": "7bbfa27881d7c85d79f5e04d9264681a3d93a8498d02b18d7b8462c7411f492e",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-023-960.png": {
+      "sha256": "bc44625b1a124c428f1ae25c0a1b563f0a7eba4a631a845e5be8e8f7d36ba92d",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-024-960.png": {
+      "sha256": "41139d3d2c481417bbc45090131a94da38cdf4d8fc66baa7867bbcf2e91c66c2",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-025-960.png": {
+      "sha256": "04998efbc9f28164dff4532fe5cfc3c749183fb82df6edd213b4152db8722adc",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-026-960.png": {
+      "sha256": "585877a54736739ba31ee8f14b04fdf75018e916c12641bd87966bbbc3dfc2d7",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-027-960.png": {
+      "sha256": "e87e2b9d71517f329ff05db9849bac39dab8872ae6ed6b98e42bf547425964b4",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-028-960.png": {
+      "sha256": "0fc2ab9f6fc34a2b9b8c94c043f3e6253404f6c2b0c3c29a0029dd801bf2024f",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-029-960.png": {
+      "sha256": "21920fff3caa9f7470fa21a48e70ca823080b68a6bcca5d09994e949574d8320",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-030-960.png": {
+      "sha256": "813e9e3ba228f191d5bcd00d193349f86c280c76888a28fc1fd0ca177539a2dd",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-031-960.png": {
+      "sha256": "d45aefd44023a6c587f047ecbf1e00f339e7fea5d608421b3342e4bc122ed8de",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-032-960.png": {
+      "sha256": "24a112008f298d940b908eff4bbfc16377fe4554bc066f9874168e1e984fceb5",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-033-960.png": {
+      "sha256": "82084f4f5dc244762f5d7d8ce9cc951fa4cc389f48802ef0492b94202ca87a31",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-034-960.png": {
+      "sha256": "1cfc16087608cc9dbaa872b95c6290ff0838d407bf5faa07d3a2ef684865f9a8",
+      "size": [
+        960,
+        540
+      ]
+    },
+    "TestResults/SpriteLightLab/traversal/frame-035-960.png": {
+      "sha256": "908f0c497d773d9ef495f3f52a87ce1974e9a123a0d9db57989adba86b766e08",
+      "size": [
+        960,
+        540
+      ]
+    }
+  },
+  "limitations": [
+    "Authored shared field, not native 3D/2D lights or physically correct relighting",
+    "No cast shadow/self shadow/occlusion; only procedural soft contact oval",
+    "Selected static REV02, no rejected R03-R05 walk or new character imported",
+    "Furniture are task-local sprite rectangles, not designer art integration",
+    "No bloom/grade; no interactive primary Editor visual playthrough claimed",
+    "CPU metric excludes GPU cost and total frame rate"
+  ],
+  "sceneSHA256": "d9314c9489280794958e2e82fad6408fbbe5621df1673bb901de4e8171f0cefc",
+  "sourceCodeSHA256": {
+    "Assets/_Game/Scripts/Studies/SpriteLightLab/LabContactOval.cs": "ccfb625f909c8fd565fd2189d9c0d4579203281e0e3e71e94ae6d792ae4c0203",
+    "Assets/_Game/Scripts/Studies/SpriteLightLab/LabLightField.cs": "d8f03e7410670926d96231c9579c74fa60770d198b54645e02d0cd5e0e4716ce",
+    "Assets/_Game/Scripts/Studies/SpriteLightLab/LabLightSource.cs": "4cdc0f67e5d47889d183146a58cbe81e3e390663deed1a4afee692aef9ac67df",
+    "Assets/_Game/Scripts/Studies/SpriteLightLab/LabReviewControls.cs": "6f6f924e25e36718eaa9e524433763344fb2ff3960021d5e6676002967aae3ed",
+    "Assets/_Game/Shaders/SpriteLightLab/ContactOval.shader": "fd644ccc52020a7e4310f4a08d94b118648ef4546f0d7d920bf8b0b8c2710273",
+    "Assets/_Game/Shaders/SpriteLightLab/SharedLightField.shader": "2c681b20ba0acd73c2e789cfb41f03d42f42ddc8bc41ce79a3949687dbaf646d"
+  }
+}
